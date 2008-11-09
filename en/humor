@@ -1,0 +1,109 @@
+# Humor
+
+How boring would our lives be if we didn't have the resort of humor. The
+Allegro community, apart from providing excellent game programming code,
+continues to discuss strange subjects, sometimes bordering the thin line
+between fiction and reality... 
+
+## Allegro related humor
+
+[Aliens have landed!] -
+<br/>
+One of the first April fool day jokes. Nobody knew what would come afterward.
+
+[Allegro 4.0 beta] -
+<br/>
+Just when many had lost their faith and thought Allegro
+would stagnate before reaching version 4.0, Shawn came and threw some light on
+the subject.
+
+[Proposal for Allegro's future] -
+<br/>
+An imaginative proposal which was met with a sound silence, possibly meaning
+that everybody was in agreement. It even [spawned a logo](logos_03.html)...
+
+[Allegro 5 released!](http://www.allegro.cc/forums/view_thread.php?_id=175954) -
+[(low quality copy)] -
+<br/>
+With an excellent timing, Bob managed to announce the fantastic features of the
+recent fifth incarnation of Allegro, this time even with mind accelerated
+control! Could this be true?
+
+[A new compression format] -
+<br/>
+The previous release of Allegro 5 creates some uncertainty among the Allegro
+users who don't know how to handle the new lzip compression format.
+
+[Spectrum Allegro 1.0](http://www.allegro.cc/forums/view_thread.php?_id=206624)
+- [(low quality copy)] -
+<br/>
+A discussion about the development of Allegro 5 spawns a new port, it's time
+for the Spectrum platform.
+
+[The uncertain future of Allegro](http://www.allegro.cc/forums/view_thread.php?_id=256501)
+- (low quality copy) -
+<br/>
+Peter Wang sadly announces that development of Allegro 5 stagnates favoring a
+[coup d'état] by Bob and migration of Allegro users to SDL. 
+
+[coup d'état]: http://dictionary.reference.com/search?db=*&q=coup
+
+## Programming related humor
+
+[Big ball of mud](http://www.laputan.org/mud/mud.html) -
+<br/>
+A very long text which explains how sometimes software development resembles
+the slow growth of... a big ball of mud.
+
+[Resign Patterns](http://www.agcs.com/supportv2/techpapers/patterns/papers/respat.htm) -
+(low quality copy) -
+<br/>
+While students in universities are taught design patterns, sooner or later they
+will meet the anti-patterns of real life.
+
+[The Klingon programmer](http://www-users.cs.york.ac.uk/~susan/joke/klingon.htm) -
+(low quality copy) -
+<br/>
+While puny little humans write buggy software, we Klingons laugh in the face of
+danger and battle with honor!  Don't forget to read other jokes collected by
+Susan Stepney.
+
+[Programmer jokes](http://www.yuksrus.com/programr.html) -
+(low quality copy) -
+<br/>
+The title says it all, a bunch of programmer jokes. Some really worth of
+reading are the undocumented assembler instructions, the lesser-known
+programming languages or the interview with Stroustrup about the truth of C++.
+Terrifying.
+
+[The evolution of a programmer](http://www.pvv.ntnu.no/~steinl/vitser/evolution.html) -
+(low quality copy) -
+<br/>
+One of the numerous jokes collected by Stein Langørgen.
+
+[The parable of the languages](http://weblog.burningbird.net/fires/000581.htm) -
+(low quality copy) -
+<br/>
+If programming languages could speak, really speak, not just crunch bytes and
+stream bits, they would have much to say that is both wise and profound. After
+all, the original programmers were philosophers, and programming languages were
+philosopher tools...
+
+[Infrequently Asked Questions in comp.lang.c](http://www.allegro.cc/forums/view_thread.php?_id=262904) -
+(low quality copy) -
+<br/>
+An allegro.cc thread commenting on the discouraging comp.lang.c IAQ. The
+location of the linked document has changed now to
+<http://www.seebs.net/faqs/c-iaq.html>.
+
+[The lesser known programming languages](http://quark.physics.uwo.ca/~harwood/humor10.html) -
+(low quality copy) -
+<br/>
+Some languages are not mainstream, yet address important needs, like the
+programmer-friendly Laidback, or the mathematically precise Fifth. Michael
+Harwood also collects [other jokes](http://quark.physics.uwo.ca/~harwood/).
+
+[The Gamescomposer Online](http://software.wackonet.net/tgc/tgc.html) -
+<br/>
+You just learned how to make games and ran out of game-ideas? Then press a
+button and the generator will give you one. 

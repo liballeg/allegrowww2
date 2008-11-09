@@ -1,0 +1,38 @@
+# Allegro on IRC
+
+If you want to get help quickly, or simply discuss programming with Allegro
+with other people, join us in the FreeNode IRC network
+<http://irc.freenode.net/>. We run two channels there:
+
+## #allegro
+
+This is the general Allegro channel, where you can discuss about anything you
+like. You will find many of the allegro.cc regulars and some of the developers
+there. Discussion will be related to Allegro as often as it will be not.
+
+## #allegro-dev
+
+This is the channel for Allegro development. Usually only the developers will
+be here and discuss development issues of Allegro. This is also the channel
+where monthly developer meetings are held.
+
+## #allegro-support
+
+This is a channel specifically created for getting help with Allegro quickly.
+If you ask a question there, and nobody answers for 3 minutes, the question
+will get picked up by the bots and they will notify us in #allegro about it. 
+
+# Notes about using IRC
+
+If you don't know how to enter the channel, you can obtain a list of servers
+from <http://freenode.net/irc_servers.shtml>. If you are new to IRC, it is also
+a good idea to read <http://freenode.net/channel_guidelines.shtml> so you can
+learn quickly what are the things you shouldn't do on the channel to avoid
+upsetting people. If you have problems using the Allegro library, there is a
+lot of documentation you should check before coming here. You can for example
+check the **Documentation** section of this web page, where you have the FAQ, help
+guidelines and Allegro's documentation online.
+
+The language used in the IRC channel is **English**. You can eventually ask
+there in another language, but most of the people there understand only
+English, so this would limit the richness of your conversation ;). 

@@ -1,0 +1,111 @@
+# Language bindings
+
+If you would like to add a link to this page, or there is a dead link which
+should be fixed/removed, please use the address given at the bottom of the page
+to contact the webmaster and report the change. 
+
+## Ada
+
+[AdaAllegro]
+:   Leonid Dulman has worked on providing an ADA-95(2005) interface
+    for the Allegro game library.
+
+## C++
+
+[alBitmap]
+:   alBitmap is a C++ Wrapper for the Allegro BITMAP datatype.
+    Features built-in memory allocation/deallocation, inlined functions for
+    bitmap creation, loading, saving, blitting, comparing, plus some
+    convenience functions for printing text with STL's string type.
+
+[Allegro Simplificator]
+:   Allegro Simplificator is a C++ wrapper. It provides
+    classes for most Allegro functions and adds some new functionality
+    (cross-platform networking). It comes with some examples and extensive
+    documentation. 
+
+## C#
+
+[AllegNet]
+:   AllegNet is a .NET library, coded in [C# 2.0][wikipedia_C#] based on
+    Allegro 4.2.0. With AllegNet you can build your own video game in full
+    managed code. So you can use this to build C#, vb.net, J# and C++ managed
+    games.
+
+[Mallegro]
+:   Mallegro (or Managed Allegro) is a .NET wrapper for Allegro written
+    by Michael Jensen. It promises making Allegro available to C# and VB.NET
+    developers.
+
+## D
+
+[DAllegro]
+:   Tydr Schnubbis organised an effort to be able to use Allegro from
+    the D programming language.
+
+## Lisp
+
+[Common Lisp FFI for Allegro](http://cl-alleg.sourceforge.net/)
+:   cl-alleg provides a foreign function interface for the Allegro games
+    library. This is built on top of
+    [CFFI](http://cl-alleg.sourceforge.net/)
+    and so should be portable across
+    multiple common lisp implementations. The author also writes a cl-alleg
+    game development blog at <http://gameylisp.blogspot.com/>.
+
+## Lua
+
+[LuAllegro]
+:   The goal of the LuAllegro project is to provide a free multi-platform
+    graphics library for [Lua]. Of course, Allegro is used for this purpose.
+
+## Mercury
+
+[Mercury]
+:   Mercury-Allegro provides a fairly complete set of bindings to
+    Allegro and AllegroGL for the Mercury programming language. It's available as
+    part of the mercury-extras ROTD (release-of-the-day) distributions on the
+    Mercury web site. 
+
+## Pascal
+
+[Allegro.pas]
+:   Allegro.pas is a wrapper to use Allegro with Pascal compilers
+    like [Delphi] or [Free Pascal].
+
+## Perl
+
+[AlPerl]
+:   A [Perl] interface to Allegro written by Colin O'Leary.
+
+## Python
+
+[PyAllegro]
+:   This page hosts all available [Python] bindings. There are
+    currently two projects: Alpy (a pure C interface) and PyAlleg (a Pyrex
+    interface).
+
+## Scheme
+
+[Bigloo-Allegro]
+:   This is an abandoned [Bigloo] (a [Scheme] compiler) binding.
+
+[MzScheme][allegro-mzscheme]
+:   Allegro scheme is a set of MzScheme bindings to Allegro written by
+    Jon Rafkind. Using MzScheme's nice FFI library it is very easy to bind
+    scheme to any C library. There is a set of bindings directly to Allegro in
+    allegro.ss and a scheme wrapper which should make it easier to use in
+    image.ss.
+
+[Scheme->C compiler bindings][scheme-a5]
+:   Bindings of Allegro 5 to three Scheme->C
+    compilers ([CHICKEN], [Gambit-C] and [Bigloo]) written by Peter Wang, as a
+    proof-of-concept. Note that Allegro 5 is
+    [still under development](future.html).
+
+# Other
+
+[Wiki page about bindings][awiki_bindings]
+:   The Wiki also has a page about language bindings.
+    Because everyone can edit it, it may have additional links not listed here.
+    But they may not work or point to abandoned or very work in progress work.

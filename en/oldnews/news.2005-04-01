@@ -1,0 +1,19 @@
+## 1st of April of 2005 - Allegro 4.2.0 beta 1 released!
+
+This release is a Work-In-Progress that adds features and corrects problems
+with regard to the 4.0 codebase. It is API (source) compatible with 4.0.0 on
+every platform, except for a few minor changes (see docs/html/api.html). Here
+is a list of the principal changes since version 4.1.18:
+
+* Fixed many problems on AMD64 in Linux.
+* Fixed some problems related to /usr/local/bin not existing in recent versions of MacOS X.
+* The Windows keyboard driver no longer needs keyboard.dat.
+* Added show_os_cursor() as an alternative to show_mouse() for system cursors.
+* Fixed a deadlocks in X11 related to scare_mouse() and keyboard repeats and fixed async replies.
+* Added get_midi_length() and a midi_time variable.
+* Added transpose_font(), support for true colour fonts and a font example.
+* Fixed a problem in shutdown_dialog().
+* Fixed a problem in the MSVC makefile when building Allegro with Cygwin. 
+
+Get this new version from the Download section. Please test it and report
+problems and incompatibilities to the mailing list or the SourceForge tracker. 

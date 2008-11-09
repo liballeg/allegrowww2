@@ -1,0 +1,21 @@
+## 27th of August, 2005 - Allegro 4.2.0 release candidate 2 released!
+
+This release is a Work-In-Progress that adds features and corrects problems
+with regard to the 4.0 codebase. It is API (source) compatible with 4.0.0 on
+every platform, except for a few minor changes (see docs/html/api.html). Here
+is a list of the principal changes since version 4.2.0 beta 4:
+
+* key_shifts works again as documented under Win98.
+* Fixed make_relative_filename() crash with malformed parameters.
+* ASSERT() now actually aborts under Windows.
+* GUI menus now work with gui_screen.
+* Added support for 32bit .bmp files.
+* Many fixes for the MacOS X port.
+* Fixed issues with OSS under OpenBSD.
+* Fixed a bug that prevented system cursors from working correctly in Windows.
+* Fixed a bug in get_executable_name() under some UNIX systems.
+* Fixed a problem with BCC and the C implementations of fixmul().
+* Many documentation and example updates. 
+
+Get this new version from the Download section. Please test it and report
+problems and incompatibilities to the mailing list or the SourceForge tracker. 

@@ -1,0 +1,16 @@
+## 11th of June, 2004 - AllegroPro, the successor to Allegro?
+
+During the end of the year 2001, a decision was made to create a new Allegro 5
+version which would break completely source compatibility with previous Allegro
+APIs. New ideas and suggestions started to flow in to form what today is the
+future section. But after the initial excitement, not much work was being done
+with the exception of two core prototypes written by Robert Jr Ohannessian and
+Peter Wang. The development of Allegro 5 entered a stall phase from which it
+has not yet recovered. 
+
+Some months ago, Korval announced on the Allegro.cc forums that he would start
+a new Allegro version, with a different design. He has now written the first
+implementation of the core system. Maybe this is what the next Allegro version
+will look like then. 
+
+

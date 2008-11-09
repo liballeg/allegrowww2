@@ -1,0 +1,21 @@
+## 5th of December, 2004 - Allegro 4.1.17 released!
+
+This release is a Work-In-Progress that adds features and corrects problems
+with regard to the 4.0 codebase. It is API (source) compatible with 4.0.0 on
+every platform, except for a few minor changes (see docs/html/api.html). Here
+is a list of the principal changes since version 4.1.16:
+
+* Fixed a few problems with the sprite rotation code.
+* Fixed mouse acceleration in fullscreen modes under Windows.
+* Fixed a bug in the Windows keyboard driver.
+* Fixed compilation problems on *BSD and BeOS.
+* Fixed some X11 graphic driver bugs.
+* Added support for the use of native window manager cursors.
+* Added is_windowed_mode() and scancode_to_name() functions.
+* Added keyboard layout detection code for Windows.
+* Added an X11 message box for allegro_message() under X11.
+* Added support for a fourth mouse button to the Windows port.
+* override_config_file() can also be used for writing to the config file. 
+
+Get this new version from the Download section. Please test it and report
+problems and incompatibilities to the mailing list or the SourceForge tracker. 

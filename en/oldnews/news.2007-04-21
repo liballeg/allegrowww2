@@ -1,0 +1,13 @@
+## 21st of April, 2007 - Allegro 4.3.1 released!
+
+Here is a list of some principal changes since version 4.3.0:
+
+* MacOSX port is broken.
+* New mouse cursor API (doesn't work in Windows fullscreen modes).
+* Added some new API documentation with NaturalDocs.
+* New exnew_events.c example demonstrating the new API.
+* CMake and SCons build systems, mainly for Allegro developers.
+* Various bugfixes and minor changes. 
+
+Get this new version from the Download section. Please test it and report
+problems and incompatibilities to the mailing list or the SourceForge tracker. 

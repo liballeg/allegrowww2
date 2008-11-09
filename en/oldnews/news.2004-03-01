@@ -1,0 +1,21 @@
+## 1st of March, 2004 - Allegro 4.1.13 released!
+
+This release is a Work-In-Progress that adds features and corrects problems
+with regard to the 4.0 codebase. It is API (source) compatible with 4.0.0 on
+every platform, except for a few minor changes (see docs/html/api.html). Here
+is a list of the principal changes since version 4.1.12:
+
+* Improved documentation.
+* New functions: is_inside_bitmap(), fastline() and set_hardware_volume().
+* Improvements to the ALSA 0.9/1.0 and aRts sound drivers.
+* The dat utility can now handle directories recursively.
+* Improved the handling of KEY_COLON2 on Japanese keyboards.
+* Fixes to code handling TGA, BMP and FLI files.
+* Fixed again the formula giving the stride value in the Linux framebuffer console.
+* Removed window shadow flickering when moving the program window around on MacOS X.
+* Changed the behavior of yield_timeslice() to sleeping instead of just yielding.
+* Implemented automatic screensaver disabling for Windows. 
+
+Get this new version from the Download section. Please test it and report
+problems and incompatibilities to the mailing list or the SourceForge tracker. 
+

@@ -1,0 +1,24 @@
+## 20th of January, 2008 - Allegro 4.3.10 released!
+
+This is a Work-In-Progress (WIP) release for the future 4.4 branch. This is
+similar to 4.2, except that it is bundled with some common addon libraries that
+can be built along with Allegro. (Note it is unrelated to the previous 4.3.0
+and 4.3.1 releases.) Check the installation instructions for your system for
+more details! Please download the .zip or .7z archives for use on DOS/Windows
+and the .tar.gz for Unix-like systems (including Mac OS X).
+
+* Integrated the following addons into the Allegro build system: AllegroGL,
+  loadpng, JPGalleg, logg.
+* Disabled support for asm mode on all platforms (previously the default for
+  non-x86 architectures).
+* Added a draw_sprite_ex() function.
+* Added a new "skater" demo game.
+* Added detection for SSE3, SSE4.1 and SSE4.2.
+* Fixed a problem with filename encoding and the SYSTEM_NONE driver on Windows.
+* Fixed a bug in arc() function.
+* Fixed a problem on Windows where the NumLock, ScrollLock and CapsLock flags
+  are not registered in the key_shifts flag until at least one key is pressed.
+* Other minor improvements. 
+
+Get this new version from the Download section. Please test it and report
+problems and incompatibilities to the mailing list or the SourceForge tracker. 

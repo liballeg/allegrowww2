@@ -1,0 +1,18 @@
+## 22nd of July, 2007 - Allegro 4.2.2 released!
+
+This is an update release that corrects bugs and adds new features to Allegro
+4.0. It is source (API) compatible with Allegro 4.0 except for minor
+differences documented at docs/html/api.html. Here is a list of the principal
+changes since version 4.2.1:
+
+* Added support for the Digital Mars C compiler.
+* Improved MacOS X support.
+* Corrected some bugs in the Windows GDI and DirectX code.
+* More robust code for application switching in both Windows and Linux ports.
+* Fixed rendering bugs in stretch_blit() and polygon().
+* Now load_bios_font() correctly handles 8x16 fonts.
+* New functions is_trans_font() and font_has_alpha().
+* Many more bugfixes and overall improvements. 
+
+Get this new version from the Download section. Please test it and report
+problems and incompatibilities to the mailing list or the SourceForge tracker. 

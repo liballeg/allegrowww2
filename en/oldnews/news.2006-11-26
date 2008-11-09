@@ -1,0 +1,37 @@
+## 26th of November, 2006 - Allegro 4.2.1 released!
+
+This is an update release that corrects bugs and adds new features to Allegro
+4.0. It is source (API) compatible with Allegro 4.0 except for minor
+differences documented at docs/html/api.html. Here is a list of some principal
+changes since version 4.2.0:
+
+* New get_volume() and a get_hardware_volume() functions.
+* Added a new translucent font type.
+* New list_config_sections() and list_config_entries() functions.
+* New create_datafile_index() and load_datafile_object_indexed() functions.
+* Fixed a rare bug with data corruption in compressed packfiles, and other packfile related bugs.
+* Improved handling of filename encodings, and support for filesizes > 4GB.
+* Improved version checks at runtime.
+* Fixed problems with draw_sprite(), sub-bitmaps, and 24-bit bitmaps.
+* Fixed a rare problem with load_wav().
+* Fixed bugs with the DirectSound, qtmidi, MacOS X, ALSA, Jack and DIGMID sound drivers.
+* Fixed problems with Joystick and mouse handling under MacOS X.
+* Many fixes for Intel Macs, including support for universal binaries.
+* stretch_blit() can now be HW accelerated with the DirectX driver.
+* Improved Ctrl-Alt-Del and NumLock behaviour under Windows.
+* Updated detection of Windows version.
+* Made the X11 driver more compatibly with the threading model of some OpenGL drivers.
+* Reworked the X11 fullscreen mode.
+* Many other fixes and improvements in the X11 driver.
+* Some fixes for BSD systems.
+* Numerous improvements and fixes for the fbcon, Linux console and svgalib drivers.
+* Improvements and fixes for the PS/2 and evdev Linux mouse drivers.
+* MSVC 8 is fully supported in Windows now.
+* Many other updates to the build process on all platforms.
+* Many additional bugfixes.
+* Updates to grabber and other tools.
+* Updates to the demo and examples.
+* Updates to the documentation. 
+
+Get this new version from the Download section. Please test it and report
+problems and incompatibilities to the mailing list or the SourceForge tracker. 

@@ -1,0 +1,166 @@
+# Latest version
+
+The latest version works under **DOS**, **Unix** (Linux, FreeBSD, Irix,
+Solaris, Darwin), **Windows**, **BeOS**, **QNX** and **MacOS X**.  You can
+read the [full change log](changes.html).  If you prefer upgrading through
+diffs from a previous version, check the [older versions page](old.html).
+If you want to get Allegro through SVN, [check the SVN page](svn.html).
+You can also download weekly SVN snapshots from this page if you can't use SVN
+directly. 
+
+There is a stable branch and a developmental branch. Use the stable branch for
+your software final versions and please try the developmental one for every day
+work, in order to enjoy all the improvements and help testing code before it's
+marked safe and stable. Since version 3.12, Allegro has adopted the same
+numbering scheme as the Linux kernel, which uses three numbers. The first
+number indicates a major version. Differences here usually mean that a lot of
+things have changed. The second number indicates if the release is stable (even
+number) or unstable (odd number). Finally the third number marks smaller
+differences between releases. 
+
+The main source downloads include instructions on how to build Allegro for each
+of the supported platforms. These exist as individual .txt files in the
+`docs/build` subdirectory. You can also access them online if you go to the
+[API documentation](api.html) section and go through the online HTML version's
+readme which includes pointers to build instructions. 
+
+## Stable branch 4.2.2 source releases
+
+-----------------------------------------------------------------------------------------------------------------------
+Filename                        Size    Description
+------------------------------- ------- -------------------------------------------------------------------------------
+[all422.zip]                      3784k Source code for all platforms in
+                                        DOS/Windows friendly format.
+
+[allegro-4.2.2.tar.gz]            3104k Source code for all platforms in Unix
+                                        friendly format.
+
+[all422_diff.zip]                  605k This file is a diff that can be
+                                        installed over a clean copy of the
+                                        **4.2.1** version of Allegro to update it
+                                        to the current version.  There are more
+                                        of these diffs for older versions as
+                                        well as instructions to apply them
+                                        here.
+
+[allegro-enduser-4.2.2.tar.gz]     856k This version contains the base library,
+                                        without documentation or example
+                                        programs. It's targeted at those who
+                                        want to run Allegro programs written by
+                                        other people. If you want to develop
+                                        programs yourself, you will have to
+                                        download the full source code version.
+                                        **Only for Linux/Unix.**
+-----------------------------------------------------------------------------------------------------------------------
+
+[all422.zip]:                           http://prdownloads.sourceforge.net/alleg/all422.zip?download
+[allegro-4.2.2.tar.gz]:                 http://prdownloads.sourceforge.net/alleg/allegro-4.2.2.tar.gz?download
+[all422_diff.zip]:                      http://prdownloads.sourceforge.net/alleg/all422_diff.zip?download
+[allegro-enduser-4.2.2.tar.gz]:         http://prdownloads.sourceforge.net/alleg/allegro-enduser-4.2.2.tar.gz?download
+
+## Developmental branch source releases
+
+[Download 4.3.10 from SourceFourge][4.3.10]
+
+[Download 4.9.x from Sourceforge][4.9.x]
+
+[4.3.10]:   http://sourceforge.net/project/showfiles.php?group_id=5665&package_id=40805&release_id=569935
+[4.9.x]:    http://sourceforge.net/project/showfiles.php?group_id=5665&package_id=40805
+
+## Miscellaneous files
+
+-----------------------------------------------------------------------------------------------------------------------
+Filename                        Size    Description
+------------------------------- ------- -------------------------------------------------------------------------------
+[alldata.zip]                      360k This file contains the data needed by
+                                        the Allegro demo game. It's only needed
+                                        if you got an old WIP version of the
+                                        library, or if you updated to the
+                                        current version via diffs, as these
+                                        didn't include the demo data to save
+                                        space.
+
+[dx70_min.zip]                     440k You may have problems compiling the
+                                        Allegro DLL if you don't have the
+                                        correct version of the DirectX SDK
+                                        library and header files. This file
+                                        contains the minimal version of the
+                                        DirectX 7 SDK needed to compile the DLL
+                                        yourself.  Only for Windows.
+
+[dx70_mgw.zip]                     243k This file contains the minimal version
+                                        of the DirectX 7 SDK for MinGW. Only
+                                        for Windows.
+
+[dx80_mgw.zip]                     442k This file contains the minimal version
+                                        of the DirectX 8 SDK for MinGW. Only
+                                        for Windows.
+
+[dx70_dmc.zip]                     234k This file contains the minimal version
+                                        of the DirectX 7 SDK for Digital Mars
+                                        C/C++. Only for Windows.
+-----------------------------------------------------------------------------------------------------------------------
+
+[alldata.zip]:  files/alldata.zip
+[dx70_min.zip]: files/dx70_min.zip
+[dx70_mgw.zip]: files/dx70_mgw.zip
+[dx80_mgw.zip]: files/dx80_mgw.zip
+[dx70_dmc.zip]: files/dx70_dmc.zip
+
+## Binary version (only for Windows)
+
+-----------------------------------------------------------------------------------------------------------------------
+Site                            Description
+------------------------------- ---------------------------------------------------------------------------------------
+[Allegro binary package]
+                                The allegro-bin package at SourceForge contains
+                                several binary distributions of Allegro for
+                                Windows. You only need it if you have a
+                                compiler unable to produce the Allegro DLL
+                                (like Borland). To use, unzip a package inside
+                                a temporary directory and follow the
+                                instructions found inside.
+
+[devpaks.org]
+                                Michal Molhanec mantains a Devpak repository,
+                                where you can get a package of the precompiled
+                                library for MinGW and Dev-C++. Note that the
+                                Allegro Devpaks are also mirrored through
+                                SourceForge's allegro-bin package. If the
+                                Devpak site is down, check the previous entry's
+                                link.
+
+[www.allegro.cc/files]  
+                                Matthew Leverton has built binary packages for
+                                many different Windows compilers and offers
+                                them in several download formats.
+
+[Retrospec binaries]
+                                The guys from the Retrospec community have
+                                built their own versions of Allegro binary
+                                packages and many more useful libraries like
+                                FBlend or OpenLayer, offering versions for
+                                several Windows compilers.
+-----------------------------------------------------------------------------------------------------------------------
+
+[Allegro binary package]:       http://sourceforge.net/project/showfiles.php?group_id=5665&package_id=168871
+[devpaks.org]:                  http://devpaks.org/
+[www.allegro.cc/files]:         http://www.allegro.cc/files/
+[Retrospec binaries]:           http://retrospec.sgn.net/allegro.php
+
+## Binary version (only for Linux distributions)
+
+-----------------------------------------------------------------------------------------------------------------------
+Site                            Description
+------------------------------- ---------------------------------------------------------------------------------------
+[Debian database engine]        Try this link to query Debian's official
+                                database for .deb packages of Allegro,
+                                stable or unstable.
+
+[Fedora extras]                 The [Fedora Linux] project hosts RPMs of
+                                Allegro.
+-----------------------------------------------------------------------------------------------------------------------
+
+[Debian database engine]:       http://packages.debian.org/cgi-bin/search_packages.pl?keywords=liballeg&searchon=names&subword=1&version=all&release=all
+[Fedora extras]:                http://fedoraproject.org/wiki/Extras
+[Fedora Linux]:                 http://fedoraproject.org/

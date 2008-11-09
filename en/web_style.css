@@ -1,0 +1,186 @@
+body {
+    margin: auto;
+    padding-right: 1em;
+    padding-left: 1em;
+    /*
+    border-left: 1px solid #e0e0e0;
+    border-right: 1px solid #e0e0e0;
+    */
+    color: black;
+    background: #eeeeee;
+    font-family: sans-serif;
+    font-size: 100%;
+    line-height: 140%;
+}
+
+pre {
+    border: 1px solid #e0e0e0;
+    background-color: #f8f8fa;
+    color: #1111111;
+    padding: 0.5em;
+}
+
+code {
+    font-family: monospace;
+}
+
+h1 a, h2 a, h3 a, h4 a, h5 a { 
+    text-decoration: none;
+    color: #4a5aaa;
+}
+
+h1, h2, h3, h4, h5 {
+    font-weight: bold;
+    margin-top: 1.5em;
+    border-bottom: 1px solid #e0e0e0;
+    padding-bottom: 1px;
+    color: #4a5aaa;
+}
+
+h1 {
+    font-size: 140%;
+}
+
+h2 {
+    font-size: 100%;
+}
+
+h3 {
+    font-size: 95%;
+}
+
+h4, h5 {
+    font-size: 90%;
+    font-style: italic;
+}
+
+a {
+    text-decoration: none;
+    color: #4a5aaa;
+}
+
+dt code {
+    font-weight: bold;
+}
+
+dd p {
+    margin-top: 0;
+}
+
+table {
+    background-color: #f8f8fa;
+    border-top: 1px solid #e0e0e0;
+    border-bottom: 1px solid #e0e0e0;
+}
+
+table th {
+    font-weight: bold;
+    border-bottom: 1px solid #e0e0e0;
+    padding: 0.5em;
+}
+
+table td {
+    padding: 0.4em;
+    vertical-align: top;
+}
+
+table.white {
+    background-color: #ffffff;
+}
+
+#footer {
+    padding-top: 1em;
+    font-size: 70%;
+    color: gray;
+    text-align: center;
+}
+
+/* The main title */
+td.title {
+    color:                  rgb(153,153,153);
+    font-weight:            bold;
+    font-style:             italic;
+    font-size:              x-large;
+    text-align:             center;
+    vertical-align:         middle;
+}
+
+/* Side bar */
+div.sidebar {
+    background-color:	    #ffcc33;
+    margin-right:	    0.5em;
+    margin-bottom:	    1em;
+    -moz-border-radius:	    0.75em;
+}
+
+div.sidebar ul {
+    list-style-type:	    none;
+    padding:		    0;
+    margin-left:	    0.5em;
+    font-size:              small;
+}
+
+div.sidebar li {
+    display:                block;
+    margin-top:             0.05em;
+    margin-bottom:          0em;
+}
+
+div.sidebar ul a:hover {
+    background:             rgb(255,243,204);
+}
+
+table td.sidebar {
+    padding:                0;
+}
+
+/* Body of page */
+table td.content {
+    margin:                 10em;
+}
+
+/* Search bar */
+div.search input {
+    margin-top:		    4px;
+    padding-left:	    0.5em;    
+    background-color:	    rgb(255, 243, 204);
+    border:		    none;           
+    border-left:	    1px solid rgb(240, 200, 130);
+    border-right:	    1px solid rgb(240, 200, 130);
+    border-bottom:	    1px solid rgb(255, 255, 0);
+    border-top:		    2px solid rgb(200, 160, 90);
+    -moz-border-radius:	    1em;
+}
+
+div.search select {
+    margin-top:		    4px;        
+    padding-left:	    0.5em;    
+    background-color:	    rgb(255, 243, 204);
+    border:		    none;           
+    border-left:            1px solid rgb(240, 200, 130);
+    border-right:           1px solid rgb(240, 200, 130);
+    border-bottom:          1px solid rgb(255, 255, 0);
+    border-top:             2px solid rgb(200, 160, 90);
+    -moz-border-radius:     1em;
+}
+
+div.search input[name=submit] { 
+    background-color:       rgb(255, 243, 204);
+    border-left:            1px solid rgb(240, 200, 130);
+    border-right:           1px solid rgb(240, 200, 130);
+    border-top:             1px solid rgb(255, 255, 0);
+    border-bottom:          2px solid rgb(200, 160, 90);
+}       
+
+div.search input[name=submit]:hover {
+    background-color:       rgb(255, 223, 184);
+}       
+
+/* Page footer */
+div.footer {
+    padding-top:	    0.75em;
+    padding-left:           0.5em;
+    padding-right:          0.5em;
+    padding-bottom:         0.5em;
+    background:             #EEEEEE;
+}

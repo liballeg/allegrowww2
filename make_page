@@ -1,0 +1,93 @@
+#!/bin/zsh
+set -e
+
+export LC_COLLATE=C
+
+TOP=$PWD
+KEEP_TEMPS=${KEEP_TEMPS:-n}
+STYLESHEET=web_style.css
+
+template () {
+    local page=$1
+
+    catnl inc.a.*
+    if [[ -d $page ]]
+    then
+        catnl $( revdatesort $page/*(.) )
+    else
+	catnl $page
+    fi
+    catnl inc.z.*
+}
+
+catnl () {
+    local x
+
+    for x in "$@"
+    do
+        cat $x
+        echo
+    done
+}
+
+# Reverse any series of filenames containing dates.
+revdatesort () {
+    typeset -a acc
+    local x
+
+    for x in "$@"
+    do
+	case $x in
+	    *[0-9][0-9][0-9][0-9]-[0-9][0-9]-[0-9][0-9]*)
+		acc=( $x $acc )
+		;;
+	    *)
+                echo $acc
+                acc=()
+		echo $x
+		;;
+	esac
+    done
+    echo $acc
+}
+
+get_title () {
+    grep -e "^$1=" $TOP/en/META.title | cut -d= -f2-
+}
+
+# main
+#-------
+
+if (( $# != 2 ))
+then
+    echo "usage: $0 <infile> <outfile>"
+    exit 1
+fi
+
+indir=${1:h}
+inpage=${1:t}
+outpage=$(readlink -m $2)
+
+# Sanity check that don't overwrite an input file by passing wrong args.
+if [[ $outpage != */OUT/* ]]
+then
+    echo "Refusing to write to $outpage."
+    exit 2
+fi
+
+outdir=$outpage:h
+[[ -d $outdir ]] || mkdir $outdir
+
+cd $indir
+
+local tmp=,,tmp.$indir
+template $inpage > $tmp
+local title
+title=$( get_title $inpage )
+pandoc $tmp -T "$title" -c $STYLESHEET --standalone -o $outpage
+
+if [[ $KEEP_TEMPS != y* ]]; then
+    rm -f $tmp
+fi
+
+# vim: ft=zsh sts=4 sw=4 et:

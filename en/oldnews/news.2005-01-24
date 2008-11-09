@@ -1,0 +1,18 @@
+## 24th of January, 2005 - Allegro 4.1.18 released!
+
+This release is a Work-In-Progress that adds features and corrects problems
+with regard to the 4.0 codebase. It is API (source) compatible with 4.0.0 on
+every platform, except for a few minor changes (see docs/html/api.html). Here
+is a list of the principal changes since version 4.1.17:
+
+* Fixed a bug that caused rest() to wait too long on MacOS X.
+* Allegro windows now always appear centred in Windows.
+* Added IA64, SSE3 and AMD64 detection code.
+* Now the file selector works properly with directories that have more than 2048 entries.
+* Fixed some problems with the Linux joystick driver and mouse acceleration in Windows.
+* Fixed some problems with the DJGPP version and the VBE/AF driver.
+* New font loading routines, custom packfile functions and packfile vtables,
+  gui_set_screen(), gui_get_screen() and set_mouse_cursor_bitmap() functions. 
+
+Get this new version from the Download section. Please test it and report
+problems and incompatibilities to the mailing list or the SourceForge tracker. 

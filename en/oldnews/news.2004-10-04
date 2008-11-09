@@ -1,0 +1,19 @@
+## 4th of October, 2004 - Allegro 4.1.16 released!
+
+This release is a Work-In-Progress that adds features and corrects problems
+with regard to the 4.0 codebase. It is API (source) compatible with 4.0.0 on
+every platform, except for a few minor changes (see docs/html/api.html). Here
+is a list of the principal changes since version 4.1.15:
+
+* Fixed two problems with the keyboard driver on Windows.
+* Added a set_allegro_resource_path() function.
+* Added hardware cursor support to the X11 and DirectX window drivers.
+* Fixed a crash when initializing, deinitializing and reinitializing Allegro on Windows.
+* New MIDI input driver for the Windows port.
+* Improved the speed of drawing primitives on X11 and implemented locking/unlocking for video bitmaps.
+* Fixed bugs in set_palette() and remove_int().
+* Fixed a bug where the X11 fullscreen driver would fail if no virtual screen was reported.
+* Many fixes to source, examples and documentation. 
+
+Get this new version from the Download section. Please test it and report
+problems and incompatibilities to the mailing list or the SourceForge tracker. 

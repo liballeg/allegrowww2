@@ -1,0 +1,100 @@
+# Tutorials
+
+If you would like to add a link to this page, or there is a dead link which
+should be fixed/removed, please use the address given at the bottom of the page
+to contact the webmaster and report the change. 
+
+[Allegro Vivace](http://www.glost.eclipse.co.uk/gfoot/vivace/)
+:   A beginner guide to writing games with Allegro and DJGPP, by George Foot.
+
+[Allegro 3D Tutorial]
+:   Introduction to 3D concepts and annotated version of ex3d.c, by Tero
+    Parvinen.
+
+[Pot of gold...]
+:   Informations about how to use truecolor video modes.
+
+[Programming with Allegro and STL] - [(copy)]
+:   Object-oriented game programming tutorial by Ove Kåven.  This tutorial was
+    written long ago with [RHIDE] in mind when Allegro was available only for
+    [DJGPP], but you can still use it with the current Allegro if you keep in
+    mind that [there is a truecolor bug][truecolor_bug] when you use 4.0 and
+    posterior Allegro versions.
+
+[Programming with Allegro and STL]: http://www.ping.uio.no/~ovehk/allegro/
+[truecolor_bug]: http://sourceforge.net/mailarchive/message.php?msg_id=9570725
+
+[How To Program Games](http://www.glost.eclipse.co.uk/gfoot/htpg/)
+:   Tutorial/example series by George Foot.
+
+[Lighting Effects]
+:   Some random musings about various possible approaches to realtime lighting.
+
+[Palette Reduction](http://gradha.sdf-eu.org/palopt/index.html)
+:   Information about how to color-reduce a group of images, using the FixPal
+    and Smacker utilities, by Grzegorz Adam Hankiewicz.
+
+[Mysteries of ex3d.c](http://www.geocities.com/siliconvalley/vista/7336/mystex22.htm)
+:   A 3D tutorial by Robin Burrows.
+
+[Allegro Hacker's Guide]
+:   Information about various inner workings of the library code.
+
+[Portability Guidelines]
+:   Some suggestions about how to maximize the portability of your Allegro
+    programs.
+
+[The making of the X-wing demo](http://web.archive.org/web/20060220060453/home.planet.nl/~monstrous)
+:   This article written by Marco Monster discusses the development of an
+    Allegro demo program to illustrate the use of 3d texture mapped models.
+    Includes an introduction to BSP-trees. Source code is also provided.
+
+[How to make a Pong game]
+:   Tutorial which explains creation of a Pong like game with [DJGPP] and
+    Allegro.
+
+[Game creation tutorial](http://www.multimania.com/tcj/)
+:   Game creation tutorial for C with Allegro, written in French.
+
+[Allegro tutorial](http://iteme.free.fr/)
+:   It contains everything to start with Allegro (in French).
+
+[Pixelate](http://pixwiki.bafsoft.com/)
+:   An online game developing magazine started sometime around March 2001 which
+    keeps growing bigger and better with the help of the Allegro community.
+
+[Uploading files to SimTel]
+:   If you've written an Allegro add-on package, it would be a good idea to
+    upload it to the Allegro directory on SimTel, so that it can be mirrored
+    around the world, included on CD-ROM distributions, and will still be
+    easily accessible even if you move your homepage. This document explains
+    how you can do this.
+
+[The Allegro GUI Clinic](http://agdn.netfirms.com/main/gui/)
+:   Tutorial covering pretty much all of the GUI functions.
+
+[Graphical instructions to configure Visual Studio.Net with Allegro]
+:   Juan Carlos Ruiz Pacheco has contributed this graphical step by step guide
+    on how to configure Visual Studio.Net to compile Allegro C programs.
+
+[Allegro Quick Reference](http://www.connellybarnes.com/documents/quick_reference.html)
+:   This quick reference page was written by Connelly Barnes and updated to
+    reflect Allegro 4.2. Also translated into Japanese by Ohsawa Hirotaka.
+
+[Allegro tutorial in French](http://fdr.free.fr/)
+:   A tutorial created by Frédéric Drouillon.
+
+[Tutorial how to create games](http://hippo.nipax.cz/docs.cz.php)
+:   Tutorial that describes the basics of games creating (graphics, animations,
+    mouse, keyboard, time, etc.). Including several examples written using
+    Allegro.  In Czech.
+
+[Allegro/C++ tutorial](http://homel.vsb.cz/~moz017/cpp/)
+:   Brief tutorial of C++ and games programming in Allegro containing a lot of
+    examples and a game programmed in C++ & Allegro (including the source
+    code). In Czech.
+
+[C++ game programming](http://www.cppgameprogramming.com/)
+:   This site will show all you need to know in order to create your own video
+    games coded in C++. It provides a few basic C++ lessons which will teach
+    you all you need to move on to the graphics lessons, which use Allegro. 

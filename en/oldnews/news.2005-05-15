@@ -1,0 +1,19 @@
+## 15th of May, 2005 - Allegro 4.2.0 beta 3 released!
+
+This release is a Work-In-Progress that adds features and corrects problems
+with regard to the 4.0 codebase. It is API (source) compatible with 4.0.0 on
+every platform, except for a few minor changes (see docs/html/api.html). Here
+is a list of the principal changes since version 4.2.0 beta 2:
+
+* Fixed a bug when loading greyscale TGA images.
+* Fixed a bug where the bottom and right line of pixels was not updated on show_video_bitmap().
+* Fixed some unsafe assumptions on the size of integer datatypes.
+* Restored Alt+key = ASCII code 0 behavior for the Windows keyboard driver.
+* Fixed Allegro's internal multithreading in Windows, which fixes a deadlock on exit.
+* Fixed a problem with hardware cursors not working properly in MacOS X.
+* Fixed warnings and errors with gcc 4.0.0 on the Unix port.
+* Fixed another X11 async reply.
+* Now the seek in expackf test work with Windows line endings. 
+
+Get this new version from the Download section. Please test it and report
+problems and incompatibilities to the mailing list or the SourceForge tracker. 

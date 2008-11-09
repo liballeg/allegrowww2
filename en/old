@@ -1,0 +1,134 @@
+# Older versions
+
+These files are being made available for historical interest, and as reference
+material. They are unsupported, and for any serious programming work, you
+should get the most recent version instead. You can read the full changes log.
+
+[Allegro 1.02](files/allegro1.zip) (119k) - Sometime in 1995.
+
+[Allegro 2.0](files/alleg20.zip) (304k) - March 1996.
+
+[Allegro 2.1](files/alleg21.zip) (562k) - June 1996.
+
+[Allegro 2.11](files/alleg211.zip) (563k) - November 1996.
+
+[Allegro 2.2](files/alleg22.zip) (990k) - February 1997.
+
+[Allegro 3.0](files/alleg30.zip) (1225k) - December 1997.
+
+[Allegro 3.1](files/alleg31.zip) (1422k) - January 1999.
+
+[Allegro 3.11](files/alleg311.zip) (1434k) - February 1999.
+If you still have an unmodified copy of the Allegro 3.11 distribution, you can
+upgrade to version 3.12 by installing [this patch](files/al312dif.zip) (15Kb).
+Installation instructions can be found in the zip.
+
+[Allegro 3.12](files/alleg312.zip) (1434k) - August 1999.
+This is a DOS/DJGPP library, and can be obtained from your [local Simtel
+mirror](mirrors.html#simtel), in the directory gnu/djgpp/v2tk/allegro/,
+filename alleg312.zip.
+
+**Allegro 4.0.0** - 10th of December, 2001.
+
+* [all400.zip] (2687k)
+* [allegro-4.0.0.tar.gz] (2332k)
+* [allegro-4.0.0-1.src.rpm] (2313k)
+* [all400_bin.zip] (1301k)
+* [allegro-enduser-4.0.0.tar.gz] (576k) 
+
+[all400.zip]:                   http://prdownloads.sourceforge.net/alleg/all400.zip?download
+[allegro-4.0.0.tar.gz]:         http://prdownloads.sourceforge.net/alleg/allegro-4.0.0.tar.gz?download
+[allegro-4.0.0-1.src.rpm]:      http://prdownloads.sourceforge.net/alleg/allegro-4.0.0-1.src.rpm?download
+[all400_bin.zip]:               http://prdownloads.sourceforge.net/alleg/all400_bin.zip?download
+[allegro-enduser-4.0.0.tar.gz]: http://prdownloads.sourceforge.net/alleg/allegro-enduser-4.0.0.tar.gz?download
+
+There have been some releases between the current stable/unstable version and
+the last old stable version written above. You can get one of those releases
+from [Sourceforge's files page](http://sourceforge.net/project/showfiles.php?group_id=5665). 
+
+## Differential patches
+
+If you prefer to keep current via a series of diffs, you can use these, which
+must be installed strictly in sequence starting from whatever version you
+currently have installed. These are based on the zip format DOS distribution,
+but you should be able to apply them over the top of a Unix version as well, as
+long as you get patch version 2.5.4 first (it is able to apply DOS format diffs
+to Unix format local files, which patch 2.5 was not). For those DOS users who
+don't know what diff files are or how to apply them, you can get the patch
+program from the v2gnu directory on any of the djgpp mirror sites.
+
+Note that there are two columns because at one point in time Allegro was split
+in stable and unstable branches. The stable branch is on the left, the unstable
+is on the right.
+
+**XXX TODO**
+
+        * all3910_diff.zip (37k)
+        * all3911_diff.zip (112k)
+        * all3912_diff.zip (423k)
+        * all3913_diff.zip (19k)
+        * all3914_diff.zip (58k)
+        * all3915_diff.zip (237k)
+        * all3916_diff.zip (132k)
+        * all3917_diff.zip (59k)
+        * all3918_diff.zip (97k)
+        * all3919_diff.zip (169k)
+        * all3920_diff.zip (137k)
+        * all3921_diff.zip (125k)
+        * all3922_diff.zip (100k)
+        * all3923_diff.zip (69k)
+        * all3924_diff.zip (8k)
+        * all3925_diff.zip (143k)
+        * all3926_diff.zip (71k)
+        * all3927_diff.zip (94k)
+        * all3928_diff.zip (140k)
+        * all3929_diff.zip (248k)
+        * all3930_diff.zip (82k)
+        * all3931_diff.zip (134k)
+        * all3932_diff.zip (139k)
+        * all3933_diff.zip (163k)
+        * all3934_diff.zip (301k)
+        * all3935_diff.zip (244k)
+        * all3936_diff.zip (322k)
+        * all3937_diff.zip (513k)
+        * all3938_diff.zip (385k)
+        * all3939_diff.zip (205k)
+        * all3940_diff.zip (523k)
+        * all400_diff.zip (930k)
+        * all401_diff.zip (157k)
+        * all402_diff.zip (106k) 
+
+        
+
+        * all403_diff.zip (257k) 
+
+        
+
+        * all410_diff.zip (370k) 
+
+        
+
+        * all411_diff.zip (398k)
+        * all412_diff.zip (454k)
+        * all413_diff.zip (72k)
+        * all414_diff.zip (234k)
+        * all415_diff.zip (218k)
+        * all416_diff.zip (95k)
+        * all417_diff.zip (97k)
+        * all418_diff.zip (79k)
+        * all419_diff.zip (141k)
+        * all4110_diff.zip (447k)
+        * all4111_diff.zip (91k)
+        * all4112_diff.zip (332k)
+        * all4113_diff.zip (256k)
+        * all4114_diff.zip (112k)
+        * all4115_diff.zip (259k)
+        * all4116_diff.zip (218k)
+        * all4117_diff.zip (458k)
+        * all4118_diff.zip (243k) 
+
+        * all420b4_diff.zip (137k)
+        * all420rc2_diff.zip (484k)
+        * all420_diff.zip (350k)
+        * all421_diff.zip (354k)
+        * all422_diff.zip (605k) 

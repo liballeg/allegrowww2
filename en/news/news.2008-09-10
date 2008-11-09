@@ -1,0 +1,19 @@
+## 10th of September, 2008 - Allegro 4.9.4 released!
+
+This is a Work-In-Progress (WIP) release for the future 5.0 branch. Here is a
+summary of the [changes] since version 4.9.3:
+
+* Many bug fixes all around.
+* Multihead support on Windows.
+* Borderless windows, setting window positions and titles.
+* Added EXPOSE, SWITCH_IN and SWITCH_OUT display events.
+* Added a threads API.
+* Added a basic configuration API.
+* Added image loader addons.
+* Added TTF addon.
+* Further work on the audio API.
+* More examples. 
+
+Get this new version from the [Download] section. Please test it and report
+problems and incompatibilities to the [mailing list] or the [SourceForge
+tracker]. 

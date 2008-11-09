@@ -1,0 +1,19 @@
+## 7th of November, 2005 - Allegro 4.2.0 released!
+
+This is an update release that corrects bugs and adds new features to Allegro
+4.0. It is source (API) compatible with Allegro 4.0 except for minor
+differences documented at docs/html/api.html. Here is a list of the principal
+changes since version 4.2.0 release candidate 2:
+
+* fixmul() detect overflows as it used to do in the 4.0.x branch.
+* Fixed a bug in the fixbundle MacOS X utility.
+* Fixed problems with the mouse position as reported by Allegro and the mouse position as known to MacOS X.
+* Fixed problems with joysticks under MacOS X.
+* Fixed loading of multiple ranges in a single bitmap with txt fonts.
+* Fixed the fileselector in UNIX not properly recognising filenames containing UTF-8 characters.
+* Disabled DGA auto-detection under X11.
+* Fixed a fix-point overflow in pivot_sprite().
+* Fixed several problems with the Watcom compiler. 
+
+Get this new version from the Download section. Please test it and report
+problems and incompatibilities to the mailing list or the SourceForge tracker. 

@@ -1,0 +1,20 @@
+## 27th of January, 2008 - Allegro 4.9.2 released!
+
+This is a Work-In-Progress (WIP) release for the future 5.0 branch. The
+previous releases on this branch were 4.3.0 and 4.3.1, but future releases will
+be 4.9.x. Here is a summary of the [changes] since version 4.3.1:
+
+* A lot of work towards a new graphics API.
+* Added a Direct3D driver for Windows.
+* Added an OpenGL driver for X11.
+* Added window resizing support.
+* Added a bitmap font addon.
+* AL_* renamed to ALLEGRO_*.
+* Moved all include files into an allegro5 directory.
+* Added some new examples for new API.
+* Added and updated NaturalDocs documentation for new API.
+* Build system fixes/changes.
+* Bug fixes and other changes. 
+
+Get this new version from the Download section. Please test it and report
+problems and incompatibilities to the mailing list or the SourceForge tracker. 

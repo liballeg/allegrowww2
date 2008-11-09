@@ -1,0 +1,7 @@
+## 2nd of July, 2006 - SVN back at SourceForge
+
+The sourcecode of Allegro is back at SourceForge. Many thanks to BAF for
+hosting our SVN repository until now, after we were forced to move away from
+SourceForge since it would not provide SVN services yet last year. By now,
+SourceForge provides SVN services, so we transfered our code back and hopefully
+everything will keep working smoothly. 

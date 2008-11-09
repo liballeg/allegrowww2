@@ -1,0 +1,46 @@
+# API
+
+The Allegro documentation comes in the source package. Once you finish the
+build process, you will end up with the documentation generated in html, rtf,
+text, texinfo, chm, PostScript, PDF or devhelp file formats, depending on your
+platform, installed build tools and make options. See the documentation for
+makefile targets which build special formats. Here, we host some popular
+versions of the generated documentation, and provide an online browseable
+version too.
+
+------------------------------------------------------------------------
+File format           Stable branch       Unstable branch     Allegro 5 
+--------------------- ------------------- ------------------- ----------
+Compiled HTML         [4.2.1][st chm]
+format (CHM)          913 KiB
+                     
+Online HTML           [4.2.2][st ol]      [4.3.10][un ol]     [4.9.2]
+                     
+PDF format            [4.2.1][st pdf]     [4.3.0][un pdf]
+                      2769 KiB            2769 KiB
+                     
+PostScript            [4.2.1][st ps]      [4.3.0][un ps]
+gzipped format        536 KiB             536 KiB
+------------------------------------------------------------------------
+
+[st chm]: http://prdownloads.sourceforge.net/alleg/allegro-manual-4.2.1.en.chm?download
+[st pdf]: http://prdownloads.sourceforge.net/alleg/allegro-manual-4.2.1.en.pdf?download
+[st ps]:  http://prdownloads.sourceforge.net/alleg/allegro-manual-4.2.1.en.ps.gz?download
+
+[un pdf]: http://prdownloads.sourceforge.net/alleg/allegro-manual-4.3.0.en.pdf?download
+[un ps]:  http://prdownloads.sourceforge.net/alleg/allegro-manual-4.3.0.en.ps.gz?download
+
+[Online Documentation and Source Browser](http://srnet.cz/~stepan/allegro/) -
+<br/>
+The online version of the Allegro 3.12 and WIP docs, and various versions of
+the sources, provided by Štěpán Roh.
+
+[Allegro.cc's version of the manual](http://www.allegro.cc/manual) -
+<br/>
+Allegro's makedoc tool is not the only way to produce documentation. Matthew
+Leverton has created his own online version with a different style and URL
+functionality.
+
+Remember that apart from Allegro's excellent manual, there is also a
+[tutorial](docs.html) section with links to contributed documentation.
+And there are also [written paper books](books.html) which teach Allegro.

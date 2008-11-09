@@ -1,0 +1,194 @@
+# Links
+
+If you would like to add a link to this page, or there is a dead link which
+should be fixed/removed, please use the address given at the bottom of the page
+to contact the webmaster and report the change. 
+
+## Articles about Allegro
+
+[Gamasutra] - Allegro Inspires A New Generation of Independent Developers
+(26/10/1999).
+
+[GameDev.net] - An Interview With Shawn Hargreaves.
+
+[Linux Today] - Playing the Open Source Game (05/07/1999).
+[Here you have the original copy by Shawn]. 
+
+## Competitions
+
+[Allegro Games Competition II] - Allegro Games Competition II.
+
+[The Allegro SpeedHack 1999] - The Allegro SpeedHack 1999.
+
+[The Allegro SizeHack 2000] - The Allegro SizeHack 2000.
+
+[The Allegro DemoHack 2000] - The Allegro DemoHack 2000.
+
+[The Allegro SpeedHack 2001] - The Allegro SpeedHack 2001.
+
+[The Allegro SizeHack3D 2001] - The Allegro SizeHack3d 2001.
+
+[The Allegro Team Competition 2001] - The purpose of the competition is not
+only to match the game programming skills of different people, but also to
+promote programming in teams, to improve the organisation skills involved. To
+make it even more interesting, the rules say that the team must consist of
+people from different countries.
+
+[The Pixelate Games Competition 2001] - This time you will have a few months to
+write your entry, but will it be good enough?
+
+[IdeaHack 2001] - Never found the appropriate competition due to restrictive
+rules? This one is for you: before entering, you submit an idea or requirement
+your game will have to follow, and your entry will be scored depending on how
+well you meet your own goal.
+
+[The Allegro SpeedHack 2002 A] - The Allegro SpeedHack 2002 A.
+
+[The Allegro SpeedHack 2002 B] - The Allegro SpeedHack 2002 B.
+
+[BlitzHack 2003] - The BlitzHack is a six-hour-long Allegro-focussed game
+programming competition, in which entrants strive to make the best game
+possible with extremely limited time constraints using a shared backstory as a
+theme and basis for the game, a shared media set, and a shared code snippet
+set.
+
+[SpeedHack 2003] - The Allegro SpeedHack 2003.
+
+[TINS 2003] - TINS is a speedhack-like competition. The goal is to write a
+complete game from scratch in a single weekend, using Allegro of course.
+
+[SpeedHack 2004] - The Allegro SpeedHack 2004.
+
+[SpeedHack 2005] - The Allegro SpeedHack 2005.
+
+## Programming
+
+[C-scene] - Documentation and sources about C/C++ programming.
+
+[Flipcode] - News and resources about game development.
+
+[Linux Game Development Center] - Web site dedicated to video game programming
+under Linux.
+
+[Programmer's Heaven] - Contains different sources about game programming.
+
+[Game Programming Resources] - A web page dedicated to game programming
+resources. Its contents are in Portuguese.
+
+[Pixelate] - An online game developing magazine started sometime around March
+2001 which keeps growing bigger and better with the help of the Allegro
+community.
+
+[Game Programming Wiki] - Here you will find game programming tutorials and
+source code for a variety of languages and platforms. Also, because this is a
+wiki, you are encouraged to contribute your knowledge and help the repository
+grow!
+
+[Zingtech Game Development] - Game development site with tutorials, an
+introduction to DirectX, a summary of a software engineering internship at
+Electronic Arts, and a game idea center. Also a section on Allegro, game
+programming books, and community resources. Current projects include Dr. Mario
+Online. 
+
+## Libraries
+
+[Mesa] - Mesa is a free implementation (under GPL license) of the OpenGL API.
+
+[OpenGL] - SGI's OpenGL web site.
+
+[SVGAlib] - Linux SuperVGA Graphics Library. Since SVGAlib is quite extended,
+Allegro can use it as a driver reaching more people with different hardware.
+
+[Linux Framebuffer] - The Linux Framebuffer is another Allegro driver, which
+plays nice and lets Allegro programs run at user level without problems.
+
+[SDL] - The Simple DirectMedia Layer is a C cross-platform multimedia library
+which has been used to port many Windows games using DirectX to other
+platforms.
+
+[Clanlib] - Clanlib is a C++ development kit covering from low level to high
+level stuff. Certainly bigger than Allegro, includes things like scripting or
+network support.
+
+[Plib] - A suite of portable game libraries with a C++ interface, oriented
+towards 3D games (through OpenGL).
+
+[TinyPTC] - TinyPTC is a cross-platform framebuffer library with a simple API (a
+subset of OpenPTC). It features a few output targets such as raw XLib, XShm,
+XDbe, XDga 1/2, etc. It also automatically manages colordepth conversions
+on-the-fly if such a feature is needed.
+
+[DEPUI, DEGFX, DETK] - DEPUI is a small extremely portable user interface
+library. DEGFX is a small extremely portable graphics library. DETK is a small
+toolkit library for commonly used functions. The three can be combined and used
+under the GPL license. 
+
+## Compilers
+
+[DJGPP] - A DOS port of the GNU Compiler Collection (GCC). It's an excellent
+compiler which comes with a big number of tools. It's supported by all Allegro
+versions.
+
+[Mingw] - A Windows port of the GNU compiler collection (GCC). It's supported
+by the 4.x or newer versions. 
+
+## Misc
+
+[Game developing community network] - Very complete website dedicated to game
+programming with Allegro. You can find there programs written with Allegro,
+help documentation, and library extensions and various tools.
+
+[Games for Linux] - This is a portal where people are helped to port their
+games to Linux. They support all multiplatform libraries, but most games use
+Allegro.
+
+[Allegro's webring] - This is Allegro's webring. From here you can get to many
+other Allegro related web pages.
+
+[Xuti software] - XuTi software has written a good deal of documents about
+Allegro in portuguese, including installation guides, tutorials, and they
+provide precompiled Allegro RPMs for Conectiva Linux.
+
+E.T.S.I.Telecommunication at the University of Málaga, Spain - To motivate the
+students during their first year programming C/C++, they are taught to write
+simple games with Allegro, like Simon or Minesweeper. The students also take
+part in a competition and the results are quite good.
+
+Allegro development group at the University of Pereira, Colombia - During 2001
+a conference about Allegro planted the seed. Now an Allegro development group
+is active and producing documentation in Spanish for students at the University
+of Pereira, Colombia. They also have an Allegro related support mailing list
+and make meetings from time to time.
+
+FreeBE/AF - This is a low level driver interface for accessing graphics
+hardware, which can be used by Allegro. It provides all the same features as
+VESA 3.0 and adds the ability to use 2D hardware acceleration in an efficient
+and portable manner, meaning drivers can work under DOS and Linux depending on
+how they are written.
+
+The Graphic File Formats Page - A good repository of file formats. 2D bitmap
+specifications, 3D geometry and animation specifications, utils, infos,
+resources, FAQs...
+
+Wotsit's format - This site contains file format information on hundreds of
+different file types and all sorts of other useful programming information:
+algorithms, source code, specifications, etc.
+
+[The Allegro wiki](http://awiki.tomasu.org/bin/view) - A collaborative wiki
+hosted by Thomas Fjellstrom. 
+
+Allegro's Web Ring
+Ring's Home
+Next Site
+Previous Site
+Random Site
+Skip Next Site
+List Next 5
+
+DJGPP's Web Ring
+Ring's Home
+Next Site
+Previous Site
+Random Site
+Skip Next Site
+List Next 5

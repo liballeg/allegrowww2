@@ -1,0 +1,10 @@
+## 24th of July, 2006 - Allegro 4.3.0 has been released
+
+Allegro 4.3.0 has finally been released. This is a WIP version, which will
+probably not work as expected for many things when using as a 4.2 drop in,
+although the 4.3 branch will be developed together with a compatibility layer,
+mapping the 4.2 API onto the new 4.3 API. This release is only the first
+release of the 4.3 branch though, and many if not most things are not
+implemented yet. Get this new version from the Download section. Please test it
+and report problems and incompatibilities to the mailing list or the
+SourceForge tracker. 

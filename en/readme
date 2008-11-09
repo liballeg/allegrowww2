@@ -1,0 +1,157 @@
+# Introduction
+
+Allegro is a portable library mainly aimed at video game and multimedia
+programming, originally started by Shawn Hargreaves for the DJGPP compiler in a
+mixture of C and assembler.
+
+According to the Oxford Companion to Music, Allegro is the Italian for «quick,
+lively, bright». It is also a recursive acronym which stands for «Allegro Low
+LEvel Game ROutines».
+
+## Cross-platform support
+
+* Unix (Linux, FreeBSD, Irix, Solaris, Darwin)
+* Windows (MSVC, MinGW, Cygwin, Borland)
+* BeOS
+* QNX
+* MacOS X
+* Dos (DJGPP, Watcom) 
+
+## Graphic functions
+
+* Vector drawing:
+      - pixels, lines, rectangles, circles, ellipses, arcs, Bezier splines
+      - shape fill, with or without pattern
+      - polygons: flat, Gouraud, textured (3D) and translucent 
+* Sprites:
+      - masked, compressed and compiled sprites
+      - blitting, rotation, stretching, reduction, alpha blending, Gouraud shading
+      - native support for BMP, LBM, PCX and TGA files (others supported with library extensions) 
+* Color palettes:
+      - color palette manipulation (reading, writing, conversion)
+      - conversion of color formats RGB <-> HSV 
+* Text:
+      - support for different encodings and conversion, default is UTF-8
+      - bitmap fonts (masking, colouring, alignment) 
+* Misc:
+      - draw directly on the screen or on any-size memory bitmaps
+      - hardware scrolling and triple buffering (where available), mode-X split screen
+      - animation functions for FLI/FLC format 
+
+## Graphic drivers
+
+* Unix:
+      - X Window, DGA, fbcon
+      - SVGAlib
+      - VBE/AF
+      - mode-X
+      - VGA 
+* Windows:
+      - DirectX (windowed or full-screen)
+      - GDI 
+* MacOS X:
+      - Quartz (windowed or full-screen)
+* BeOS:
+      - BWindowScreen
+      - BDirectWindow 
+* Dos:
+      - VGA 13h mode
+      - mode-X (23 VGA resolution plus unchained 640x400 extended mode)
+      - SVGA modes in 8, 15, 16, 24 and 32 bits per pixel
+      - linear VBE 2.0 framebuffer access
+      - hardware acceleration through VBE/AF API if supported
+      - additional graphic drivers through FreeBE/AF project 
+* OpenGL:
+      - The AllegroGL addon allows to use OpenGL graphics with Allegro. 
+
+## Sound functions
+
+* Midi:
+      - native MIDI music format support (with 64 simultaneous effects)
+      - dynamic control/response to music note on, note off, main volume, pan, pitch bend, and program change
+      - uses General MIDI patches
+      - you can read in wavetable patches for MIDI files (SF2 and GUS patches) 
+* Wave:
+      - native support of WAV and VOC file formats (playing looped forward, backwards or bidirectional)
+      - streaming audio
+      - modify volume, pan, pitch, etc during play 
+
+## Sound drivers
+
+* Unix:
+      - OSS
+      - ALSA (0.5/0.9/1.0)
+      - ESD
+      - aRts
+      - JACK
+      - SGI AL 
+* Windows:
+      - DirectSound
+      - WaveOut
+      - MIDI system drivers 
+* MacOS X:
+      - Core Audio
+      - Sound Manager
+      - Core Audio MIDI
+      - QuickTime MIDI 
+* Dos:
+      - Adlib, SB, SB Pro, SB16, AWE32
+      - MPU-401
+      - ESS AudioDrive
+      - Ensoniq Soundscape
+      - Windows Sound System 
+
+## Math functions
+
+* fixed point arithmetic and trigonometric routines
+* precalculated trigonometric tables
+* vector/matrix/quaternions 3d manipulation (translation, rotation, scaling, projection) 
+
+## Misc
+
+* mouse, keyboard and joystick management
+* high resolution interrupt timers (resolution of 10, 5 or less ms depending on platform)
+* vertical retrace simulation
+* manipulate configuration files
+* manipulate compressed files in LZSS format
+* manipulate multi-object resource-like compressed datafiles
+* tool for creating datafiles (grabber)
+* simple GUI for dialogs and file selector 
+
+## I am new to Allegro, what should I do?
+
+First of all, welcome! Depending on your skills you might want to start with
+something different. 
+
+If you are a total beginner to C programming, Allegro won't help you much. As a
+C library (C stands for the name of a programming language), Allegro presumes
+you know how to write C programs, compile and link them to produce executables.
+Sorry, you will have to learn how to do that first. You can use a search engine
+like Google to find tutorials and documentation about C programming or buy a
+book in a shop on the subject. C is a well known language with many years on
+its back, so you won't have too many problems finding information about it. 
+
+If you already know how to write C programs but lack the knowledge for writing
+games, you will enjoy learning and using Allegro. Obviously you will want to
+download Allegro. We recommend you to get the stable version. Allegro comes
+with a good reference documentation and more than 40 examples which will help
+you to start with basic things and from there on improve your skills. You can
+even play a small demo game where your mission is to blast asteroids. The
+documentation bundled with Allegro can be found online, and there are many
+tutorials and even some books which can be used to further enhance your
+knowledge. 
+
+If you are an experienced game programmer you can quickly get an idea of how
+Allegro programs look like by skimming through the API or reading the bundled
+examples. Allegro tries to make the task of creating games as simple as
+possible to you, while maintaining the flexibility to utilize all the low level
+power you may want to use at the same time. 
+
+Whether you are a beginner or not, you should know that there are a few ways to
+get in touch with other Allegro users. There are a few mailing lists you can
+subscribe to. They are usually silent until somebody starts a nice discussion
+and everybody jumps in with replies. For the mail impaired, Allegro.cc is a Web
+based forum with a much higher participation (and also noise-to-signal ratio).
+Feel free to communicate your ideas and current projects. Everybody likes to
+see a game pushing Allegro to the limits, even more if you provide the source
+code for others to learn from it. 

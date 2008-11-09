@@ -1,0 +1,7 @@
+## 31st of March, 2007 - Updated bindings
+
+While the developers keep working on the future 4.3 API for Allegro, other
+developers in the community keep working on making Allegro available on
+programming languages other than C. Recent newcomers include bindings for C#
+and the D programming language. You can check the full list in the language
+bindings section. 

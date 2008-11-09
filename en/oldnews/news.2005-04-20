@@ -1,0 +1,21 @@
+## 20th of April of 2005 - Allegro 4.2.0 beta 2 released!
+
+This release is a Work-In-Progress that adds features and corrects problems
+with regard to the 4.0 codebase. It is API (source) compatible with 4.0.0 on
+every platform, except for a few minor changes (see docs/html/api.html). Here
+is a list of the principal changes since version 4.2.0 beta 1:
+
+* Fixed a problem with the makefile in Windows.
+* Fixed a bug that prevented true colour fonts from working.
+* Fixed a possible deadlock in dialog_message().
+* Fixed a bug where the DJGPP version would choke on a missing variable.
+* Fixed a problem with incorrect dependencies being generated for MacOS X.
+* Fixed a problem in X11 if the XRGBACursor extension was missing.
+* Fixed a bug where hardware cursors would stop working.
+* Fixed several problems with the Windows keyboard driver.
+* Fixed bug in Unix dependency generation.
+* Now the GUI does not mess up the hardware cursor.
+* New packfile example. 
+
+Get this new version from the Download section. Please test it and report
+problems and incompatibilities to the mailing list or the SourceForge tracker. 

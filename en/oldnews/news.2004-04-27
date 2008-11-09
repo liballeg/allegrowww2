@@ -1,0 +1,21 @@
+## 27th of April, 2004 - Allegro 4.1.14 released!
+
+This release is a Work-In-Progress that adds features and corrects problems
+with regard to the 4.0 codebase. It is API (source) compatible with 4.0.0 on
+every platform, except for a few minor changes (see docs/html/api.html). Here
+is a list of the principal changes since version 4.1.13:
+
+* Fixed a couple of problems in dat2c.
+* Polished the MacOS X package builder script.
+* Added a Jack sound driver to the Unix port.
+* Added support for debugging with DMalloc under Unix.
+* Fixed detection of the ALSA 1.0 MIDI driver.
+* Fixed compilation with --enable-color8=no under Unix.
+* Now it is possible to link against the Allegro framework with the allegro-config script under MacOS X.
+* Fixed a bug in fixbundle with 32bpp icons and alpha channel under MacOS X.
+* Restored the compensation code for end-of-frame in the FLI player. 
+
+Get this new version from the Download section. Please test it and report
+problems and incompatibilities to the mailing list or the SourceForge tracker. 
+
+
