@@ -4,8 +4,22 @@ set -e
 export LC_COLLATE=C
 
 TOP=$PWD
+PANDOC=${PANDOC:-pandoc}
 KEEP_TEMPS=${KEEP_TEMPS:-n}
 STYLESHEET=web_style.css
+
+check_for_pandoc () {
+    if ! which ${PANDOC} >/dev/null
+    then
+        # Make things a little easier on SF.net servers.
+        path+=/home/groups/a/al/alleg/pandoc/bin
+        if ! which ${PANDOC} >/dev/null
+        then
+            echo "${PANDOC} not found in PATH"
+            exit 1
+        fi
+    fi
+}
 
 template () {
     local page=$1
@@ -63,6 +77,8 @@ then
     echo "usage: $0 <infile> <outfile>"
     exit 1
 fi
+
+check_for_pandoc
 
 indir=${1:h}
 inpage=${1:t}
