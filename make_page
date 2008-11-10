@@ -96,11 +96,11 @@ outdir=$outpage:h
 
 cd $indir
 
-local tmp=,,tmp.$indir
+local tmp=,,tmp.$inpage
 template $inpage > $tmp
 local title
 title=$( get_title $inpage )
-pandoc $tmp -T "$title" -c $STYLESHEET --standalone -o $outpage
+${PANDOC} $tmp -T "$title" -c $STYLESHEET --standalone -o $outpage
 
 if [[ $KEEP_TEMPS != y* ]]; then
     rm -f $tmp
