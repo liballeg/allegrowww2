@@ -57,9 +57,9 @@ Name                Format/Size     Comments
 ------------------- --------------- -----------------------------------------------------------------------------------
 Richard Sanders's   ca. 30 meg      Eawpatches
 GUS patches         Gravis          GUS
-<br/>[1] [2]        patch           patch
-[Allegro .dat]      files           set
-                                    is the best GUS patch set for TiMidity++.
+<br/>[[1]][rs1]     patch           patch
+[[2]][rs2]          files           set
+[Allegro .dat][rs3]                 is the best GUS patch set for TiMidity++.
                                     Eawpatches is maintained (tweaked and
                                     tuned) by Eric A Welsh. The first two links
                                     are mirrors to the patch. The third link
@@ -73,10 +73,11 @@ Patches             patches         install
 FTP archive]                        program
                                     doesn't work on my machine, and the
                                     distribution doesn't include a default.cfg
-                                    file, so you will need [this one] that I
+                                    file, so you will need
+                                    [this one][propat.zip] that I
                                     made. A pretty good sample set, with some
                                     nice powerful sounds, but there are a few
-                                    tuning problems (eg.  the panflute), and
+                                    tuning problems (eg. the panflute), and
                                     most of the instruments have very long
                                     release phases, which makes some music
                                     sound too muddy. I'm not sure what the
@@ -84,34 +85,35 @@ FTP archive]                        program
                                     because many of the sounds are based on the
                                     original GUS set (copyrighted by Eye&I).
                                     
-Freepats            Unknown size    Freepats
+[Freepats]          Unknown size    Freepats
                                     is a project to create a free and open set
                                     of GUS compatible patches that can be used
                                     with softsynths such as Timidity and
                                     WildMidi.
 
-Midia bank          8 meg GUS
+[Midia bank]        8 meg GUS
                     patch set       This
                                     distribution doesn't include the
                                     default.cfg index file, so you will need
-                                    [this one] that I made. Basically good and
+                                    [this one][media.zip]
+                                    that I made.  Basically good and
                                     rich sounding, although a few of the
                                     instruments (eg. the solo violin) are very
                                     quiet.
 
-ftp.lysator.liu.se  Unknown size    A
+[ftp.lysator.liu.se] Unknown size   A
                                     large collection of SoundFonts, both .sf2
                                     and the older .sbk format. Many non-GM
                                     banks, plus copies of some of the files
                                     mentioned above.
 
-MAZ Sound           Unknown size    Huge
+[MAZ Sound]         Unknown size    Huge
                                     collection of instrument samples in various
                                     formats, and links to many related sites.
 
-Instred             Unknown size    Patch editor by Martijn Versteegh.
+[Instred]           Unknown size    Patch editor by Martijn Versteegh.
 
-SoundFont library   Unknown size    The
+[SoundFont library] Unknown size    The
                                     SoundFont Library is a database containing
                                     SoundFonts submitted by people from all
                                     over the world. The database lets users
@@ -121,8 +123,32 @@ SoundFont library   Unknown size    The
                                     Thomas Hammer (link at the bottom of the
                                     page).
 
-shominst-0409.zip   ca. 10MB        The
-                                    GNU/Linux Gentoo distribution has a package
-                                    timidity-shompatches, which gets its data
-                                    from [shominst-0409.txt].
+[shominst-0409.zip] ca. 10MB        The
+                                    GNU/Linux [Gentoo] distribution has a
+                                    package timidity-shompatches, which gets
+                                    its data from [shominst-0409.txt].
 -------------------------------------------------------------------------------
+
+[rs1]: http://xml.cie.unam.mx/pub/Linux/lmws/eawpats/eawpats12.tar.bz2
+[rs2]: http://download.sourcemage.org/mirror/eawpats12.tar.bz2
+[rs3]: http://www.eglebbk.dds.nl/program/download/digmid.dat
+
+[Gravis Pro Patches FTP archive]: ftp://ftp.gravis.com/Public/Sound/Patches/
+[propat.zip]: files/propat.zip
+
+[Freepats]: http://freepats.opensrc.org/
+
+[Midia bank]: ftp://ftp.funet.fi/pub/sci/audio/softsynths/midia/instruments.tar.gz
+[midia.zip]: files/midia.zip
+
+[ftp.lysator.liu.se]: ftp://ftp.lysator.liu.se/pub/awe32/soundfonts/
+
+[MAZ Sound]: http://www.maz-sound.com/
+
+[Instred]: http://home.hccnet.nl/m.versteegh/projects.html
+
+[SoundFont Library]: http://hammersound.net/cgi-bin/soundlink.pl
+
+[shominst-0409.zip]: http://www.i.h.kyoto-u.ac.jp/~shom/timidity/shominst/shominst-0409.zip
+[gentoo]: http://www.gentoo.org/
+[shominst-0409.txt]: http://www.i.h.kyoto-u.ac.jp/~shom/timidity/shominst/shominst-0409.txt

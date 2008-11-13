@@ -1,5 +1,6 @@
 <center>
-*Allegro is a game programming library for C/C++ developers distributed freely,
+*Allegro is a game programming library for C/C++ developers distributed
+[freely](license.html),
 supporting the following platforms: DOS, Unix (Linux, FreeBSD, Irix, Solaris,
 Darwin), Windows, QNX, BeOS and MacOS X. It provides many functions for
 graphics, sounds, player input (keyboard, mouse and joystick) and timers. It

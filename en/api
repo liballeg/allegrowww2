@@ -8,27 +8,31 @@ makefile targets which build special formats. Here, we host some popular
 versions of the generated documentation, and provide an online browseable
 version too.
 
-------------------------------------------------------------------------
+-------------------------------------------------------------------------------
 File format           Stable branch       Unstable branch     Allegro 5 
---------------------- ------------------- ------------------- ----------
+--------------------- ------------------- ------------------- -----------------
 Compiled HTML         [4.2.1][st chm]
 format (CHM)          913 KiB
                      
-Online HTML           [4.2.2][st ol]      [4.3.10][un ol]     [4.9.2]
+Online HTML           [4.2.2][st ol]      [4.3.10][un ol]     [4.9.2][a5 ol]
                      
 PDF format            [4.2.1][st pdf]     [4.3.0][un pdf]
                       2769 KiB            2769 KiB
                      
 PostScript            [4.2.1][st ps]      [4.3.0][un ps]
 gzipped format        536 KiB             536 KiB
-------------------------------------------------------------------------
+-------------------------------------------------------------------------------
 
 [st chm]: http://prdownloads.sourceforge.net/alleg/allegro-manual-4.2.1.en.chm?download
+[st ol]:  stabledocs/en/index.html
 [st pdf]: http://prdownloads.sourceforge.net/alleg/allegro-manual-4.2.1.en.pdf?download
 [st ps]:  http://prdownloads.sourceforge.net/alleg/allegro-manual-4.2.1.en.ps.gz?download
 
+[un ol]:  latestdocs/en/index.html
 [un pdf]: http://prdownloads.sourceforge.net/alleg/allegro-manual-4.3.0.en.pdf?download
 [un ps]:  http://prdownloads.sourceforge.net/alleg/allegro-manual-4.3.0.en.ps.gz?download
+
+[a5 ol]:  naturaldocs/index.html
 
 [Online Documentation and Source Browser](http://srnet.cz/~stepan/allegro/) -
 <br/>

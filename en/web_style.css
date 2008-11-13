@@ -84,6 +84,10 @@ table td {
     vertical-align: top;
 }
 
+tr.odd {
+    background-color: #f0f0f0;
+}
+
 table.white {
     background-color: #ffffff;
 }

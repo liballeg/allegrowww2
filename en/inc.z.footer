@@ -2,5 +2,17 @@
 </tr>
 </table>
 <div class="footer">
+<table width="100%">
+<tr><td>
+<a href="http://petition.eurolinux.org/index_html?LANG=en">
+  <img src="images/nopatents.png" border="0" alt="No ePatents"
+    height="33" width="88" vspace="1" hspace="1" />
+</a>
+<a href="http://www.anybrowser.org/campaign/">
+  <img src="images/anyb.png" border="0" alt="Viewable with any browser"
+    height="31" width="88" vspace="1" hspace="1" />
+</a>
+</td><td align="right">
 [Contact the webmaster](mailto:gradha@users.sourceforge.net)
+</td></tr></table>
 </div>
