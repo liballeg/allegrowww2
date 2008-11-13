@@ -86,19 +86,21 @@ Filename                        Size    Description
                                         library and header files. This file
                                         contains the minimal version of the
                                         DirectX 7 SDK needed to compile the DLL
-                                        yourself.  Only for Windows.
+                                        yourself.
+                                        **Only for Windows.**
 
 [dx70_mgw.zip]                     243k This file contains the minimal version
-                                        of the DirectX 7 SDK for MinGW. Only
-                                        for Windows.
+                                        of the DirectX 7 SDK for MinGW.
+                                        **Only for Windows.**
 
 [dx80_mgw.zip]                     442k This file contains the minimal version
-                                        of the DirectX 8 SDK for MinGW. Only
-                                        for Windows.
+                                        of the DirectX 8 SDK for MinGW.
+                                        **Only for Windows.**
 
 [dx70_dmc.zip]                     234k This file contains the minimal version
                                         of the DirectX 7 SDK for Digital Mars
-                                        C/C++. Only for Windows.
+                                        C/C++.
+                                        **Only for Windows.**
 -----------------------------------------------------------------------------------------------------------------------
 
 [alldata.zip]:  files/alldata.zip
