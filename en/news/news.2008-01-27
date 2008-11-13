@@ -9,7 +9,7 @@ be 4.9.x. Here is a summary of the changes since version 4.3.1:
 * Added an OpenGL driver for X11.
 * Added window resizing support.
 * Added a bitmap font addon.
-* AL_* renamed to ALLEGRO_*.
+* AL\_* renamed to ALLEGRO\_*.
 * Moved all include files into an allegro5 directory.
 * Added some new examples for new API.
 * Added and updated NaturalDocs documentation for new API.
