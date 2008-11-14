@@ -22,7 +22,6 @@ PAGES :=		\
 
 INCLUDES := $(wildcard en/inc.*)
 
-#OUTDIR := $(shell pwd)/OUT
 OUTDIR := OUT
 OUTPAGES := $(addsuffix .html,$(addprefix $(OUTDIR)/,$(PAGES)))
 
@@ -32,7 +31,7 @@ $(OUTDIR)/index.html: $(OUTDIR)/news.html
 	cp $< $@
 
 $(OUTDIR)/%.html: en/% $(INCLUDES)
-	./make_page $< $@
+	./make_page $< $(OUTDIR)
 
 $(OUTDIR)/web_style.css: en/web_style.css
 	cp $< $@

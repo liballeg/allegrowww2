@@ -1,35 +1,35 @@
-#!/bin/zsh
+#!/bin/sh
 set -e
 
 export LC_COLLATE=C
 
-TOP=$PWD
+TOP=$(pwd)
 PANDOC=${PANDOC:-pandoc}
 KEEP_TEMPS=${KEEP_TEMPS:-n}
 STYLESHEET=web_style.css
 
 check_for_pandoc () {
-    if ! which ${PANDOC} >/dev/null
+    if ! which "$PANDOC" >/dev/null
     then
         # Make things a little easier on SF.net servers.
-        path+=/home/groups/a/al/alleg/pandoc/bin
-        if ! which ${PANDOC} >/dev/null
+        export PATH="$PATH:/home/groups/a/al/alleg/pandoc/bin"
+        if ! which "$PANDOC" >/dev/null
         then
-            echo "${PANDOC} not found in PATH"
+            echo "$PANDOC not found in PATH"
             exit 1
         fi
     fi
 }
 
 template () {
-    local page=$1
+    local page="$1"
 
     catnl inc.a.*
-    if [[ -d $page ]]
+    if test -d "$page"
     then
-        catnl $( revdatesort $page/*(.) )
+        catnl $( revdatesort $page/* )
     else
-	catnl $page
+        catnl "$page"
     fi
     catnl inc.z.*
 }
@@ -39,71 +39,75 @@ catnl () {
 
     for x in "$@"
     do
-        cat $x
+        cat "$x"
         echo
     done
 }
 
 # Reverse any series of filenames containing dates.
 revdatesort () {
-    typeset -a acc
+    local acc=
     local x
 
     for x in "$@"
     do
-	case $x in
-	    *[0-9][0-9][0-9][0-9]-[0-9][0-9]-[0-9][0-9]*)
-		acc=( $x $acc )
-		;;
-	    *)
-                echo $acc
-                acc=()
-		echo $x
-		;;
-	esac
+        case "$x" in
+            *[0-9][0-9][0-9][0-9]-[0-9][0-9]-[0-9][0-9]*)
+                acc="$x $acc"
+                ;;
+            *)
+                echo "$acc"
+                acc=
+                echo "$x"
+                ;;
+        esac
     done
-    echo $acc
+    echo "$acc"
 }
 
 get_title () {
-    grep -e "^$1=" $TOP/en/META.title | cut -d= -f2-
+    grep -e "^$1=" "$TOP/en/META.title" | cut -d '=' -f 2-
 }
 
 # main
 #-------
 
-if (( $# != 2 ))
+if test $# -ne 2
 then
-    echo "usage: $0 <infile> <outfile>"
+    echo "usage: $0 <input file> <output directory>"
     exit 1
 fi
 
 check_for_pandoc
 
-indir=${1:h}
-inpage=${1:t}
-outpage=$(readlink -m $2)
+indir="$( dirname $1 )"
+inpage="$( basename $1 )"
+outdir="$( readlink -m $2 )"
+outpage="${outdir}/${inpage}.html"
 
 # Sanity check that don't overwrite an input file by passing wrong args.
-if [[ $outpage != */OUT/* ]]
-then
-    echo "Refusing to write to $outpage."
-    exit 2
-fi
+case "$outpage" in
+    */OUT/*)
+        ;;
+    *)
+        echo "Refusing to write to ${outpage}."
+        exit 2
+        ;;
+esac
 
-outdir=$outpage:h
-[[ -d $outdir ]] || mkdir $outdir
+test -d "$outdir" || mkdir "$outdir"
 
-cd $indir
+cd "$indir"
 
-local tmp=,,tmp.$inpage
-template $inpage > $tmp
-local title
-title=$( get_title $inpage )
-${PANDOC} $tmp -T "$title" -c $STYLESHEET --standalone -o $outpage
+tmp=",,tmp.$inpage"
+template "$inpage" > "$tmp"
+title="$( get_title $inpage )"
+"$PANDOC" "$tmp" -T "$title" -c "$STYLESHEET" --standalone -o "$outpage"
 
-if [[ $KEEP_TEMPS != y* ]]; then
-    rm -f $tmp
-fi
+case "$KEEP_TEMPS" in
+    n*)
+        rm -f "$tmp"
+        ;;
+esac
 
-# vim: ft=zsh sts=4 sw=4 et:
+# vim: ft=sh sts=4 sw=4 et:
