@@ -9,11 +9,11 @@ KEEP_TEMPS=${KEEP_TEMPS:-n}
 STYLESHEET=web_style.css
 
 check_for_pandoc () {
-    if ! which "$PANDOC" >/dev/null
+    if ! which "$PANDOC" >/dev/null 2>&1
     then
         # Make things a little easier on SF.net servers.
         export PATH="$PATH:/home/groups/a/al/alleg/pandoc/bin"
-        if ! which "$PANDOC" >/dev/null
+        if ! which "$PANDOC" >/dev/null 2>&1
         then
             echo "$PANDOC not found in PATH"
             exit 1
