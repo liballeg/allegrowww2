@@ -10,6 +10,9 @@ PAGES :=		\
 	irc		\
 	license		\
 	links		\
+	logos		\
+	logos_02	\
+	logos_03	\
 	maillist	\
 	mirrors		\
 	news		\
