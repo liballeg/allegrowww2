@@ -5,7 +5,6 @@ export LC_COLLATE=C
 
 TOP=$(pwd)
 PANDOC=${PANDOC:-pandoc}
-KEEP_TEMPS=${KEEP_TEMPS:-n}
 STYLESHEET=web_style.css
 
 check_for_pandoc () {
@@ -21,27 +20,17 @@ check_for_pandoc () {
     fi
 }
 
-template () {
+page_files () {
     local page="$1"
 
-    catnl inc.a.*
+    echo inc.a.*
     if test -d "$page"
     then
-        catnl $( revdatesort $page/* )
+        revdatesort $page/*
     else
-        catnl "$page"
+        echo "$page"
     fi
-    catnl inc.z.*
-}
-
-catnl () {
-    local x
-
-    for x in "$@"
-    do
-        cat "$x"
-        echo
-    done
+    echo inc.z.*
 }
 
 # Reverse any series of filenames containing dates.
@@ -99,15 +88,13 @@ test -d "$outdir" || mkdir "$outdir"
 
 cd "$indir"
 
-tmp=",,tmp.$inpage"
-template "$inpage" > "$tmp"
+page_files=$( page_files "$inpage" )
 title="$( get_title $inpage )"
-"$PANDOC" "$tmp" -T "$title" -c "$STYLESHEET" --standalone -o "$outpage"
 
-case "$KEEP_TEMPS" in
-    n*)
-        rm -f "$tmp"
-        ;;
-esac
+"$PANDOC" $page_files                   \
+    --title-prefix "$title"             \
+    --css "$STYLESHEET"                 \
+    --standalone                        \
+    --output "$outpage"
 
 # vim: ft=sh sts=4 sw=4 et:
