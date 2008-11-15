@@ -92,6 +92,7 @@ page_files=$( page_files "$inpage" )
 title="$( get_title $inpage )"
 
 "$PANDOC" $page_files                   \
+    --include-in-header inc.head        \
     --title-prefix "$title"             \
     --css "$STYLESHEET"                 \
     --standalone                        \

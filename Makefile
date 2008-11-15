@@ -18,7 +18,7 @@ PAGES :=		\
 	news		\
 	old		\
 	oldnews		\
-	readme      	\
+	readme		\
 	svn		\
 	webmasters	\
 	wip
@@ -28,7 +28,7 @@ INCLUDES := $(wildcard en/inc.*)
 OUTDIR := OUT
 OUTPAGES := $(addsuffix .html,$(addprefix $(OUTDIR)/,$(PAGES)))
 
-all: $(OUTPAGES) $(OUTDIR)/web_style.css
+all: $(OUTPAGES) $(OUTDIR)/web_style.css $(OUTDIR)/feed_atom.xml
 
 $(OUTDIR)/index.html: $(OUTDIR)/news.html
 	cp $< $@
@@ -38,6 +38,9 @@ $(OUTDIR)/%.html: en/% $(INCLUDES)
 
 $(OUTDIR)/web_style.css: en/web_style.css
 	cp $< $@
+
+$(OUTDIR)/feed_atom.xml: $(wildcard en/news/news.*)
+	./make_feed $^ > $(OUTDIR)/feed_atom.xml
 
 .PHONY: clean
 clean:
