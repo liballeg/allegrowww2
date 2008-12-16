@@ -6,14 +6,14 @@
 </td>
 
 <td class="title">
-A game programming library
+Una librería para programar videojuegos
 </td>
 
 <td align="right">
 
 <div class="sellang">
-[English](index.html)
-[español](es/index.html)
+[English](../index.html)
+[español](index.html)
 </div>
 
 <div class="search">
@@ -21,11 +21,11 @@ A game programming library
     <input name="query" value="" type="text"/>
     <select name="where">
 	<option selected="selected" value="api">API</option>
-	<option value="mail">Mail</option>
-	<option value="site">Site</option>
-	<option value="forum">Forum</option>
+	<option value="mail">Correo</option>
+	<option value="site">Esta web</option>
+	<option value="forum">Foros</option>
     </select>
-    <input name="submit" value="Search" type="submit"/>
+    <input name="submit" value="Buscar" type="submit"/>
 </form>
 </div>
 </td>

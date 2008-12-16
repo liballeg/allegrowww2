@@ -4,8 +4,13 @@
 
 set -e
 
-METAFILE="en/META.atom"
-HOMEPAGE="http://alleg.sourceforge.net/"
+LNG=${LNG:-en}
+
+METAFILE="${LNG}/META.atom"
+case $LNG in
+	en) HOMEPAGE="http://alleg.sourceforge.net/" ;;
+	*)  HOMEPAGE="http://alleg.sourceforge.net/${LNG}/" ;;
+esac
 
 rfc3339_date () {
 	date --rfc-3339=seconds "$@"

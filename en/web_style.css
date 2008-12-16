@@ -143,6 +143,11 @@ table td.content {
     margin:                 10em;
 }
 
+/* Languages */
+div.sellang {
+    font-size: 70%;
+}
+
 /* Search bar */
 div.search input {
     margin-top:		    4px;
