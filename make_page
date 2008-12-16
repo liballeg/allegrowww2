@@ -71,7 +71,10 @@ check_for_pandoc
 
 indir="$( dirname $1 )"
 inpage="$( basename $1 )"
-outdir="$( readlink -m $2 )"
+case "$2" in
+    /*) outdir="$2" ;;
+    *)  outdir="$PWD/$2" ;;
+esac
 outpage="${outdir}/${inpage}.html"
 
 # Sanity check that don't overwrite an input file by passing wrong args.
