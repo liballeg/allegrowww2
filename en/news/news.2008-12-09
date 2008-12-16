@@ -1,0 +1,18 @@
+## 2008-12-09 - Allegro 4.9.7.1 released!
+
+This is a Work-In-Progress (WIP) release for the future 5.0 branch. Here is a
+summary of the [changes] since version 4.9.6:
+
+* Made al_create_display() respect al_set_new_window_position() on OS X.
+* Properly implemented fullscreen resize in WGL.
+* Made the memory blenders work the same as the hardware ones.
+* Added al_inhibit_screensaver() for X and Mac OS X.
+* Made mouse cursor show/hide work with Mac OS X full screen.
+* Preserve comment and empty lines in config files when writing.
+* Add a simple interface layer for kcm_audio.
+* An optimisation for the TTF addon.
+* Many bug fixes.
+
+Get this new version from the [Download] section. Please test it and report
+problems and incompatibilities to the [mailing list] or the [SourceForge
+tracker]. 
