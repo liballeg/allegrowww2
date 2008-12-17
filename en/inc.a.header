@@ -11,10 +11,12 @@ A game programming library
 
 <td align="right">
 
+<!-- Hide language choices until at least one other translation is complete.
 <div class="sellang">
 [English](index.html)
 [español](es/index.html)
 </div>
+--> 
 
 <div class="search">
 <form action="http://alleg.sourceforge.net/search/search.py" method="get">
