@@ -49,9 +49,13 @@ emit_top () {
 }
 
 emit_entry () {
-	local file=$1
-	local uuid=$( grep "^$file uuid=" $METAFILE | cut -d= -f2- )
-	local date=$( grep "^$file date=" $METAFILE | cut -d= -f2- )
+	# Had some trouble with "local var=..." and dash so separate them.
+	local file
+	local uuid
+	local date
+	file=$1
+	uuid=$( grep "^$file uuid=" $METAFILE | cut -d= -f2- )
+	date=$( grep "^$file date=" $METAFILE | cut -d= -f2- )
 
 	if test -z "$uuid"
 	then
