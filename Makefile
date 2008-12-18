@@ -68,6 +68,8 @@ $(OUTDIR)/web_style.css: en/web_style.css
 $(OUTDIR)/feed_atom.xml: $(wildcard $(SRCDIR)/news/news.*)
 	./make_feed $^ > $(OUTDIR)/feed_atom.xml
 
+.DELETE_ON_ERROR: $(OUTDIR)/feed_atom.xml
+
 .PHONY: clean
 clean:
 	$(RM) -r $(OUTDIR)
