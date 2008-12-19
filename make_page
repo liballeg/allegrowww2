@@ -21,23 +21,19 @@ check_for_pandoc () {
 }
 
 page_files () {
-    local page="$1"
-
     echo inc.a.*
-    if test -d "$page"
+    if test -d "$1"
     then
-        revdatesort $page/*
+        revdatesort $1/*
     else
-        echo "$page"
+        echo "$1"
     fi
     echo inc.z.*
 }
 
 # Reverse any series of filenames containing dates.
-revdatesort () {
-    local acc=
-    local x
-
+revdatesort () {(
+    acc=
     for x in "$@"
     do
         case "$x" in
@@ -52,7 +48,7 @@ revdatesort () {
         esac
     done
     echo "$acc"
-}
+)}
 
 get_title () {
     grep -e "^$1=" "$TOP/en/META.title" | cut -d '=' -f 2-

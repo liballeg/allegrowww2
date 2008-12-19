@@ -17,10 +17,8 @@ rfc3339_date () {
 }
 
 # Reverse any series of filenames containing dates.
-revdatesort () {
-    local acc=
-    local x
-
+revdatesort () {(
+    acc=
     for x in "$@"
     do
         case "$x" in
@@ -35,7 +33,7 @@ revdatesort () {
         esac
     done
     echo "$acc"
-}
+)}
 
 emit_top () {
 	cat <<- EOF
@@ -48,11 +46,7 @@ emit_top () {
 	EOF
 }
 
-emit_entry () {
-	# Had some trouble with "local var=..." and dash so separate them.
-	local file
-	local uuid
-	local date
+emit_entry () {(
 	file=$1
 	uuid=$( grep "^$file uuid=" $METAFILE | cut -d= -f2- )
 	date=$( grep "^$file date=" $METAFILE | cut -d= -f2- )
@@ -76,7 +70,7 @@ emit_entry () {
 		<updated>$date</updated>
 	</entry>
 	EOF
-}
+)}
 
 emit_bottom () {
 	cat <<- EOF
