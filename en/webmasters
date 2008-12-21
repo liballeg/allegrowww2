@@ -1,29 +1,14 @@
 # Webmasters
 
-This web page is maintained by the following people, whom you can contact to
-send comments, questions, updates or communicate mistakes. Also, if you want to
-collaborate translating these web pages or mirroring them, just tell us, we
-will gladly accept any help you can offer. Before doing so, however, please
-take your time to read the following document, which explains how the
-translations are done through SVN:
-[webmaster_instructions.html](webmaster_instructions.html).  You don't need to
-read all of it, just the interesting parts, like how to work with SVN and what
-are the rules for translators. 
+This web page is maintained by some of the people developing Allegro. You
+can contact them using the [developers' mailing list](maillist.html).
 
-People currently in charge of a host or web translation in alphabetic order:
+Right now the web page and the mirrors are being heavily modified, with
+all the translations being dropped until the dust settles and the main
+page is sorted out. This means that the mirrors (both Talula and Sunsite)
+will be off sync.
 
-* Elias Pschernig: Maintains the German translation.
-* Eric Botcazou: Maintained the French translation.  Previously it
-  was maintained by Frédéric Lopez, who also had created the original web style.
-* Fabio Maria Carlucci and Marco Radaelli: Maintain the Italian translation.
-  Previously it was maintained by Angelo Mottola.
-* Grzegorz Adam Hankiewicz: Main webmaster, maintains the Spanish translation
-  and the Dotsrc mirror.
-* Grzegorz Godlewski: Maintained the Polish translation. Now this version is
-  orphan.
-* Petr Pavlů: Maintains the Czech translation.
-* Seunghwan Ji: Maintained the Korean translation. Now this version is orphan.
-* Shawn Hargreaves: Started Allegro, and maintains the Demon mirror. 
+Thanks to [Dotsrc] and [Shawn] for the web space and [SourceForge]
+for the web space and SVN server.
 
-Thanks to [Dotsrc] for the web space and [SourceForge] for the web space and
-SVN server.
+[Shawn]: http://www.talula.demon.co.uk/

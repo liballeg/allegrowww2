@@ -38,12 +38,12 @@ Allegro web page at SourceForge. The xml versions are generated with the
 `--verbose` switch, unlike the text versions. Note that these files include the
 whole repository history since it was started, and they may be very big. 
 
-* [ChangeLog-4.2.txt.gz](logs/ChangeLog-4.2.txt.gz)
-* [ChangeLog-4.2-extract.txt](logs/ChangeLog-4.2-extract.txt) (500 lines extract)
-* [ChangeLog-4.2.xml.gz](logs/ChangeLog-4.2.xml.gz)
-* [ChangeLog-4.3.txt.gz](logs/ChangeLog-4.3.txt.gz)
-* [ChangeLog-4.3-extract.txt](logs/ChangeLog-4.3-extract.txt) (500 lines extract)
-* [ChangeLog-4.3.xml.gz](logs/ChangeLog-4.3.xml.gz)
+* [ChangeLog-4.2.txt.gz](http://alleg.sourceforge.net/logs/ChangeLog-4.2.txt.gz)
+* [ChangeLog-4.2-extract.txt](http://alleg.sourceforge.net/logs/ChangeLog-4.2-extract.txt) (500 lines extract)
+* [ChangeLog-4.2.xml.gz](http://alleg.sourceforge.net/logs/ChangeLog-4.2.xml.gz)
+* [ChangeLog-4.3.txt.gz](http://alleg.sourceforge.net/logs/ChangeLog-4.3.txt.gz)
+* [ChangeLog-4.3-extract.txt](http://alleg.sourceforge.net/logs/ChangeLog-4.3-extract.txt) (500 lines extract)
+* [ChangeLog-4.3.xml.gz](http://alleg.sourceforge.net/logs/ChangeLog-4.3.xml.gz)
 
 The SVN repository also has a commit hook for [CIA], a system for tracking
 open-source projects in real-time. The CIA web interface may be easier to read

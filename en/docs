@@ -11,7 +11,7 @@ to contact the webmaster and report the change.
 :   Introduction to 3D concepts and annotated version of ex3d.c, by Tero
     Parvinen.
 
-[Pot of gold...](docs/truecolor_with_allegro.en.html)
+[Pot of gold...](http://alleg.sourceforge.net/docs/truecolor_with_allegro.en.html)
 :   Informations about how to use truecolor video modes.
 
 [Programming with Allegro and STL][] - [(copy)][Programming with Allegro and STL copy]
@@ -22,13 +22,13 @@ to contact the webmaster and report the change.
     posterior Allegro versions.
 
 [Programming with Allegro and STL]: http://www.ping.uio.no/~ovehk/allegro/
-[Programming with Allegro and STL copy]: docs/ovehk_stl_tutorial_en/index.html
+[Programming with Allegro and STL copy]: http://alleg.sourceforge.net/docs/ovehk_stl_tutorial_en/index.html
 [truecolor_bug]: http://sourceforge.net/mailarchive/message.php?msg_id=9570725
 
 [How To Program Games](http://www.glost.eclipse.co.uk/gfoot/htpg/)
 :   Tutorial/example series by George Foot.
 
-[Lighting Effects](docs/lighting_effects.en.html)
+[Lighting Effects](http://alleg.sourceforge.net/docs/lighting_effects.en.html)
 :   Some random musings about various possible approaches to realtime lighting.
 
 [Palette Reduction](http://gradha.sdf-eu.org/palopt/index.html)
@@ -38,10 +38,10 @@ to contact the webmaster and report the change.
 [Mysteries of ex3d.c](http://www.geocities.com/siliconvalley/vista/7336/mystex22.htm)
 :   A 3D tutorial by Robin Burrows.
 
-[Allegro Hacker's Guide](latestdocs/en/ahack.html)
+[Allegro Hacker's Guide](http://alleg.sourceforge.net/latestdocs/en/ahack.html)
 :   Information about various inner workings of the library code.
 
-[Portability Guidelines](docs/portability_guidelines.en.html)
+[Portability Guidelines](http://alleg.sourceforge.net/docs/portability_guidelines.en.html)
 :   Some suggestions about how to maximize the portability of your Allegro
     programs.
 
@@ -50,7 +50,7 @@ to contact the webmaster and report the change.
     Allegro demo program to illustrate the use of 3d texture mapped models.
     Includes an introduction to BSP-trees. Source code is also provided.
 
-[How to make a Pong game](docs/how_to_make_a_pong_game.en.html)
+[How to make a Pong game](http://alleg.sourceforge.net/docs/how_to_make_a_pong_game.en.html)
 :   Tutorial which explains creation of a Pong like game with [DJGPP] and
     Allegro.
 
@@ -64,7 +64,7 @@ to contact the webmaster and report the change.
 :   An online game developing magazine started sometime around March 2001 which
     keeps growing bigger and better with the help of the Allegro community.
 
-[Uploading files to SimTel](docs/uploading_to_simtel.en.html)
+[Uploading files to SimTel](http://alleg.sourceforge.net/docs/uploading_to_simtel.en.html)
 :   If you've written an Allegro add-on package, it would be a good idea to
     upload it to the Allegro directory on SimTel, so that it can be mirrored
     around the world, included on CD-ROM distributions, and will still be
@@ -74,7 +74,7 @@ to contact the webmaster and report the change.
 [The Allegro GUI Clinic](http://agdn.netfirms.com/main/gui/)
 :   Tutorial covering pretty much all of the GUI functions.
 
-[Graphical instructions to configure Visual Studio.Net with Allegro](docs/visual_studio_net_graphic_configuration.en.pdf) (pdf)
+[Graphical instructions to configure Visual Studio.Net with Allegro](http://alleg.sourceforge.net/docs/visual_studio_net_graphic_configuration.en.pdf) (pdf)
 :   Juan Carlos Ruiz Pacheco has contributed this graphical step by step guide
     on how to configure Visual Studio.Net to compile Allegro C programs.
 

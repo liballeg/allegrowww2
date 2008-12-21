@@ -103,11 +103,11 @@ Filename                        Size    Description
                                         **Only for Windows.**
 -----------------------------------------------------------------------------------------------------------------------
 
-[alldata.zip]:  files/alldata.zip
-[dx70_min.zip]: files/dx70_min.zip
-[dx70_mgw.zip]: files/dx70_mgw.zip
-[dx80_mgw.zip]: files/dx80_mgw.zip
-[dx70_dmc.zip]: files/dx70_dmc.zip
+[alldata.zip]:  http://alleg.sourceforge.net/files/alldata.zip
+[dx70_min.zip]: http://alleg.sourceforge.net/files/dx70_min.zip
+[dx70_mgw.zip]: http://alleg.sourceforge.net/files/dx70_mgw.zip
+[dx80_mgw.zip]: http://alleg.sourceforge.net/files/dx80_mgw.zip
+[dx70_dmc.zip]: http://alleg.sourceforge.net/files/dx70_dmc.zip
 
 ## Binary version (only for Windows)
 

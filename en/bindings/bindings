@@ -100,8 +100,7 @@ to contact the webmaster and report the change.
 [Scheme->C compiler bindings][scheme-a5]
 :   Bindings of Allegro 5 to three Scheme->C
     compilers ([CHICKEN], [Gambit-C] and [Bigloo]) written by Peter Wang, as a
-    proof-of-concept. Note that Allegro 5 is
-    [still under development](future.html).
+    proof-of-concept. Note that Allegro 5 is still under development.
 
 # Other
 

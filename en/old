@@ -4,26 +4,26 @@ These files are being made available for historical interest, and as reference
 material. They are unsupported, and for any serious programming work, you
 should get the most recent version instead. You can read the full changes log.
 
-[Allegro 1.02](files/allegro1.zip) (119k) - Sometime in 1995.
+[Allegro 1.02](http://alleg.sourceforge.net/files/allegro1.zip) (119k) - Sometime in 1995.
 
-[Allegro 2.0](files/alleg20.zip) (304k) - March 1996.
+[Allegro 2.0](http://alleg.sourceforge.net/files/alleg20.zip) (304k) - March 1996.
 
-[Allegro 2.1](files/alleg21.zip) (562k) - June 1996.
+[Allegro 2.1](http://alleg.sourceforge.net/files/alleg21.zip) (562k) - June 1996.
 
-[Allegro 2.11](files/alleg211.zip) (563k) - November 1996.
+[Allegro 2.11](http://alleg.sourceforge.net/files/alleg211.zip) (563k) - November 1996.
 
-[Allegro 2.2](files/alleg22.zip) (990k) - February 1997.
+[Allegro 2.2](http://alleg.sourceforge.net/files/alleg22.zip) (990k) - February 1997.
 
-[Allegro 3.0](files/alleg30.zip) (1225k) - December 1997.
+[Allegro 3.0](http://alleg.sourceforge.net/files/alleg30.zip) (1225k) - December 1997.
 
-[Allegro 3.1](files/alleg31.zip) (1422k) - January 1999.
+[Allegro 3.1](http://alleg.sourceforge.net/files/alleg31.zip) (1422k) - January 1999.
 
-[Allegro 3.11](files/alleg311.zip) (1434k) - February 1999.
+[Allegro 3.11](http://alleg.sourceforge.net/files/alleg311.zip) (1434k) - February 1999.
 If you still have an unmodified copy of the Allegro 3.11 distribution, you can
-upgrade to version 3.12 by installing [this patch](files/al312dif.zip) (15Kb).
+upgrade to version 3.12 by installing [this patch](http://alleg.sourceforge.net/files/al312dif.zip) (15Kb).
 Installation instructions can be found in the zip.
 
-[Allegro 3.12](files/alleg312.zip) (1434k) - August 1999.
+[Allegro 3.12](http://alleg.sourceforge.net/files/alleg312.zip) (1434k) - August 1999.
 This is a DOS/DJGPP library, and can be obtained from your [local Simtel
 mirror](mirrors.html#simtel), in the directory gnu/djgpp/v2tk/allegro/,
 filename alleg312.zip.
@@ -63,37 +63,37 @@ is on the right.
 
 <table border="0" cellspacing="0" cellpadding="0"><tr><td>
 <ul>
-<li><a href="files/all3910_diff.zip" title="md5: 081c1d50c6d51c60b82c8d2b77526455">all3910_diff.zip</a> (37k)</li>
-<li><a href="files/all3911_diff.zip" title="md5: 6d8195dc9d21ffc464f26cf3c9865640">all3911_diff.zip</a> (112k)</li>
-<li><a href="files/all3912_diff.zip" title="md5: 95b1abd3411f4090908f622cfceb61eb">all3912_diff.zip</a> (423k)</li>
+<li><a href="http://alleg.sourceforge.net/files/all3910_diff.zip" title="md5: 081c1d50c6d51c60b82c8d2b77526455">all3910_diff.zip</a> (37k)</li>
+<li><a href="http://alleg.sourceforge.net/files/all3911_diff.zip" title="md5: 6d8195dc9d21ffc464f26cf3c9865640">all3911_diff.zip</a> (112k)</li>
+<li><a href="http://alleg.sourceforge.net/files/all3912_diff.zip" title="md5: 95b1abd3411f4090908f622cfceb61eb">all3912_diff.zip</a> (423k)</li>
 
-<li><a href="files/all3913_diff.zip" title="md5: 73a0d086fc75e075c57cb5e91653d3f7">all3913_diff.zip</a> (19k)</li>
-<li><a href="files/all3914_diff.zip" title="md5: 4374278beca6685452d70d03627abdf2">all3914_diff.zip</a> (58k)</li>
-<li><a href="files/all3915_diff.zip" title="md5: d2968d1b418bb5a9072449b50e4a522e">all3915_diff.zip</a> (237k)</li>
+<li><a href="http://alleg.sourceforge.net/files/all3913_diff.zip" title="md5: 73a0d086fc75e075c57cb5e91653d3f7">all3913_diff.zip</a> (19k)</li>
+<li><a href="http://alleg.sourceforge.net/files/all3914_diff.zip" title="md5: 4374278beca6685452d70d03627abdf2">all3914_diff.zip</a> (58k)</li>
+<li><a href="http://alleg.sourceforge.net/files/all3915_diff.zip" title="md5: d2968d1b418bb5a9072449b50e4a522e">all3915_diff.zip</a> (237k)</li>
 
-<li><a href="files/all3916_diff.zip" title="md5: 9691a9b3cdcd7ab78692b34b107fee82">all3916_diff.zip</a> (132k)</li>
-<li><a href="files/all3917_diff.zip" title="md5: e81205e86277edf5ffb1d31cf1ef5828">all3917_diff.zip</a> (59k)</li>
-<li><a href="files/all3918_diff.zip" title="md5: effe3c822ee6446b4f305809d2377050">all3918_diff.zip</a> (97k)</li>
+<li><a href="http://alleg.sourceforge.net/files/all3916_diff.zip" title="md5: 9691a9b3cdcd7ab78692b34b107fee82">all3916_diff.zip</a> (132k)</li>
+<li><a href="http://alleg.sourceforge.net/files/all3917_diff.zip" title="md5: e81205e86277edf5ffb1d31cf1ef5828">all3917_diff.zip</a> (59k)</li>
+<li><a href="http://alleg.sourceforge.net/files/all3918_diff.zip" title="md5: effe3c822ee6446b4f305809d2377050">all3918_diff.zip</a> (97k)</li>
 
-<li><a href="files/all3919_diff.zip" title="md5: a3bb6f08cb6d01f809c5e038140de539">all3919_diff.zip</a> (169k)</li>
-<li><a href="files/all3920_diff.zip" title="md5: 43db55ae1e0d0c3b9335dcc431683a51">all3920_diff.zip</a> (137k)</li>
-<li><a href="files/all3921_diff.zip" title="md5: fa9077c7eb04b8be4d2b81a96bc507ce">all3921_diff.zip</a> (125k)</li>
+<li><a href="http://alleg.sourceforge.net/files/all3919_diff.zip" title="md5: a3bb6f08cb6d01f809c5e038140de539">all3919_diff.zip</a> (169k)</li>
+<li><a href="http://alleg.sourceforge.net/files/all3920_diff.zip" title="md5: 43db55ae1e0d0c3b9335dcc431683a51">all3920_diff.zip</a> (137k)</li>
+<li><a href="http://alleg.sourceforge.net/files/all3921_diff.zip" title="md5: fa9077c7eb04b8be4d2b81a96bc507ce">all3921_diff.zip</a> (125k)</li>
 
-<li><a href="files/all3922_diff.zip" title="md5: 1bd3fb469e9581e272ba3a179125d1f0">all3922_diff.zip</a> (100k)</li>
-<li><a href="files/all3923_diff.zip" title="md5: 115b768834d8341a37c752df1681cf66">all3923_diff.zip</a> (69k)</li>
-<li><a href="files/all3924_diff.zip" title="md5: 425ecac62a1a3b6534d0e1c46c7e5149">all3924_diff.zip</a> (8k)</li>
+<li><a href="http://alleg.sourceforge.net/files/all3922_diff.zip" title="md5: 1bd3fb469e9581e272ba3a179125d1f0">all3922_diff.zip</a> (100k)</li>
+<li><a href="http://alleg.sourceforge.net/files/all3923_diff.zip" title="md5: 115b768834d8341a37c752df1681cf66">all3923_diff.zip</a> (69k)</li>
+<li><a href="http://alleg.sourceforge.net/files/all3924_diff.zip" title="md5: 425ecac62a1a3b6534d0e1c46c7e5149">all3924_diff.zip</a> (8k)</li>
 
-<li><a href="files/all3925_diff.zip" title="md5: de9a53d3a414a26afa427f61c00328cf">all3925_diff.zip</a> (143k)</li>
-<li><a href="files/all3926_diff.zip" title="md5: b6c365bc8b7867c41d4816dd1af85cf9">all3926_diff.zip</a> (71k)</li>
-<li><a href="files/all3927_diff.zip" title="md5: 637d45379484b39799bfd4d2bee69db5">all3927_diff.zip</a> (94k)</li>
+<li><a href="http://alleg.sourceforge.net/files/all3925_diff.zip" title="md5: de9a53d3a414a26afa427f61c00328cf">all3925_diff.zip</a> (143k)</li>
+<li><a href="http://alleg.sourceforge.net/files/all3926_diff.zip" title="md5: b6c365bc8b7867c41d4816dd1af85cf9">all3926_diff.zip</a> (71k)</li>
+<li><a href="http://alleg.sourceforge.net/files/all3927_diff.zip" title="md5: 637d45379484b39799bfd4d2bee69db5">all3927_diff.zip</a> (94k)</li>
 
-<li><a href="files/all3928_diff.zip" title="md5: b75473eac11b6b215f0a30a231601de3">all3928_diff.zip</a> (140k)</li>
-<li><a href="files/all3929_diff.zip" title="md5: 2a77e44cd19c1a2f883ccc1a6cb03135">all3929_diff.zip</a> (248k)</li>
-<li><a href="files/all3930_diff.zip" title="md5: 43c5c1647ac2577c58cea3d09459203b">all3930_diff.zip</a> (82k)</li>
+<li><a href="http://alleg.sourceforge.net/files/all3928_diff.zip" title="md5: b75473eac11b6b215f0a30a231601de3">all3928_diff.zip</a> (140k)</li>
+<li><a href="http://alleg.sourceforge.net/files/all3929_diff.zip" title="md5: 2a77e44cd19c1a2f883ccc1a6cb03135">all3929_diff.zip</a> (248k)</li>
+<li><a href="http://alleg.sourceforge.net/files/all3930_diff.zip" title="md5: 43c5c1647ac2577c58cea3d09459203b">all3930_diff.zip</a> (82k)</li>
 
-<li><a href="files/all3931_diff.zip" title="md5: 178cb87eb7d0c794dc0849d67b31b762">all3931_diff.zip</a> (134k)</li>
-<li><a href="files/all3932_diff.zip" title="md5: b5f7a2e07768d9f5518512c8b1d7c063">all3932_diff.zip</a> (139k)</li>
-<li><a href="files/all3933_diff.zip" title="md5: 4cebacce12b85e7611f613182af6d6ac">all3933_diff.zip</a> (163k)</li>
+<li><a href="http://alleg.sourceforge.net/files/all3931_diff.zip" title="md5: 178cb87eb7d0c794dc0849d67b31b762">all3931_diff.zip</a> (134k)</li>
+<li><a href="http://alleg.sourceforge.net/files/all3932_diff.zip" title="md5: b5f7a2e07768d9f5518512c8b1d7c063">all3932_diff.zip</a> (139k)</li>
+<li><a href="http://alleg.sourceforge.net/files/all3933_diff.zip" title="md5: 4cebacce12b85e7611f613182af6d6ac">all3933_diff.zip</a> (163k)</li>
 
 <li><a href="http://prdownloads.sourceforge.net/alleg/all3934_diff.zip?download" title="md5: 100d2e9104f3c0dcf3930ed7f65f3022">all3934_diff.zip</a> (301k)</li>
 <li><a href="http://prdownloads.sourceforge.net/alleg/all3935_diff.zip?download" title="md5: d8919027082519bce684dfdf369fc852">all3935_diff.zip</a> (244k)</li>
