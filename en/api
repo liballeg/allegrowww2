@@ -39,7 +39,7 @@ gzipped format        (536 KiB)           (536 KiB)
 The online version of the Allegro 3.12 and WIP docs, and various versions of
 the sources, provided by Štěpán Roh.
 
-[Allegro.cc's version of the manual](http://www.allegro.cc/manual) -
+[Allegro.cc's version of the manual](http://www.allegro.cc/manual/) -
 <br/>
 Allegro's makedoc tool is not the only way to produce documentation. Matthew
 Leverton has created his own online version with a different style and URL

@@ -49,7 +49,7 @@ The SVN repository also has a commit hook for [CIA], a system for tracking
 open-source projects in real-time. The CIA web interface may be easier to read
 than the above logs, provides an RSS feed and notifications in the `#commits`
 channel on the [Freenode] IRC network. You can monitor Allegro activity at
-<http://cia.navi.cx/stats/project/alleg>.
+<http://cia.vc/stats/project/alleg>.
 
-[CIA]:	    http://cia.navi.cx/
+[CIA]:	    http://cia.vc/
 [Freenode]: http://freenode.org/

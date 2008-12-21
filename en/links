@@ -13,19 +13,15 @@ to contact the webmaster and report the change.
 [GameDev.net](http://www.gamedev.net/columns/interviews/shargreaves.asp)
 - An Interview With Shawn Hargreaves.
 
-[Linux Today](http://linuxtoday.com/news_story.php3?ltsn=1999-07-05-003-10-NW-LF)
+[Linux Today](http://www.linuxtoday.com/news_story.php3?ltsn=1999-07-05-003-10-NW-LF)
 - Playing the Open Source Game (05/07/1999).
 [Here you have the original copy by Shawn](http://www.talula.demon.co.uk/games.html).
 
 ## Competitions
 
-[Allegro Games Competition II](http://www.grandgent.com/allegro/agc/)
-
 [The Allegro SpeedHack 1999](http://www.speedhack.allegro.cc/1999)
 
 [The Allegro SizeHack 2000](http://www.geocities.com/trentgamblin/sizehack/)
-
-[The Allegro DemoHack 2000](http://www.geocities.com/thagrudge/demohack.html)
 
 [The Allegro SpeedHack 2001](http://www.speedhack.allegro.cc/2001)
 
@@ -198,7 +194,7 @@ VESA 3.0 and adds the ability to use 2D hardware acceleration in an efficient
 and portable manner, meaning drivers can work under DOS and Linux depending on
 how they are written.
 
-[The Graphic File Formats Page](http://www.dcs.ed.ac.uk/home/mxr/gfx/index-hi.html)
+[The Graphic File Formats Page](http://www.martinreddy.net/gfx/index-hi.html)
 - A good repository of file formats. 2D bitmap
 specifications, 3D geometry and animation specifications, utils, infos,
 resources, FAQs...
