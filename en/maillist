@@ -26,10 +26,7 @@ Name                            Subscribe           Archives
 [[SVN]][4]      Allegro         [(Un)Subscribe][4s] [Search/Browse archives][4a]
                 Commits
 
-[[SVN]][5]      Allegrowww      [(Un)Subscribe][5s] [Search/Browse archives][5a]
-                Commits
-
-[[AGP]][6]      Allegro
+[[AGP]][5]      Allegro
                 Game
                 Programming
 --------------------------------------------------------------------------------
@@ -38,8 +35,7 @@ Name                            Subscribe           Archives
 [2]: #AD
 [3]: #A5
 [4]: #ALLEGCOMMIT
-[5]: #ALLEGWWWCOMMIT
-[6]: #AGP
+[5]: #AGP
 [1s]: http://lists.sourceforge.net/lists/listinfo/alleg-main/
 [1a]: http://sourceforge.net/mailarchive/forum.php?forum_name=alleg-main
 [2s]: http://lists.sourceforge.net/lists/listinfo/alleg-developers/
@@ -47,8 +43,6 @@ Name                            Subscribe           Archives
 [3a]: http://sourceforge.net/mailarchive/forum.php?forum_name=alleg-bigfive
 [4s]: http://lists.sourceforge.net/mailman/listinfo/alleg-commits
 [4a]: http://sourceforge.net/mailarchive/forum.php?forum_name=alleg-commits
-[5s]: http://lists.sourceforge.net/mailman/listinfo/alleg-www-commits
-[5a]: http://sourceforge.net/mailarchive/forum.php?forum_name=alleg-www-commits
 
 [Notes about mailing list usage](#NOTES)
 
@@ -117,21 +111,6 @@ Allegro's cvs sources, a mail notification is sent to this list along with the
 log message and the changes diff file. You can use this list to watch progress
 on what is being done by who. Allegro developers are encouraged to subscribe to
 this list, since not all modifications are mentioned on the AD list.
-
-\[SVN] Allegrowww Commits <a name="ALLEGWWWCOMMIT"></a>
--------------------------
-
-<blockquote>
-[Subscribe/Unsubscribe][5s]. [Search/Browse archives][5a].
-</blockquote>
-
-This is a read only notification mailing list. Web updates are done through the
-cvs allegrowww module by webmasters, and every time the web module is modified,
-a mail notification is sent to this list along with the log message and the
-changes diff file. You can use this list to watch progress on what is being
-done by who. Allegro webmasters are encouraged to subscribe to this list in
-order to know what changes in the english version, so they can update the
-translations they maintain accordingly.
 
 \[AGP] Allegro Game Programming <a name="AGP"></a>
 -------------------------------
