@@ -11,7 +11,7 @@ Page **1** -
 
 <center>
     <img src="images/logos/cooltextUtopia128.png" width="432" height="134"
-    vspace="1" hspace="1" alt="Big Allegro logo"/>
+    vspace="1" hspace="1" alt="[Big Allegro logo]"/>
 </center>
 
 <img src="images/alex.png" width="48" height="48" align="left" vspace="2"
@@ -25,8 +25,18 @@ credits.
 It was created using the 128 pixels Utopia font,
 <font color="#6495ed">with `#6495ed` as the text color</font> and
 `#ffffff` as the hightlight color.
+
+<center>
+    <img src="images/logos/cooltext_small.png" alt="[Small Allegro logo]"/>
+</center>
+
 The top left corner logo may not look the same, but that's because the
-shadows and hightlight change slightly with different font sizes.
+shadows and hightlight change slightly with different font sizes. It
+looked like above for a long time, but it seems now the cooltext site
+changed so we couldn't reproduce a version of the logo without the
+white box behind it. Therefore it was recreated programmatically with
+an A5 program.
+
 See the little green guy to the left? He's Alex the Allegator, and
 since version 4.0 he is included with Allegro in `misc/alex.xpm`.
 It was drawn by [Johan Peitz].
