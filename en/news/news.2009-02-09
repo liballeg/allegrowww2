@@ -1,0 +1,25 @@
+## 2009-02-09 - Allegro 4.9.8 released!
+
+This is a Work-In-Progress (WIP) release for the future 5.0 branch. Here is a
+summary of the [changes] since version 4.9.7.1:
+
+* Rationalised file system hook functions.
+* Added many path functions.
+* Added a UTF-8 string API.
+* Added an al_get_opengl_texture() convenience function.
+* Added separate alpha blending.
+* Added ALLEGRO_PIXEL_FORMAT_ANY.
+* Support ALLEGRO_EVENT_MOUSE_ENTER/LEAVE_DISPLAY events in Windows.
+* Added a primitives addon.
+* Added a colors addon.
+* Revamped kcm_audio interface.
+* Added native .wav support and save sample routines to acodec addon.
+* Added memory file addon and example.
+* Added al_ttf_get_text_dimensions() function.
+* Allow specifying the font size more precisely in TTF addon.
+* Added a new documentation system with lots of new documentation.
+* Many bug fixes.
+
+Get this new version from the [Download][download 4.9] section.
+Please test it and report problems and incompatibilities to the [mailing list]
+or the [SourceForge tracker].
