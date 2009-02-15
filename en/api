@@ -11,8 +11,8 @@ version too.
 -------------------------------------------------------------------------------
 File format           Stable branch       Unstable branch     Allegro 5 
 --------------------- ------------------- ------------------- -----------------
-Compiled HTML         [4.2.1][st chm]
-format (CHM)          (913 KiB)
+Compiled HTML         [4.2.1][st chm]     [4.3.10][un chm]
+format (CHM)          (913 KiB)           (on allegro.cc)
                      
 Online HTML           [4.2.2][st ol]      [4.3.10][un ol]     [4.9.x][a5 ol]
                      
@@ -28,6 +28,7 @@ gzipped format        (536 KiB)           (536 KiB)
 [st pdf]: http://prdownloads.sourceforge.net/alleg/allegro-manual-4.2.1.en.pdf?download
 [st ps]:  http://prdownloads.sourceforge.net/alleg/allegro-manual-4.2.1.en.ps.gz?download
 
+[un chm]: http://www.allegro.cc/files/attachment/597776
 [un ol]:  http://alleg.sourceforge.net/latestdocs/en/index.html
 [un pdf]: http://prdownloads.sourceforge.net/alleg/allegro-manual-4.3.0.en.pdf?download
 [un ps]:  http://prdownloads.sourceforge.net/alleg/allegro-manual-4.3.0.en.ps.gz?download
