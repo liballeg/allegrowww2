@@ -52,14 +52,14 @@
 <br/>
 Hosted by:
 <br/>
-<a href="http://sourceforge.net/">
-    <img alt="SourceForge"
-	src="http://sourceforge.net/sflogo.php?group_id=5665&amp;type=1"
-	border="0" height="31" width="88" />
+<a href="http://sourceforge.net/projects/alleg">
+    <img src="http://sflogo.sourceforge.net/sflogo.php?group_id=5665&type=13"
+	width="120" height="30" border="0"
+	alt="Get Allegro game programming library at SourceForge.net. Fast, secure and Free Open Source software downloads" />
 </a>
 <br/>
 <font face="helvetica,verdana" size="-2">
-[Project page](http://www.sourceforge.net/projects/alleg/)
+[Project page](http://sourceforge.net/projects/alleg/)
 </font>
 </center>
 
