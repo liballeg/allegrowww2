@@ -1,0 +1,10 @@
+## 2009-03-25 - Allegro 4.9.9.1 released!
+
+This is a Work-In-Progress (WIP) release for the future 5.0 branch. Here is a
+summary of the [changes] since version 4.9.9:
+
+-  Made it compile and work with MSVC and MinGW 3.4.5.
+
+Get this new version from the [Download][download 4.9] section.
+Please test it and report problems and incompatibilities to the [mailing list]
+or the [SourceForge tracker].
