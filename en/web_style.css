@@ -1,7 +1,7 @@
 body {
-    margin: auto;
-    padding-right: 1em;
-    padding-left: 1em;
+    margin: 0em;
+    padding-right: 0em;
+    padding-left: 0em;
     /*
     border-left: 1px solid #e0e0e0;
     border-right: 1px solid #e0e0e0;
@@ -68,8 +68,6 @@ dd p {
 
 table {
     background-color: #f8f8fa;
-    border-top: 1px solid #e0e0e0;
-    border-bottom: 1px solid #e0e0e0;
 }
 
 table th {
@@ -85,6 +83,10 @@ table td {
 
 tr.odd {
     background-color: #f0f0f0;
+}
+
+table.top {
+    border-bottom: 1px solid #e0e0e0;
 }
 
 table.white {
