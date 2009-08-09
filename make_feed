@@ -13,7 +13,8 @@ case $LNG in
 esac
 
 rfc3339_date () {
-	date --rfc-3339=seconds "$@"
+	# Validators say that T must be used as date-time separator.
+	date --rfc-3339=seconds "$@" | tr ' ' 'T'
 }
 
 # Reverse any series of filenames containing dates.
@@ -41,6 +42,7 @@ emit_top () {
 	<feed xmlns="http://www.w3.org/2005/Atom">
 		<title>Allegro news</title>
 		<link href="$HOMEPAGE"/>
+		<link rel="self" href="$HOMEPAGE/feed_atom.xml"/>
 		<updated>$( rfc3339_date )</updated>
 		<id>urn:uuid:661257c2-82a0-4510-b2be-0f6b010807b9</id>
 	EOF
@@ -65,6 +67,7 @@ emit_entry () {(
 	cat <<- EOF
 	<entry>
 		<title>$title</title>
+		<author><name>Allegro developers</name></author>
 		<link href="$HOMEPAGE"/>
 		<id>urn:uuid:$uuid</id>
 		<updated>$date</updated>
