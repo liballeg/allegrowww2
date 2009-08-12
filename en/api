@@ -9,12 +9,13 @@ versions of the generated documentation, and provide an online browseable
 version too.
 
 -------------------------------------------------------------------------------
-File format           Stable branch       Unstable branch     Allegro 5 
+File format           Stable branch       Unstable branch     Allegro 4.9
 --------------------- ------------------- ------------------- -----------------
 Compiled HTML         [4.2.1][st chm]     [4.3.10][un chm]
 format (CHM)          (913 KiB)           (on allegro.cc)
                      
-Online HTML           [4.2.2][st ol]      [4.3.10][un ol]     [4.9.x][a5 ol]
+Online HTML           [4.2.2][st ol]      [4.3.10][un ol]     [SVN][a5svn ol] /
+                                                              [4.9.x][a5rel ol]
                      
 PDF format            [4.2.1][st pdf]     [4.3.0][un pdf]
                       (2769 KiB)          (2769 KiB)
@@ -33,7 +34,8 @@ gzipped format        (536 KiB)           (536 KiB)
 [un pdf]: http://prdownloads.sourceforge.net/alleg/allegro-manual-4.3.0.en.pdf?download
 [un ps]:  http://prdownloads.sourceforge.net/alleg/allegro-manual-4.3.0.en.ps.gz?download
 
-[a5 ol]:  http://alleg.sourceforge.net/a5docs/refman/index.html
+[a5svn ol]:  http://alleg.sourceforge.net/a5docs/refman/index.html
+[a5rel ol]:  http://alleg.sourceforge.net/a5docs/
 
 [Online Documentation and Source Browser](http://srnet.cz/~stepan/allegro/) -
 <br/>
