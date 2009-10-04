@@ -1,0 +1,26 @@
+## 2007-10-04 - Allegro 4.2.3 released!
+
+This is an bug fix release for Allegro 4.2.
+Here is a list of the principal changes since version 4.2.2:
+
+*  Fix fnstsw compile bug with newer binutils.
+*  Trent Gamblin made a small change to the Windows mouse driver to add
+   support for touchscreens (at least 1 of them).
+*  Peter De Wachter made the ALSA driver work for hardware which does not
+   support unsigned samples.
+*  Matthew Leverton fixed a problem with filename encoding and the SYSTEM_NONE
+   driver.  Added set_filename_encoding(), get_filename_encoding().
+*  Milan Mimica made the MinGW and MSVC makefiles add the suffix "_c" onto
+   non-asm builds, and clarified that user programs linking against the
+   non-asm libraries must also defined ALLEGRO_USE_C.  Mixing calling
+   conventions causes segfaults when functions are inlined.
+*  AJ added detection for SSSE3, SSE4.1 and SSE4.2
+*  David A. Capello made key_shifts work properly on Windows for Control,
+   Alt, and Shift.
+*  Clarified that set_config_file() does not search for the given config file
+   in other locations, as Allegro does with allegro.cfg at initialization.
+*  Fixed buffer overflow in exgui.
+*  Fixed problems with newer versions of autoconf.
+
+Get this new version from the [Download] section. Please test it and report
+problems and incompatibilities to the mailing list or the SourceForge tracker. 

@@ -24,26 +24,26 @@ of the supported platforms. These exist as individual .txt files in the
 [API documentation](api.html) section and go through the online HTML version's
 readme which includes pointers to build instructions. 
 
-## Stable branch 4.2.2 source releases
+## Stable branch 4.2.3 source releases
 
 -----------------------------------------------------------------------------------------------------------------------
 Filename                        Size    Description
 ------------------------------- ------- -------------------------------------------------------------------------------
-[all422.zip]                      3784k Source code for all platforms in
+[all423.zip]                       3.8M Source code for all platforms in
                                         DOS/Windows friendly format.
 
-[allegro-4.2.2.tar.gz]            3104k Source code for all platforms in Unix
+[allegro-4.2.3.tar.gz]             3.1M Source code for all platforms in Unix
                                         friendly format.
 
-[all422_diff.zip]                  605k This file is a diff that can be
+[all423_diff.zip]                  139k This file is a diff that can be
                                         installed over a clean copy of the
-                                        **4.2.1** version of Allegro to update it
+                                        **4.2.2** version of Allegro to update it
                                         to the current version.  There are more
                                         of these diffs for older versions as
                                         well as instructions to apply them
                                         here.
 
-[allegro-enduser-4.2.2.tar.gz]     856k This version contains the base library,
+[allegro-enduser-4.2.3.tar.gz]     863k This version contains the base library,
                                         without documentation or example
                                         programs. It's targeted at those who
                                         want to run Allegro programs written by
@@ -53,10 +53,10 @@ Filename                        Size    Description
                                         **Only for Linux/Unix.**
 -----------------------------------------------------------------------------------------------------------------------
 
-[all422.zip]:                           http://prdownloads.sourceforge.net/alleg/all422.zip?download
-[allegro-4.2.2.tar.gz]:                 http://prdownloads.sourceforge.net/alleg/allegro-4.2.2.tar.gz?download
-[all422_diff.zip]:                      http://prdownloads.sourceforge.net/alleg/all422_diff.zip?download
-[allegro-enduser-4.2.2.tar.gz]:         http://prdownloads.sourceforge.net/alleg/allegro-enduser-4.2.2.tar.gz?download
+[all423.zip]:                           http://sourceforge.net/projects/alleg/files/allegro/4.2.3/all423.zip/download
+[allegro-4.2.3.tar.gz]:                 http://sourceforge.net/projects/alleg/files/allegro/4.2.3/allegro-4.2.3.tar.gz/download
+[all423_diff.zip]:                      http://sourceforge.net/projects/alleg/files/allegro/4.2.3/all423_diff.zip/download
+[allegro-enduser-4.2.3.tar.gz]:         http://sourceforge.net/projects/alleg/files/allegro/4.2.3/allegro-enduser-4.2.3.tar.gz/download
 
 ## Developmental branch source releases
 
