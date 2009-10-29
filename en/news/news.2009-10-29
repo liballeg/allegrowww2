@@ -1,0 +1,7 @@
+## 2007-10-29 - Allegro 4.2.3.1 released!
+
+This is a minor update to allow Allegro 4.2.3 to compile on Mac OS X 10.6.
+There are no other changes.
+
+Get this new version from the [Download] section. Please test it and report
+problems and incompatibilities to the mailing list or the SourceForge tracker.
