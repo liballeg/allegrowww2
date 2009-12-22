@@ -20,9 +20,8 @@ differences between releases.
 
 The main source downloads include instructions on how to build Allegro for each
 of the supported platforms. These exist as individual .txt files in the
-`docs/build` subdirectory. You can also access them online if you go to the
-[API documentation](api.html) section and go through the online HTML version's
-readme which includes pointers to build instructions. 
+`docs/build` subdirectory. You can also access them
+[online](stabledocs/en/build/) (for 4.4.x).
 
 ## Stable branch 4.4.0 source releases
 
