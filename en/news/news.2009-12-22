@@ -1,0 +1,16 @@
+## 2009-12-22 - Allegro 4.4.0 released!
+
+This is the first release of the 4.4 branch, which is backwards compatible with
+the stable 4.2 branch, and the intended successor.  The main change is that the
+following addons are bundled in, so you do not have to hunt them down and
+install them separately: [AllegroGL], [loadpng], [JPGalleg], [logg].  We have
+also switched over to the [CMake] build system, which we have been using for
+the unstable 4.9 branch.  See the full list of [changes][changes 4.4].
+
+Unfortunately, Allegro 4.4.0 does *not* support DOS, BeOS/Haiku or QNX.
+We welcome interested parties to restore support for any of these platforms.
+For Haiku/QNX, it should be a simply matter of updating the build system.
+
+Get this new version from the [Download] section.
+Please test it and report problems and incompatibilities to the [mailing list]
+or the [SourceForge tracker].
