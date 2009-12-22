@@ -1,17 +1,20 @@
 # Latest version
 
-The latest version works under **DOS**, **Unix** (Linux, FreeBSD, Irix,
-Solaris, Darwin), **Windows**, **BeOS**, **QNX** and **MacOS X**.  You can
+The latest stable version (4.4.x) works under **Unix** (Linux, FreeBSD, etc.),
+**Windows** and **MacOS X**. The previous stable version (4.2.x) also works
+under **DOS**, **BeOS** and **QNX**. You can
 read the [full change log](changes.html).  If you prefer upgrading through
 diffs from a previous version, check the [older versions page](old.html).
 If you want to get Allegro through SVN, [check the SVN page](svn.html).
 You can also download weekly SVN snapshots from this page if you can't use SVN
 directly. 
 
-There is a stable branch and a developmental branch. Use the stable branch for
-your software final versions and please try the developmental one for every day
-work, in order to enjoy all the improvements and help testing code before it's
-marked safe and stable. Since version 3.12, Allegro has adopted the same
+There is a stable branch and a developmental branch. Currently the
+developmental branch refers to the 4.9.x branch, leading to Allegro 5, which
+has a completely different API. If you are looking for the classical Allegro API,
+you want either the 4.4.x branch or the 4.2.x branch.
+
+Since version 3.12, Allegro has adopted the same
 numbering scheme as the Linux kernel, which uses three numbers. The first
 number indicates a major version. Differences here usually mean that a lot of
 things have changed. The second number indicates if the release is stable (even
@@ -75,11 +78,8 @@ Filename                        Size    Description
 
 ## Developmental branch source releases
 
-[Download 4.4.0RC1 from SourceFourge][4.4.0rc1]
-
 [Download 4.9.x from Sourceforge][4.9.x]
 
-[4.4.0rc1]: http://sourceforge.net/projects/alleg/files/allegro-prerelease/4.4.0-rc1/
 [4.9.x]:    http://sourceforge.net/projects/alleg/files/allegro-unstable/
 
 ## Miscellaneous files

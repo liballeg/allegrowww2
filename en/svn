@@ -15,6 +15,10 @@ modifications in order to send patches. Example:
 
 (for the stable 4.2 branch)
 
+    svn co https://alleg.svn.sourceforge.net/svnroot/alleg/allegro/branches/4.4
+
+(for the stable 4.4 branch)
+
     svn co https://alleg.svn.sourceforge.net/svnroot/alleg/allegro/branches/4.9
 
 (for the unstable 4.9 branch)
@@ -27,29 +31,12 @@ should be there (except the allegrowww module).
 If you need write access to the Subversion tree, please ask for it on the
 Allegro development mailing list. 
 
-The snapshots of the Allegro SVN are generated dynamically only at Sourceforge,
-and this means that you will have to go there to download them. Please follow
-this link: <http://alleg.sourceforge.net/svn.html>.
-
 ## Changelogs of the Subversion tree
 
-Change logs for the SVN repository are generated every hour and uploaded to the
-Allegro web page at SourceForge. The xml versions are generated with the
-`--verbose` switch, unlike the text versions. Note that these files include the
-whole repository history since it was started, and they may be very big. 
-
-* [ChangeLog-4.2.txt.gz](http://alleg.sourceforge.net/logs/ChangeLog-4.2.txt.gz)
-* [ChangeLog-4.2-extract.txt](http://alleg.sourceforge.net/logs/ChangeLog-4.2-extract.txt) (500 lines extract)
-* [ChangeLog-4.2.xml.gz](http://alleg.sourceforge.net/logs/ChangeLog-4.2.xml.gz)
-* [ChangeLog-4.3.txt.gz](http://alleg.sourceforge.net/logs/ChangeLog-4.3.txt.gz)
-* [ChangeLog-4.3-extract.txt](http://alleg.sourceforge.net/logs/ChangeLog-4.3-extract.txt) (500 lines extract)
-* [ChangeLog-4.3.xml.gz](http://alleg.sourceforge.net/logs/ChangeLog-4.3.xml.gz)
-
 The SVN repository also has a commit hook for [CIA], a system for tracking
-open-source projects in real-time. The CIA web interface may be easier to read
-than the above logs, provides an RSS feed and notifications in the `#commits`
-channel on the [Freenode] IRC network. You can monitor Allegro activity at
-<http://cia.vc/stats/project/alleg>.
+open-source projects in real-time. The CIA web interface provides an RSS feed
+and notifications in the `#commits` channel on the [Freenode] IRC network. You
+can monitor Allegro activity at <http://cia.vc/stats/project/alleg>.
 
 [CIA]:	    http://cia.vc/
 [Freenode]: http://freenode.org/
