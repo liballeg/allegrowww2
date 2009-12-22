@@ -8,31 +8,26 @@ makefile targets which build special formats. Here, we host some popular
 versions of the generated documentation, and provide an online browseable
 version too.
 
--------------------------------------------------------------------------------
-File format           Stable branch       Unstable branch     Allegro 4.9
---------------------- ------------------- ------------------- -----------------
-Compiled HTML         [4.2.1][st chm]     [4.3.10][un chm]
-format (CHM)          (913 KiB)           (on allegro.cc)
-                     
-Online HTML           [4.2.2][st ol]      [4.3.10][un ol]     [SVN][a5svn ol] /
-                                                              [4.9.x][a5rel ol]
-                     
-PDF format            [4.2.1][st pdf]     [4.3.0][un pdf]     [SVN][ext pdf]
-                      (2769 KiB)          (2769 KiB)
-                     
-PostScript            [4.2.1][st ps]      [4.3.0][un ps]
-gzipped format        (536 KiB)           (536 KiB)
--------------------------------------------------------------------------------
+-------------------------------------------------------------
+File format           Stable branch         Allegro 4.9
+--------------------- -------------------   -----------------
+Online HTML           [4.4.0][st ol]        [SVN][a5svn ol] /
+                                            [4.9.x][a5rel ol]
+
+Compiled HTML         [4.2.1][st chm]
+format (CHM)          (913 KiB)
+
+PDF format            [4.2.1][st pdf]       [SVN][ext pdf]
+                      (2769 KiB)
+
+PostScript            [4.2.1][st ps]
+gzipped format        (536 KiB)
+--------------------------------------------------------------
 
 [st chm]: http://prdownloads.sourceforge.net/alleg/allegro-manual-4.2.1.en.chm?download
 [st ol]:  http://alleg.sourceforge.net/stabledocs/en/index.html
 [st pdf]: http://prdownloads.sourceforge.net/alleg/allegro-manual-4.2.1.en.pdf?download
 [st ps]:  http://prdownloads.sourceforge.net/alleg/allegro-manual-4.2.1.en.ps.gz?download
-
-[un chm]: http://www.allegro.cc/files/attachment/597776
-[un ol]:  http://alleg.sourceforge.net/latestdocs/en/index.html
-[un pdf]: http://prdownloads.sourceforge.net/alleg/allegro-manual-4.3.0.en.pdf?download
-[un ps]:  http://prdownloads.sourceforge.net/alleg/allegro-manual-4.3.0.en.ps.gz?download
 
 [a5svn ol]:  http://alleg.sourceforge.net/a5docs/refman/index.html
 [a5rel ol]:  http://alleg.sourceforge.net/a5docs/
