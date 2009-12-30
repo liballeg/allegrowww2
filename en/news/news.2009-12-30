@@ -1,0 +1,11 @@
+## 2009-12-30 - Allegro 4.4.0.1 released!
+
+This is an update to the 4.4.0 release which fixes some build system problems.
+
+- Chris Roberts updated CMake build for BeOS/Haiku. 
+- Some AllegroGL header files were not being installed. 
+- Fix a build problem with CMake 2.6.2+ on Mac OS X.
+
+Get this new version from the [Download] section.
+Please test it and report problems and incompatibilities to the [mailing list]
+or the [SourceForge tracker].
