@@ -3,7 +3,8 @@
 The latest stable version (4.4.x) works under **Unix** (Linux, FreeBSD, etc.),
 **Windows**, **MacOS X** and **Haiku/BeOS**. The previous stable version (4.2.x)
 also works under **DOS** and **QNX**. You can
-read the [full change log](changes.html).  If you prefer upgrading through
+read the [full change log](stabledocs/en/changes.html).
+If you prefer upgrading through
 diffs from a previous version, check the [older versions page](old.html).
 If you want to get Allegro through SVN, [check the SVN page](svn.html).
 You can also download weekly SVN snapshots from this page if you can't use SVN
@@ -85,6 +86,8 @@ Filename                        Size    Description
 ## Developmental branch source releases
 
 [Download 4.9.x from Sourceforge][4.9.x]
+
+[Change log for 4.9.x](changes.html)
 
 [4.9.x]:    http://sourceforge.net/projects/alleg/files/allegro-unstable/
 
