@@ -1,8 +1,8 @@
 # Latest version
 
 The latest stable version (4.4.x) works under **Unix** (Linux, FreeBSD, etc.),
-**Windows** and **MacOS X**. The previous stable version (4.2.x) also works
-under **DOS**, **BeOS** and **QNX**. You can
+**Windows**, **MacOS X** and **Haiku/BeOS**. The previous stable version (4.2.x)
+also works under **DOS** and **QNX**. You can
 read the [full change log](changes.html).  If you prefer upgrading through
 diffs from a previous version, check the [older versions page](old.html).
 If you want to get Allegro through SVN, [check the SVN page](svn.html).

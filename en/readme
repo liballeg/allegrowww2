@@ -13,11 +13,11 @@ LEvel Game ROutines».
 * Unix (Linux, FreeBSD, Irix, Solaris, Darwin)
 * Windows (MSVC, MinGW, Cygwin)
 * MacOS X
+* Haiku/BeOS
 
 The older 4.2 branch also supports:
 
 * Windows (Borland)
-* BeOS
 * QNX
 * DOS (DJGPP, Watcom) 
 
@@ -52,6 +52,9 @@ The older 4.2 branch also supports:
       - GDI 
 * MacOS X:
       - Quartz (windowed or full-screen)
+* Haiku/BeOS:
+      - BWindowScreen
+      - BDirectWindow 
 * OpenGL:
       - The AllegroGL addon allows to use OpenGL graphics with Allegro. 
 
@@ -61,9 +64,6 @@ The older 4.2 branch also supports:
       - VBE/AF
       - mode-X
       - VGA 
-* BeOS:
-      - BWindowScreen
-      - BDirectWindow 
 * DOS:
       - VGA 13h mode
       - mode-X (23 VGA resolution plus unchained 640x400 extended mode)
