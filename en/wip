@@ -45,12 +45,15 @@ Filename                        Size    Description
                                         installed over a clean copy of the
                                         **4.4.0.1** version of Allegro to update it
                                         to the current version.
+
+[Browse all files]
 -----------------------------------------------------------------------------------------------------------------------
 
 [allegro-4.4.1.zip]:                    http://sourceforge.net/projects/alleg/files/allegro/4.4.1/allegro-4.4.1.zip/download
 [allegro-4.4.1.tar.gz]:                 http://sourceforge.net/projects/alleg/files/allegro/4.4.1/allegro-4.4.1.tar.gz/download
 [allegro-4.4.1.7z]:                     http://sourceforge.net/projects/alleg/files/allegro/4.4.1/allegro-4.4.1.7z/download
 [allegro-4.4.1_diff.zip]:               http://sourceforge.net/projects/alleg/files/allegro/4.4.1/allegro-4.4.1_diff.zip/download
+[Browse all files]:                     http://sourceforge.net/projects/alleg/files/allegro/
 
 ## Older stable branch 4.2.3.1 source releases
 
@@ -76,6 +79,8 @@ Filename                        Size    Description
                                         programs yourself, you will have to
                                         download the full source code version.
                                         **Only for Linux/Unix.**
+
+[Browse all files]
 -----------------------------------------------------------------------------------------------------------------------
 
 [all4231.zip]:                          http://sourceforge.net/projects/alleg/files/allegro/4.2.3.1/all4231.zip/download
@@ -138,6 +143,11 @@ Filename                        Size    Description
 -----------------------------------------------------------------------------------------------------------------------
 Site                            Description
 ------------------------------- ---------------------------------------------------------------------------------------
+[www.allegro.cc/files]
+                                Matthew Leverton has built binary packages for
+                                many different Windows compilers and offers
+                                them in several download formats.
+
 [Allegro binary package]
                                 The allegro-bin package at SourceForge contains
                                 several binary distributions of Allegro for
@@ -155,38 +165,8 @@ Site                            Description
                                 SourceForge's allegro-bin package. If the
                                 Devpak site is down, check the previous entry's
                                 link.
-
-[www.allegro.cc/files]  
-                                Matthew Leverton has built binary packages for
-                                many different Windows compilers and offers
-                                them in several download formats.
-
-[Retrospec binaries]
-                                The guys from the Retrospec community have
-                                built their own versions of Allegro binary
-                                packages and many more useful libraries like
-                                FBlend or OpenLayer, offering versions for
-                                several Windows compilers.
 -----------------------------------------------------------------------------------------------------------------------
 
 [Allegro binary package]:       http://sourceforge.net/project/showfiles.php?group_id=5665&package_id=168871
 [devpaks.org]:                  http://devpaks.org/
 [www.allegro.cc/files]:         http://www.allegro.cc/files/
-[Retrospec binaries]:           http://retrospec.sgn.net/allegro.php
-
-## Binary version (only for Linux distributions)
-
------------------------------------------------------------------------------------------------------------------------
-Site                            Description
-------------------------------- ---------------------------------------------------------------------------------------
-[Debian database engine]        Try this link to query Debian's official
-                                database for .deb packages of Allegro,
-                                stable or unstable.
-
-[Fedora extras]                 The [Fedora Linux] project hosts RPMs of
-                                Allegro.
------------------------------------------------------------------------------------------------------------------------
-
-[Debian database engine]:       http://packages.debian.org/cgi-bin/search_packages.pl?keywords=liballeg&searchon=names&subword=1&version=all&release=all
-[Fedora extras]:                http://fedoraproject.org/wiki/Extras
-[Fedora Linux]:                 http://fedoraproject.org/
