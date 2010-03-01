@@ -32,25 +32,25 @@ of the supported platforms. These exist as individual .txt files in the
 -----------------------------------------------------------------------------------------------------------------------
 Filename                        Size    Description
 ------------------------------- ------- -------------------------------------------------------------------------------
-[allegro-4.4.0.1.zip]              4.8M Source code for all platforms in
+[allegro-4.4.1.zip]                4.8M Source code for all platforms in
                                         DOS/Windows friendly format.
 
-[allegro-4.4.0.1.tar.gz]           4.5M Source code for all platforms in Unix
+[allegro-4.4.1.tar.gz]             4.5M Source code for all platforms in Unix
                                         friendly format.
 
-[allegro-4.4.0.1.7z]               3.0M Source code for all platforms in DOS/Windows
+[allegro-4.4.1.7z]                 3.0M Source code for all platforms in DOS/Windows
                                         friendly format.
 
-[allegro-4.4.0.1_diff.zip]           8k This file is a diff that can be
+[allegro-4.4.1_diff.zip]             8k This file is a diff that can be
                                         installed over a clean copy of the
-                                        **4.4.0** version of Allegro to update it
+                                        **4.4.0.1** version of Allegro to update it
                                         to the current version.
 -----------------------------------------------------------------------------------------------------------------------
 
-[allegro-4.4.0.1.zip]:			http://sourceforge.net/projects/alleg/files/allegro/4.4.0.1/allegro-4.4.0.1.zip/download
-[allegro-4.4.0.1.tar.gz]:		http://sourceforge.net/projects/alleg/files/allegro/4.4.0.1/allegro-4.4.0.1.tar.gz/download
-[allegro-4.4.0.1.7z]:			http://sourceforge.net/projects/alleg/files/allegro/4.4.0.1/allegro-4.4.0.1.7z/download
-[allegro-4.4.0.1_diff.zip]:		http://sourceforge.net/projects/alleg/files/allegro/4.4.0.1/allegro-4.4.0.1_diff.zip/download
+[allegro-4.4.1.zip]:                    http://sourceforge.net/projects/alleg/files/allegro/4.4.1/allegro-4.4.1.zip/download
+[allegro-4.4.1.tar.gz]:                 http://sourceforge.net/projects/alleg/files/allegro/4.4.1/allegro-4.4.1.tar.gz/download
+[allegro-4.4.1.7z]:                     http://sourceforge.net/projects/alleg/files/allegro/4.4.1/allegro-4.4.1.7z/download
+[allegro-4.4.1_diff.zip]:               http://sourceforge.net/projects/alleg/files/allegro/4.4.1/allegro-4.4.1_diff.zip/download
 
 ## Older stable branch 4.2.3.1 source releases
 

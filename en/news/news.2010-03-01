@@ -1,0 +1,13 @@
+## 2010-03-01 - Allegro 4.4.1 released!
+
+This is a minor update to the 4.4.0.1 release.
+
+- Allow Linux joystick driver to be used with the X11 port without
+  enabling the Linux console port.
+- Avoid problem compiling joystick driver on some Linux systems.
+- Install DLLs into bin directories on Windows.
+- A few build improvements for MinGW cross-compiler.
+
+Get this new version from the [Download] section.
+Please test it and report problems and incompatibilities to the [mailing list]
+or the [SourceForge tracker].
