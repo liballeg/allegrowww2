@@ -62,7 +62,8 @@ emit_entry () {(
 	fi
 
 	title=$( grep '^#\+ ' $file | head -n 1 )
-	title=${title#* }
+	title=${title#* }		# remove leading whitespace
+	title=${title#????-??-?? - }	# remove leading date
 
 	cat <<- EOF
 	<entry>
