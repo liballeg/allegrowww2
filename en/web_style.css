@@ -95,6 +95,7 @@ tr.odd {
  */
 table#header {
     background-color: #f4f4f4;
+    border: none;
     border-bottom: solid 1px #ddd;
     margin-bottom: 0.5em;
     -moz-border-radius: 0;
