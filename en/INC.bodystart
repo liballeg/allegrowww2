@@ -1,8 +1,40 @@
-<table class="white">
+<table id="header" width="100%">
 <tr>
-<td valign="top" class="sidebar">
 
-<div class="sidebar">
+<td>
+<img id="logo" src="images/logo.png" alt="Allegro" height="58" width="186" />
+</td>
+
+<td id="title">
+A game programming library
+</td>
+
+<td align="right">
+
+<!-- Hide language choices until at least one other translation is complete.
+<div class="sellang">
+[English](index.html)
+[español](es/index.html)
+</div>
+-->
+
+<form id="search" action="http://alleg.sourceforge.net/search/search.py" method="get">
+    <input name="query" value="" type="text"/>
+    <select name="where">
+       <option selected="selected" value="api">API</option>
+       <option value="mail">Mail</option>
+       <option value="site">Site</option>
+       <option value="forum">Forum</option>
+    </select>
+    <input name="submit" value="Search" type="submit"/>
+</form>
+</td>
+
+</tr>
+</table>
+
+<div id="left">
+<div id="sidebar">
 * Allegro
     - [News](news.html)
     - [Introduction](readme.html)
@@ -42,26 +74,25 @@
     - [Humor](humor.html)
 
 <!-- keep blank line for correct HTML -->
-</div>
+</div><!-- sidebar -->
 
-<center>
+<div id="hosting">
 <a href="http://sourceforge.net/donate/index.php?group_id=5665">
 <img src="http://images.sourceforge.net/images/project-support.jpg"
-    alt="Support This Project" border="0" height="32" width="88" />
+    alt="Support This Project" border="0" height="32" width="88"
+    id="support" />
 </a>
 <br/>
 Hosted by:
 <br/>
 <a href="http://sourceforge.net/projects/alleg">
-    <img src="http://sflogo.sourceforge.net/sflogo.php?group_id=5665&type=13"
+    <img src="http://sflogo.sourceforge.net/sflogo.php?group_id=5665&amp;type=13"
 	width="120" height="30" border="0"
 	alt="Get Allegro game programming library at SourceForge.net. Fast, secure and Free Open Source software downloads" />
 </a>
 <br/>
-<font face="helvetica,verdana" size="-2">
 [Project page](http://sourceforge.net/projects/alleg/)
-</font>
-</center>
+</div><!-- hosting -->
+</div><!-- left -->
 
-</td>
-<td valign="top" class="content">
+<div id="content">

@@ -1,6 +1,8 @@
 .PHONY: default
 default: all
 
+PANDOC := pandoc
+
 PAGES :=		\
 	api		\
 	bindings	\
@@ -50,7 +52,12 @@ prepare:
 
 endif
 
-INCLUDES := $(wildcard $(SRCDIR)/inc.*)
+INCLUDES := \
+	$(SRCDIR)/INC.bodystart.html \
+	$(SRCDIR)/INC.bodyend.html \
+	$(SRCDIR)/INC.head \
+	$(SRCDIR)/INC.links
+
 OUTPAGES := $(addsuffix .html,$(addprefix $(OUTDIR)/,$(PAGES)))
 
 .PHONY: all
@@ -59,8 +66,15 @@ all: $(OUTPAGES) $(OUTDIR)/web_style.css $(OUTDIR)/feed_atom.xml
 $(OUTDIR)/index.html: $(OUTDIR)/news.html
 	cp $< $@
 
-$(OUTDIR)/%.html: $(SRCDIR)/% $(INCLUDES)
+$(OUTDIR)/%.html: $(SRCDIR)/% $(INCLUDES) $(OUTDIR)
 	./make_page $< $(OUTDIR)
+
+.SECONDARY: $(SRCDIR)/INC.%.html
+$(SRCDIR)/INC.%.html: $(SRCDIR)/INC.% $(SRCDIR)/INC.links
+	$(PANDOC) $^ --to html --output $@
+
+$(OUTDIR):
+	mkdir $(OUTDIR)
 
 $(OUTDIR)/web_style.css: en/web_style.css
 	cp $< $@

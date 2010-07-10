@@ -21,14 +21,13 @@ check_for_pandoc () {
 }
 
 page_files () {
-    echo inc.a.*
     if test -d "$1"
     then
         revdatesort $1/*
     else
         echo "$1"
     fi
-    echo inc.z.*
+    echo INC.links
 }
 
 # Reverse any series of filenames containing dates.
@@ -90,11 +89,13 @@ cd "$indir"
 page_files=$( page_files "$inpage" )
 title="$( get_title $inpage )"
 
-"$PANDOC" $page_files                   \
-    --include-in-header inc.head        \
-    --title-prefix "$title"             \
-    --css "$STYLESHEET"                 \
-    --standalone                        \
+"$PANDOC" $page_files                           \
+    --include-in-header INC.head                \
+    --include-before-body INC.bodystart.html    \
+    --include-after-body INC.bodyend.html       \
+    --title-prefix "$title"                     \
+    --css "$STYLESHEET"                         \
+    --standalone                                \
     --output "$outpage"
 
 # vim: ft=sh sts=4 sw=4 et:
