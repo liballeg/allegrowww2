@@ -102,7 +102,7 @@ to contact the webmaster and report the change.
     compilers ([CHICKEN], [Gambit-C] and [Bigloo]) written by Peter Wang, as a
     proof-of-concept. Note that Allegro 5 is still under development.
 
-# Other
+## Other
 
 [Wiki page about bindings][awiki_bindings]
 :   The Wiki also has a page about language bindings.
