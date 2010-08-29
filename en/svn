@@ -23,13 +23,24 @@ modifications in order to send patches. Example:
 
 (for the unstable 4.9 branch)
 
-You can also use a web interface to browse the repository, which you will find
-at <http://alleg.svn.sourceforge.net/viewvc/alleg/>. The Subversion tree was
-migrated from SourceForge's CVS repository, so everything you used to know
-should be there (except the allegrowww module). 
-
 If you need write access to the Subversion tree, please ask for it on the
 Allegro development mailing list. 
+
+## SVN::Web Interface
+
+Theres's an SVN::Web interface to the SVN code at
+<http://svn.tomasu.org/index.cgi/allegro>. It uses a mirror so may
+only show commits up to 5 minutes later but the site may work faster
+then the ViewVC accesc at Sourceforge.
+
+## ViewVC Interface
+
+You can use a web interface to browse the repository directly at
+<http://alleg.svn.sourceforge.net/viewvc/alleg/>.
+
+## Test results
+
+Daily SVN test results can be seen here: <http://allefant.com/tests.py>
 
 ## Changelogs of the Subversion tree
 
