@@ -1,0 +1,11 @@
+## 2010-09-26 - Allegro 4.9.22 released!
+
+This is a Work-In-Progress (WIP) release for the future 5.0 branch.
+See the [changes] since the last release.
+
+You can
+[download](http://sourceforge.net/projects/alleg/files/allegro-unstable/4.9.22/)
+this version from SourceForge.
+The reference manual is also available [online][a5docs].
+Please test it and report problems and incompatibilities to the [mailing list]
+or the [SourceForge tracker].
