@@ -42,6 +42,11 @@ You can use a web interface to browse the repository directly at
 
 Daily SVN test results can be seen here: <http://allefant.com/tests.py>
 
+## Upstream tracker
+
+Shallow test results from the Upstream Tracker:
+<http://linuxtesting.org/upstream-tracker/versions/allegro.html>
+
 ## Changelogs of the Subversion tree
 
 The SVN repository also has a commit hook for [CIA], a system for tracking
