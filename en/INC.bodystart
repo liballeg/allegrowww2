@@ -48,13 +48,11 @@ A game programming library
 
 * Documentation
     - **[API](api.html)**
-    - [FAQ](http://alleg.sourceforge.net/latestdocs/en/faq.html)
     - [Tutorials](docs.html)
     - [Books](books.html)
     - [Wiki][Allegro Wiki]
 
 * Support
-    - [Help](http://alleg.sourceforge.net/latestdocs/en/help.html)
     - [Forums](http://www.allegro.cc/forums/)
     - [Mailing lists](maillist.html)
     - [Bug tracker](http://sourceforge.net/tracker2/?group_id=5665&atid=105665)

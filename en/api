@@ -1,18 +1,14 @@
 # API
 
-The Allegro documentation comes in the source package. Once you finish the
-build process, you will end up with the documentation generated in html, rtf,
-text, texinfo, chm, PostScript, PDF or devhelp file formats, depending on your
-platform, installed build tools and make options. See the documentation for
-makefile targets which build special formats. Here, we host some popular
-versions of the generated documentation, and provide an online browseable
-version too.
+The Allegro documentation comes in the source package.
+Here, we host some popular versions of the generated documentation, and provide
+an online browseable version, too.
 
 -------------------------------------------------------------
-File format           Stable branch         Allegro 4.9
+File format           Allegro 4.x           Allegro 5.0
 --------------------- -------------------   -----------------
 Online HTML           [4.4.0][st ol]        [SVN][a5now ol] /
-                                            [older][a5dir ol]
+                                            [older versions][a5dir ol]
 
 Compiled HTML         [4.2.1][st chm]
 format (CHM)          (913 KiB)
@@ -36,15 +32,15 @@ gzipped format        (536 KiB)
 
 [Online Documentation and Source Browser](http://srnet.cz/~stepan/allegro/) -
 <br/>
-The online version of the Allegro 3.12 and WIP docs, and various versions of
-the sources, provided by Štěpán Roh.
+Štěpán Roh hosts many versions of the Allegro manuals and source code on his
+web site.
 
-[Allegro.cc's version of the manual](http://www.allegro.cc/manual/) -
+[Allegro.cc's manuals](http://www.allegro.cc/manual/) -
 <br/>
-Allegro's makedoc tool is not the only way to produce documentation. Matthew
-Leverton has created his own online version with a different style and URL
+Matthew Leverton hosts the Allegro manuals, with a different style and URL
 functionality.
 
-Remember that apart from Allegro's excellent manual, there is also a
+Apart from Allegro's manual, there is also a
 [tutorial](docs.html) section with links to contributed documentation.
 And there are also [written paper books](books.html) which teach Allegro.
+As of now, these mainly discuss Allegro 4.

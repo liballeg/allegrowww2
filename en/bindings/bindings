@@ -1,8 +1,23 @@
 # Language bindings
 
+Although Allegro is written in C and C++, and is mainly designed to be used
+from such, it's possible to use Allegro from other programming languages.
+
 If you would like to add a link to this page, or there is a dead link which
 should be fixed/removed, please use the address given at the bottom of the page
 to contact the webmaster and report the change. 
+
+# Bindings for Allegro 5
+
+[allua]
+:   Lua binding to Allegro 5 by Trezker.
+
+Python
+:   The Allegro 5 distribution comes with a basic Python wrapper;
+    see the `python` directory.
+
+
+# Bindings for Allegro 4
 
 ## Ada
 
@@ -87,9 +102,6 @@ to contact the webmaster and report the change.
 
 ## Scheme
 
-[Bigloo-Allegro]
-:   This is an abandoned [Bigloo] (a [Scheme] compiler) binding.
-
 [MzScheme][allegro-mzscheme]
 :   Allegro scheme is a set of MzScheme bindings to Allegro written by
     Jon Rafkind. Using MzScheme's nice FFI library it is very easy to bind
@@ -97,12 +109,7 @@ to contact the webmaster and report the change.
     allegro.ss and a scheme wrapper which should make it easier to use in
     image.ss.
 
-[Scheme->C compiler bindings][scheme-a5]
-:   Bindings of Allegro 5 to three Scheme->C
-    compilers ([CHICKEN], [Gambit-C] and [Bigloo]) written by Peter Wang, as a
-    proof-of-concept. Note that Allegro 5 is still under development.
-
-## Other
+# Other resources
 
 [Wiki page about bindings][awiki_bindings]
 :   The Wiki also has a page about language bindings.

@@ -1,33 +1,34 @@
 # Latest version
 
-The latest stable version (4.4.x) works under **Unix** (Linux, FreeBSD, etc.),
-**Windows**, **MacOS X** and **Haiku/BeOS**. The previous stable version (4.2.x)
-also works under **DOS** and **QNX**. You can
-read the [full change log](stabledocs/en/changes.html).
-If you prefer upgrading through
-diffs from a previous version, check the [older versions page](old.html).
-If you want to get Allegro through SVN, [check the SVN page](svn.html).
-You can also download weekly SVN snapshots from this page if you can't use SVN
-directly. 
+Here you can download either the modern Allegro 5 library, or the classical
+Allegro 4 library.  Allegro 5 is *not* backwards compatible with Allegro 4.
 
-There is a stable branch and a developmental branch. Currently the
-developmental branch refers to the 4.9.x branch, leading to Allegro 5, which
-has a completely different API. If you are looking for the classical Allegro API,
-you want either the 4.4.x branch or the 4.2.x branch.
+Instructions on how to build Allegro for each of the supported platforms are
+included in the source packages, either in the README files, or in the
+`docs/build` subdirectory.
 
-Since version 3.12, Allegro has adopted the same
-numbering scheme as the Linux kernel, which uses three numbers. The first
-number indicates a major version. Differences here usually mean that a lot of
+Since version 3.12, Allegro has adopted this versioning scheme: The first
+number indicates a major version; differences here usually mean that a lot of
 things have changed. The second number indicates if the release is stable (even
 number) or unstable (odd number). Finally the third number marks smaller
-differences between releases. 
+differences between releases. A fourth number is used if we need to fix a minor
+mistake found in a previous release.
 
-The main source downloads include instructions on how to build Allegro for each
-of the supported platforms. These exist as individual .txt files in the
-`docs/build` subdirectory. You can also access them
-[online](stabledocs/en/build/) (for 4.4.x).
+## Allegro 5 pre-releases
 
-## Stable branch 4.4.1.1 source releases
+Allegro 5.0 supports **Unix** (Linux, FreeBSD, etc.), **Windows**, **MacOS X**
+and **iPhone**.
+You can read the [full change log](changes.html).
+
+[Download 5.0.x from Sourceforge][5.0.x]
+
+[5.0.x]:    http://sourceforge.net/projects/alleg/files/allegro-prerelease/
+
+## Allegro 4.4 source releases
+
+Allegro 4.4 supports **Unix** (Linux, FreeBSD, etc.), **Windows**, **MacOS X**
+and **Haiku/BeOS**.
+You can read the [full change log](stabledocs/en/changes.html).
 
 -----------------------------------------------------------------------------------------------------------------------
 Filename                        Size    Description
@@ -55,7 +56,10 @@ Filename                        Size    Description
 [allegro-4.4.1.1_diff.zip]:             http://sourceforge.net/projects/alleg/files/allegro/4.4.1.1/allegro-4.4.1.1_diff.zip/download
 [Browse all files]:                     http://sourceforge.net/projects/alleg/files/allegro/
 
-## Older stable branch 4.2.3.1 source releases
+## Allegro 4.2 source releases
+
+Allegro 4.2 supports **Unix** (Linux, FreeBSD, etc.), **Windows**, **MacOS X**,
+**Haiku/BeOS**, **DOS** and **QNX**.
 
 -----------------------------------------------------------------------------------------------------------------------
 Filename                        Size    Description
@@ -87,14 +91,6 @@ Filename                        Size    Description
 [allegro-4.2.3.1.tar.gz]:               http://sourceforge.net/projects/alleg/files/allegro/4.2.3.1/allegro-4.2.3.1.tar.gz/download
 [all4231_diff.zip]:                     http://sourceforge.net/projects/alleg/files/allegro/4.2.3.1/all4231_diff.zip/download
 [allegro-enduser-4.2.3.1.tar.gz]:       http://sourceforge.net/projects/alleg/files/allegro/4.2.3.1/allegro-enduser-4.2.3.1.tar.gz/download
-
-## Developmental branch source releases
-
-[Download 4.9.x from Sourceforge][4.9.x]
-
-[Change log for 4.9.x](changes.html)
-
-[4.9.x]:    http://sourceforge.net/projects/alleg/files/allegro-unstable/
 
 ## Miscellaneous files
 

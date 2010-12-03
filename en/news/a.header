@@ -1,14 +1,8 @@
 <div id="newsintro">
-Allegro is a game programming library for C/C++ developers distributed
-[freely](license.html),
-supporting the following platforms: Unix (Linux, FreeBSD, etc.),
-Windows, MacOS X and Haiku/BeOS.
-Older versions also support DOS and QNX.
-It provides many functions for
-graphics, sounds, player input (keyboard, mouse and joystick) and timers. It
-also provides fixed and floating point mathematical functions, 3d functions,
-file management functions, compressed datafile and a GUI.  Read more details on
-the [introductory](readme.html) page.
+Allegro 4 and Allegro 5 are cross-platform, [open source](license.html),
+game programming libraries, primarily for C and C++ developers.
+Read more details on the [introductory](readme.html) page.
+This is the official web site. 
 </div><!-- newsintro -->
 
 <!-- we must use raw HTML to avoid pandoc creating a div -->

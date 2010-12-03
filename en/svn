@@ -1,41 +1,37 @@
 # Subversion read access
 
-Subversion is a replacement for good'ol CVS. You can get clients for most
+Allegro's source code is maintained in a Subversion repository. 
+You can get clients for most
 platforms at <http://subversion.tigris.org/>, and there is good documentation
 like the [Version control with Subversion](http://svnbook.red-bean.com/)
-manual, by some of Subversion's authors. 
+manual.
 
-You can get read access from the main URL
-<https://alleg.svn.sourceforge.net/svnroot/alleg/>. While you can access this
-link directly and will see the files, that's really boring - instead you want
-to use a Subversion client to check out the whole source and make local
-modifications in order to send patches. Example: 
+The main URL is:
 
-    svn co https://alleg.svn.sourceforge.net/svnroot/alleg/allegro/branches/4.2
+    https://alleg.svn.sourceforge.net/svnroot/alleg/
 
-(for the stable 4.2 branch)
+Use one of the following commands to check out a **stable** branch:
+
+    svn co https://alleg.svn.sourceforge.net/svnroot/alleg/allegro/branches/5.0
 
     svn co https://alleg.svn.sourceforge.net/svnroot/alleg/allegro/branches/4.4
 
-(for the stable 4.4 branch)
+    svn co https://alleg.svn.sourceforge.net/svnroot/alleg/allegro/branches/4.2
 
-    svn co https://alleg.svn.sourceforge.net/svnroot/alleg/allegro/branches/4.9
+Use one of the following commands to check out an **unstable** branch:
 
-(for the unstable 4.9 branch)
-
-If you need write access to the Subversion tree, please ask for it on the
-Allegro development mailing list. 
+    svn co https://alleg.svn.sourceforge.net/svnroot/alleg/allegro/branches/5.1
 
 ## SVN::Web Interface
 
-Theres's an SVN::Web interface to the SVN code at
+You can browse the source code online at
 <http://svn.tomasu.org/index.cgi/allegro>. It uses a mirror so may
 only show commits up to 5 minutes later but the site may work faster
-then the ViewVC accesc at Sourceforge.
+than the ViewVC access at Sourceforge.
 
 ## ViewVC Interface
 
-You can use a web interface to browse the repository directly at
+You can also use a web interface to browse the repository directly at
 <http://alleg.svn.sourceforge.net/viewvc/alleg/>.
 
 ## Test results

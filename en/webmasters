@@ -3,12 +3,7 @@
 This web page is maintained by some of the people developing Allegro. You
 can contact them using the [developers' mailing list](maillist.html).
 
-Right now the web page and the mirrors are being heavily modified, with
-all the translations being dropped until the dust settles and the main
-page is sorted out. This means that the mirrors (both Talula and Sunsite)
-will be off sync.
-
-Thanks to [Dotsrc] and [Shawn] for the web space and [SourceForge]
-for the web space and SVN server.
+Thanks to [Dotsrc] and [Shawn] for previously providing web space,
+and [SourceForge] for the web space and SVN server.
 
 [Shawn]: http://www.talula.demon.co.uk/

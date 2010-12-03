@@ -2,7 +2,9 @@
 
 These files are being made available for historical interest, and as reference
 material. They are unsupported, and for any serious programming work, you
-should get the most recent version instead. You can read the full changes log.
+should get the most recent version instead.
+
+## Ancient versions
 
 [Allegro 1.02](http://alleg.sourceforge.net/files/allegro1.zip) (119k) - Sometime in 1995.
 
@@ -19,14 +21,14 @@ should get the most recent version instead. You can read the full changes log.
 [Allegro 3.1](http://alleg.sourceforge.net/files/alleg31.zip) (1422k) - January 1999.
 
 [Allegro 3.11](http://alleg.sourceforge.net/files/alleg311.zip) (1434k) - February 1999.
-If you still have an unmodified copy of the Allegro 3.11 distribution, you can
-upgrade to version 3.12 by installing [this patch](http://alleg.sourceforge.net/files/al312dif.zip) (15Kb).
-Installation instructions can be found in the zip.
+[Patch](http://alleg.sourceforge.net/files/al312dif.zip) to upgrade to version 3.12.
 
 [Allegro 3.12](http://alleg.sourceforge.net/files/alleg312.zip) (1434k) - August 1999.
 This is a DOS/DJGPP library, and can be obtained from your [local Simtel
 mirror](mirrors.html#simtel), in the directory gnu/djgpp/v2tk/allegro/,
 filename alleg312.zip.
+
+## Allegro 4
 
 **Allegro 4.0.0** - 10th of December, 2001.
 
@@ -46,7 +48,7 @@ There have been some releases between the current stable/unstable version and
 the last old stable version written above. You can get one of those releases
 from [Sourceforge's files page](http://sourceforge.net/project/showfiles.php?group_id=5665). 
 
-## Differential patches
+### Differential patches
 
 If you prefer to keep current via a series of diffs, you can use these, which
 must be installed strictly in sequence starting from whatever version you

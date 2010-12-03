@@ -1,8 +1,19 @@
 # Tutorials
 
+Most of these tutorials are rather old, and mainly discuss Allegro 4.
+We hope that more Allegro 5 tutorials will start to appear soon!
+
 If you would like to add a link to this page, or there is a dead link which
 should be fixed/removed, please use the address given at the bottom of the page
 to contact the webmaster and report the change. 
+
+## Allegro 5 tutorials
+
+[Tutorial by Steven Wallace](http://software.skoobalon.com/a5.php)
+:   Possibly the first Allegro 5 tutorial.  Beware that it was while Allegro 5
+    was in development, and some functions have changed since then.
+
+## Allegro 4 tutorials
 
 [Allegro Vivace](http://www.glost.eclipse.co.uk/gfoot/vivace/)
 :   A beginner guide to writing games with Allegro and DJGPP, by George Foot.
