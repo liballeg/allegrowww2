@@ -1,0 +1,11 @@
+## 2010-12-05 - Allegro 5.0.0 RC2 released!
+
+This is the second release candidate for the future 5.0 branch.
+See the [changes] since the last release.
+
+You can
+[download](http://sourceforge.net/projects/alleg/files/allegro-prerelease/5.0.0-rc2/)
+this version from SourceForge.
+The reference manual is also available [online][a5docs].
+Please test it and report problems and incompatibilities to the [mailing list]
+or the [SourceForge tracker].
