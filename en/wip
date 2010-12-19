@@ -24,6 +24,8 @@ You can read the [full change log](changes.html).
 
 [5.0.x]:    http://sourceforge.net/projects/alleg/files/allegro-prerelease/
 
+See below for third party Windows binaries.
+
 ## Allegro 4.4 source releases
 
 Allegro 4.4 supports **Unix** (Linux, FreeBSD, etc.), **Windows**, **MacOS X**
@@ -140,18 +142,16 @@ Filename                        Size    Description
 Site                            Description
 ------------------------------- ---------------------------------------------------------------------------------------
 [www.allegro.cc/files]
-                                Matthew Leverton has built binary packages for
-                                many different Windows compilers and offers
-                                them in several download formats.
+                                Matthew Leverton hosts Windows binary packages for
+                                many different compilers.
+                                For Allegro **4.2** and **5.0**.
+                                The 5.0 binaries are produced by a different
+                                process from the standard build system.
 
 [Allegro binary package]
                                 The allegro-bin package at SourceForge contains
                                 several binary distributions of Allegro for
-                                Windows. You only need it if you have a
-                                compiler unable to produce the Allegro DLL
-                                (like Borland). To use, unzip a package inside
-                                a temporary directory and follow the
-                                instructions found inside.
+                                Windows.  For Allegro **4.2.2**.
 
 [devpaks.org]
                                 Michal Molhanec mantains a Devpak repository,
