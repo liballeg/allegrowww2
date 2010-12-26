@@ -4,11 +4,14 @@ The Allegro documentation comes in the source package.
 Here, we host some popular versions of the generated documentation, and provide
 an online browseable version, too.
 
--------------------------------------------------------------
-File format           Allegro 4.x           Allegro 5.0
---------------------- -------------------   -----------------
-Online HTML           [4.4.0][st ol]        [SVN][a5now ol] /
-                                            [older versions][a5dir ol]
+--------------------------------------------------------------------------------
+File format           Allegro 4.x         Allegro 5.0        Allegro 5.2 (WIP)
+--------------------- ------------------- ------------------ -------------------
+Online HTML           [4.4.0][st ol]      [**5.0.0**]        [5.1.x (SVN trunk)]
+                                          [a5dir 500]        [a5now ol]  
+
+                                          [older versions]
+                                          [a5dir ol]
 
 Compiled HTML         [4.2.1][st chm]
 format (CHM)          (913 KiB)
@@ -18,7 +21,7 @@ PDF format            [4.2.1][st pdf]       [SVN][ext pdf]
 
 PostScript            [4.2.1][st ps]
 gzipped format        (536 KiB)
---------------------------------------------------------------
+--------------------------------------------------------------------------------
 
 [st chm]: http://prdownloads.sourceforge.net/alleg/allegro-manual-4.2.1.en.chm?download
 [st ol]:  http://alleg.sourceforge.net/stabledocs/en/index.html
@@ -27,6 +30,7 @@ gzipped format        (536 KiB)
 
 [a5now ol]:  http://alleg.sourceforge.net/a5docs/refman/index.html
 [a5dir ol]:  http://alleg.sourceforge.net/a5docs/
+[a5dir 500]: http://alleg.sourceforge.net/a5docs/5.0.0/
 
 [ext pdf]: http://www.strangesoft.net/allegro/docs/refman.pdf
 
