@@ -21,7 +21,7 @@ A game programming library
 <form id="search" action="http://alleg.sourceforge.net/search/search.py" method="get">
     <input name="query" value="" type="text"/>
     <select name="where">
-       <option selected="selected" value="api">API</option>
+       <option selected="selected" value="api">A4 API</option>
        <option value="mail">Mail</option>
        <option value="site">Site</option>
        <option value="forum">Forum</option>
