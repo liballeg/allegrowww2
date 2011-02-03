@@ -20,9 +20,9 @@ Allegro 5.0 supports **Unix** (Linux, FreeBSD, etc.), **Windows**, **MacOS X**
 and **iPhone**.
 You can read the [full change log](changes.html).
 
-[Download 5.0.0 RC4 from Sourceforge][5.0rc]
+[Download 5.0.0 RC5 from Sourceforge][5.0rc]
 
-[5.0rc]: http://sourceforge.net/projects/alleg/files/allegro-prerelease/5.0.0-rc4/
+[5.0rc]: http://sourceforge.net/projects/alleg/files/allegro-prerelease/5.0.0-rc5/
 
 See [below](#binary-version-only-for-windows) for third party Windows binaries.
 
