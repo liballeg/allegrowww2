@@ -1,0 +1,17 @@
+## 2011-02-06 - Allegro 5.0.0 released!
+
+The beginnings of Allegro 5 can be traced back to 2002.
+Today, we are very happy and proud to announce the release of Allegro 5.0.0,
+the first official release of the 5.0 branch!
+
+You can
+[download](http://sourceforge.net/projects/alleg/files/allegro/5.0.0/)
+it from SourceForge.
+The reference manual is available [online][a5docs],
+as is the list of [changes].
+
+We would like to thank everyone who has contributed to Allegro during
+all these years, not only the developers, but the users who have tested
+pre-releases, reported bugs and submitted patches.
+
+Have fun!  There is more to come.

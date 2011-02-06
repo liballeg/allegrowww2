@@ -14,15 +14,31 @@ number) or unstable (odd number). Finally the third number marks smaller
 differences between releases. A fourth number is used if we need to fix a minor
 mistake found in a previous release.
 
-## Allegro 5 pre-releases
+## Allegro 5.0 source releases
 
 Allegro 5.0 supports **Unix** (Linux, FreeBSD, etc.), **Windows**, **MacOS X**
 and **iPhone**.
 You can read the [full change log](changes.html).
 
-[Download 5.0.0 RC5 from Sourceforge][5.0rc]
+-----------------------------------------------------------------------------------------------------------------------
+Filename                        Size    Description
+------------------------------- ------- -------------------------------------------------------------------------------
+[allegro-5.0.0.zip]                3.7M Source code for all platforms in
+                                        DOS/Windows friendly format.
 
-[5.0rc]: http://sourceforge.net/projects/alleg/files/allegro-prerelease/5.0.0-rc5/
+[allegro-5.0.0.tar.gz]             3.0M Source code for all platforms in Unix
+                                        friendly format.
+
+[allegro-5.0.0.7z]                 2.3M Source code for all platforms in DOS/Windows
+                                        friendly format.
+
+[Browse all files]
+-----------------------------------------------------------------------------------------------------------------------
+
+[allegro-5.0.0.zip]:                    http://sourceforge.net/projects/alleg/files/allegro/5.0.0/allegro-5.0.0.zip/download
+[allegro-5.0.0.tar.gz]:                 http://sourceforge.net/projects/alleg/files/allegro/5.0.0/allegro-5.0.0.tar.gz/download
+[allegro-5.0.0.7z]:                     http://sourceforge.net/projects/alleg/files/allegro/5.0.0/allegro-5.0.0.7z/download
+[Browse all files]:                     http://sourceforge.net/projects/alleg/files/allegro/
 
 See [below](#binary-version-only-for-windows) for third party Windows binaries.
 
