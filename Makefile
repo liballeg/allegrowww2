@@ -26,7 +26,7 @@ PAGES :=		\
 	readme		\
 	svn		\
 	webmasters	\
-	wip
+	download
 
 # To be overridden.
 LNG = en
