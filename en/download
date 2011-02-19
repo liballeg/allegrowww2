@@ -152,6 +152,28 @@ Filename                        Size    Description
 [dx80_mgw.zip]: http://alleg.sourceforge.net/files/dx80_mgw.zip
 [dx70_dmc.zip]: http://alleg.sourceforge.net/files/dx70_dmc.zip
 
+## IPhone binaries
+
+-----------------------------------------------------------------------------------------------------------------------
+Filename                         Size    Description
+-------------------------------  ------- ------------------------------------------------------------------------------
+[freetype-iphone-2.3.12-bin.zip] 1.3M    Freetype libraries and headers compiled
+                                         for IPhone. Drop these into the deps
+                                         folder and CMake should pick them up.
+
+[physfs-1.0.2-iphone.zip]        165K    PhysFS libraries and headers compiled
+                                         for IPhone. Drop these into the deps
+                                         folder and CMake should pick them up.
+
+[vorbis-iphone.zip]              280K    Ogg Vorbis libraries and headers compiled
+                                         for IPhone. Drop these into the deps
+                                         folder and CMake should pick them up.
+
+[freetype-iphone-2.3.12-bin.zip]: http://alleg.sourceforge.net/files/freetype-iphone-2.3.12-bin.zip
+[physfs-1.0.2-iphone.zip]: http://alleg.sourceforge.net/files/physfs-1.0.2-iphone.zip
+[vorbis-iphone.zip]: http://alleg.sourceforge.net/files/vorbis-iphone.zip
+-----------------------------------------------------------------------------------------------------------------------
+
 ## Binary version (only for Windows)
 
 -----------------------------------------------------------------------------------------------------------------------
