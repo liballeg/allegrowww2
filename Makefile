@@ -26,7 +26,8 @@ PAGES :=		\
 	readme		\
 	svn		\
 	webmasters	\
-	download
+	download        \
+        donations
 
 # To be overridden.
 LNG = en
