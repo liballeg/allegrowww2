@@ -1,0 +1,9 @@
+## 2011-05-19 - Allegro 4.4.2 released
+
+This is a minor update for the older Allegro API (version 4).
+You can see the changes since 4.4.1.1
+[here](stabledocs/en/changes.html).
+
+Get this new version from the [Download] section.
+Please test it and report problems and incompatibilities to the [mailing list]
+or the [SourceForge tracker].
