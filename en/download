@@ -138,6 +138,9 @@ Filename                        Size    Description
                                         of the DirectX 7 SDK for Digital Mars
                                         C/C++.
                                         **Only for Windows.**
+
+[dx9mgw.zip]                      4180k This file contains necessary DirectX
+                                        files for compiling Allegro 5.
 -----------------------------------------------------------------------------------------------------------------------
 
 [alldata.zip]:  http://alleg.sourceforge.net/files/alldata.zip
@@ -145,6 +148,7 @@ Filename                        Size    Description
 [dx70_mgw.zip]: http://alleg.sourceforge.net/files/dx70_mgw.zip
 [dx80_mgw.zip]: http://alleg.sourceforge.net/files/dx80_mgw.zip
 [dx70_dmc.zip]: http://alleg.sourceforge.net/files/dx70_dmc.zip
+[dx9mgw.zip]:   http://alleg.sourceforge.net/files/dx9mgw.zip
 
 ## IPhone binaries
 
