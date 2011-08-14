@@ -12,6 +12,9 @@ to contact the webmaster and report the change.
 [allua]
 :   Lua binding to Allegro 5 by Trezker.
 
+[DAllegro5]
+:   D binding to Allegro 5 by SiegeLord.
+
 Python
 :   The Allegro 5 distribution comes with a basic Python wrapper;
     see the `python` directory.
@@ -51,6 +54,14 @@ Python
 :   Mallegro (or Managed Allegro) is a .NET wrapper for Allegro written
     by Michael Jensen. It promises making Allegro available to C# and VB.NET
     developers.
+
+[SharpAllegro]
+:   Sharp Allegro aims to ease game development in C# by using well developed
+    libraries such as Allegro, AllegroGL, MASkinG, and so on.
+
+[SharpAllegGL]
+:   SharpAllegGL is a .NET wrapper around AllegroGL library, addon of Allegro
+    game development library.
 
 ## D
 
