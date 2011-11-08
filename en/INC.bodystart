@@ -47,7 +47,7 @@ A game programming library
     - [Older versions](old.html)
 
 * Documentation
-    - **[API](api.html)**
+    - **[API](api.html)** &mdash; [5.1][directdocs]
     - [Tutorials](docs.html)
     - [Books](books.html)
     - [Wiki][Allegro Wiki]
@@ -95,3 +95,5 @@ Hosted by:
 </div><!-- left -->
 
 <div id="content">
+
+[directdocs]: http://alleg.sourceforge.net/a5docs/refman/
