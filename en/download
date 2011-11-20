@@ -14,7 +14,7 @@ number) or unstable (odd number). Finally the third number marks smaller
 differences between releases. A fourth number is used if we need to fix a minor
 mistake found in a previous release.
 
-## Allegro 5.0 source releases
+## Allegro 5.0 source releases (stable)
 
 Allegro 5.0 supports **Unix** (Linux, FreeBSD, etc.), **Windows**, **MacOS X**
 and **iPhone**.
@@ -38,9 +38,36 @@ Filename                        Size    Description
 [allegro-5.0.5.zip]:                    http://sourceforge.net/projects/alleg/files/allegro/5.0.5/allegro-5.0.5.zip/download
 [allegro-5.0.5.tar.gz]:                 http://sourceforge.net/projects/alleg/files/allegro/5.0.5/allegro-5.0.5.tar.gz/download
 [allegro-5.0.5.7z]:                     http://sourceforge.net/projects/alleg/files/allegro/5.0.5/allegro-5.0.5.7z/download
-[Browse all files]:                     http://sourceforge.net/projects/alleg/files/allegro/
+[Browse all files]:			http://sourceforge.net/projects/alleg/files/allegro/
 
 See [below](#binary-version-only-for-windows) for third party Windows binaries.
+
+## Allegro 5.1 source releases (unstable)
+
+The 5.1 branch is source compatible, but not binary compatible, with the stable
+5.0 branch.
+It contains provisional new features which are *subject to change at any time*.
+You can read the [changes since 5.0](changes-unstable.html).
+
+-----------------------------------------------------------------------------------------------------------------------
+Filename                        Size    Description
+------------------------------- ------- -------------------------------------------------------------------------------
+[allegro-5.1.0.zip]                7.3M Source code for all platforms in
+                                        DOS/Windows friendly format.
+
+[allegro-5.1.0.tar.gz]             6.5M Source code for all platforms in Unix
+                                        friendly format.
+
+[allegro-5.1.0.7z]                 5.6M Source code for all platforms in DOS/Windows
+                                        friendly format.
+
+[Browse unstable files]
+-----------------------------------------------------------------------------------------------------------------------
+
+[allegro-5.1.0.zip]:                    http://sourceforge.net/projects/alleg/files/allegro-unstable/5.1.0/allegro-5.1.0.zip/download
+[allegro-5.1.0.tar.gz]:                 http://sourceforge.net/projects/alleg/files/allegro-unstable/5.1.0/allegro-5.1.0.tar.gz/download
+[allegro-5.1.0.7z]:                     http://sourceforge.net/projects/alleg/files/allegro-unstable/5.1.0/allegro-5.1.0.7z/download
+[Browse unstable files]:		http://sourceforge.net/projects/alleg/files/allegro-unstable/
 
 ## Allegro 4.4 source releases
 

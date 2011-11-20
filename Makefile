@@ -8,6 +8,7 @@ PAGES :=		\
 	bindings	\
 	books		\
 	changes		\
+	changes-unstable \
 	digmid		\
 	docs		\
 	humor 		\
