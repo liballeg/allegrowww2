@@ -12,6 +12,9 @@ to contact the webmaster and report the change.
 [allua]
 :   Lua binding to Allegro 5 by Trezker.
 
+[Chicken Scheme]
+:   Binding for Chicken Scheme by Daniel Leslie.
+
 [DAllegro5]
 :   D binding to Allegro 5 by SiegeLord.
 
