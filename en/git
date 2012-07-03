@@ -1,0 +1,46 @@
+# GIT access
+
+Allegro's source code is maintained in a GIT repository. 
+You can get clients for most platforms at <http://git-scm.com>, and there
+is good documentation like the [Reference Manual](http://git-scm.com/docs).
+
+The read-only URL is:
+
+    git://alleg.git.sourceforge.net/gitroot/alleg/allegro
+
+For developers with a SourceForge USERNAME it is:
+
+    ssh://USERNAME@alleg.git.sourceforge.net/gitroot/alleg/allegro
+
+By default you will be on the 5.1 branch. You can change the branch from
+your working tree like this:
+
+    git checkout 5.0
+
+    git checkout 4.4
+
+    git checkout 5.1
+
+## Web Interface
+
+You can browse the source code online at
+<http://alleg.git.sourceforge.net/git/gitweb-index.cgi>.
+
+## Test results
+
+Daily test results can be seen here: <http://allegro5.org>
+
+## Upstream tracker
+
+Shallow test results from the Upstream Tracker:
+<http://linuxtesting.org/upstream-tracker/versions/allegro.html>
+
+## Changelogs of the GIT tree
+
+The GIT repository also has a commit hook for [CIA], a system for tracking
+open-source projects in real-time. The CIA web interface provides an RSS feed
+and notifications in the `#commits` channel on the [Freenode] IRC network. You
+can monitor Allegro activity at <http://cia.vc/stats/project/alleg>.
+
+[CIA]:	    http://cia.vc/
+[Freenode]: http://freenode.org/

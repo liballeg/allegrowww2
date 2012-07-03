@@ -25,7 +25,7 @@ PAGES :=		\
 	old		\
 	oldnews		\
 	readme		\
-	svn		\
+	git 	\
 	webmasters	\
 	download        \
         donations
