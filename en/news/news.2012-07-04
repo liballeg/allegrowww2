@@ -1,0 +1,34 @@
+## 2012-07-04 - Switched to GIT!
+
+As probably one of the last projects, we finally made the switch from SVN to
+[GIT](git.html) in 2012.
+
+A quick reminder how to use it.
+
+To get the repository:
+<pre>
+git clone git://alleg.git.sourceforge.net/gitroot/alleg/allegro (contributor)
+git clone ssh://USERNAME@alleg.git.sourceforge.net/gitroot/alleg/allegro (committer)
+cd allegro
+git config --global user.name "My Name"
+git config --global user.email "USERNAME@users.sourceforge.net"
+</pre>
+
+To make sure you're in the right branch and have the latest changes:
+<pre>
+git checkout 5.1
+git pull --rebase origin 5.1
+</pre>
+
+To locally commit your changes:
+<pre>
+git add
+git commit -av
+</pre>
+
+To share your local commit:
+<pre>
+git format-patch HEAD^ (contributor)
+git push origin 5.1 (committer)
+</pre>
+
