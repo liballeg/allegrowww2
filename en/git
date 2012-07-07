@@ -21,6 +21,50 @@ your working tree like this:
 
     git checkout 5.1
 
+## Usage
+
+A quick reminder how to use git.
+
+To get the repository: (read-only access)
+<pre>
+git clone git://alleg.git.sourceforge.net/gitroot/alleg/allegro
+</pre>
+
+To get the repository: (for committers)
+<pre>
+git clone ssh://USERNAME@alleg.git.sourceforge.net/gitroot/alleg/allegro
+</pre>
+
+Remember to tell git your name and email address:
+<pre>
+git config --global user.name "My Name"
+git config --global user.email "USERNAME@users.sourceforge.net"
+</pre>
+
+To make sure you're in the right branch and have the latest changes:
+<pre>
+cd allegro
+git checkout 5.1
+git pull --rebase origin 5.1
+</pre>
+
+To locally commit your changes:
+<pre>
+git add -p
+git commit -v
+</pre>
+
+To share your local commit (send as attachments to the Allegro developers
+mailing list):
+<pre>
+git format-patch HEAD^
+</pre>
+
+For committers, to push changes on the local 5.1 branch to the remote 5.1 branch:
+<pre>
+git push origin 5.1
+</pre>
+
 ## Web Interface
 
 You can browse the source code online at
