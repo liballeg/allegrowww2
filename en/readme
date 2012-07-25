@@ -26,6 +26,10 @@ Allegro 5.0 supports the following platforms:
 * MacOS X
 * iPhone
 
+Allegro 5.1 also adds support for:
+
+* Android
+
 You can see the functionality Allegro provides by browsing the online
 [reference manual](api.html).
 
