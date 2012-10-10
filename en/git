@@ -6,11 +6,11 @@ is good documentation like the [Reference Manual](http://git-scm.com/docs).
 
 The read-only URL is:
 
-    git://alleg.git.sourceforge.net/gitroot/alleg/allegro
+    git://git.code.sf.net/p/alleg/allegro
 
 For developers with a SourceForge USERNAME it is:
 
-    ssh://USERNAME@alleg.git.sourceforge.net/gitroot/alleg/allegro
+    ssh://USERNAME@git.code.sf.net/p/alleg/allegro
 
 By default you will be on the 5.1 branch. You can change the branch from
 your working tree like this:
@@ -27,12 +27,12 @@ A quick reminder how to use git.
 
 To get the repository: (read-only access)
 <pre>
-git clone git://alleg.git.sourceforge.net/gitroot/alleg/allegro
+git clone git://git.code.sf.net/p/alleg/allegro
 </pre>
 
 To get the repository: (for committers)
 <pre>
-git clone ssh://USERNAME@alleg.git.sourceforge.net/gitroot/alleg/allegro
+git clone ssh://USERNAME@git.code.sf.net/p/alleg/allegro
 </pre>
 
 Remember to tell git your name and email address:
@@ -68,7 +68,7 @@ git push origin 5.1
 ## Web Interface
 
 You can browse the source code online at
-<http://alleg.git.sourceforge.net/git/gitweb-index.cgi>.
+<https://sourceforge.net/p/alleg/allegro/ref/5.1~/>.
 
 ## Test results
 
@@ -79,12 +79,8 @@ Daily test results can be seen here: <http://allegro5.org>
 Shallow test results from the Upstream Tracker:
 <http://linuxtesting.org/upstream-tracker/versions/allegro.html>
 
-## Changelogs of the GIT tree
+## Mirrors
 
-The GIT repository also has a commit hook for [CIA], a system for tracking
-open-source projects in real-time. The CIA web interface provides an RSS feed
-and notifications in the `#commits` channel on the [Freenode] IRC network. You
-can monitor Allegro activity at <http://cia.vc/stats/project/alleg>.
-
-[CIA]:	    http://cia.vc/
-[Freenode]: http://freenode.org/
+If for some reason you prefer the GitHub web interface to SourceForge, there
+happens to exist a mirror (updated hourly):
+<https://github.com/elias-pschernig/allegro5>
