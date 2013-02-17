@@ -23,7 +23,7 @@ Name                            Subscribe           Archives
 
 [[Alleg5]][3]   Allegro 5                           [Search/Browse archives][3a]
 
-[[SVN]][4]      Allegro         [(Un)Subscribe][4s] [Search/Browse archives][4a]
+[[Commits]][4]  Allegro         [(Un)Subscribe][4s] [Search/Browse archives][4a]
                 Commits
 
 [[AGP]][5]      Allegro
@@ -99,8 +99,8 @@ This list was once available for discussing the next major version of Allegro,
 when it was too noisy to do so on [AD]. This is no longer the case so the list
 has been shut down. However, its archives are still valuable.
 
-\[SVN] Allegro Commits <a name="ALLEGCOMMIT"></a>
-----------------------
+\[Commits] Allegro Commits <a name="ALLEGCOMMIT"></a>
+--------------------------
 
 <blockquote>
 [Subscribe/Unsubscribe][4s]. [Search/Browse archives][4a].

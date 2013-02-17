@@ -52,7 +52,7 @@ Allegro 4.4 supports the following platforms:
 * Windows (MSVC, MinGW, Cygwin)
 * MacOS X
 * Haiku/BeOS
-* PSP (currently in SVN repository only)
+* PSP (currently in git repository only)
 
 The older Allegro 4.2 branch additionally supports:
 

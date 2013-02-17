@@ -5,9 +5,9 @@ Here, we host some popular versions of the generated documentation, and provide
 an online browseable version, too.
 
 --------------------------------------------------------------------------------
-File format           Allegro 4.x         Allegro 5.0        Allegro 5.2 (WIP)
+File format           Allegro 4.x         Allegro 5.0        Allegro 5.1
 --------------------- ------------------- ------------------ -------------------
-Online HTML           [4.4.0][st ol]      [**5.0.9**]        [5.1.x (SVN trunk)]
+Online HTML           [4.4.0][st ol]      [**5.0.9**]        [5.1.x (GIT)]
                                           [a5dir 50]         [a5now ol]
 
                                           [older versions]
@@ -16,7 +16,7 @@ Online HTML           [4.4.0][st ol]      [**5.0.9**]        [5.1.x (SVN trunk)]
 Compiled HTML         [4.2.1][st chm]
 format (CHM)          (913 KiB)
 
-PDF format            [4.2.1][st pdf]       [SVN][ext pdf]
+PDF format            [4.2.1][st pdf]     -                  [GIT][ext pdf]
                       (2769 KiB)
 
 PostScript            [4.2.1][st ps]
