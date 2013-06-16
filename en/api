@@ -7,7 +7,7 @@ an online browseable version, too.
 --------------------------------------------------------------------------------
 File format           Allegro 4.x         Allegro 5.0        Allegro 5.1
 --------------------- ------------------- ------------------ -------------------
-Online HTML           [4.4.0][st ol]      [**5.0.9**]        [5.1.x (GIT)]
+Online HTML           [4.4.0][st ol]      [**5.0.10**]       [5.1.x (GIT)]
                                           [a5dir 50]         [a5now ol]
 
                                           [older versions]
@@ -30,7 +30,7 @@ gzipped format        (536 KiB)
 
 [a5now ol]:  http://alleg.sourceforge.net/a5docs/refman/index.html
 [a5dir ol]:  http://alleg.sourceforge.net/a5docs/
-[a5dir 50]: http://alleg.sourceforge.net/a5docs/5.0.9/
+[a5dir 50]: http://alleg.sourceforge.net/a5docs/5.0.10/
 
 [ext pdf]: http://www.strangesoft.net/allegro/docs/refman.pdf
 
