@@ -18,6 +18,9 @@ to contact the webmaster and report the change.
 [DAllegro5]
 :   D binding to Allegro 5 by SiegeLord.
 
+[go-allegro]
+:   Go binding to Allegro 5 by Damien Radtke.
+
 Python
 :   The Allegro 5 distribution comes with a basic Python wrapper;
     see the `python` directory.

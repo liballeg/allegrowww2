@@ -18,6 +18,8 @@
 [DAllegro]:	http://www.dsource.org/projects/dallegro
 [DAllegro5]:	https://github.com/SiegeLord/DAllegro5
 
+[go-allegro]: https://github.com/dradtke/go-allegro
+
 [LuAllegro]:	http://luallegro.luaforge.net/
 [Lua]:		http://www.lua.org/
 
