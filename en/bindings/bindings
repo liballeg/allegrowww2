@@ -15,6 +15,9 @@ to contact the webmaster and report the change.
 [Chicken Scheme]
 :   Binding for Chicken Scheme by Daniel Leslie.
 
+[cl-liballegro]
+:   Bindings for Common Lisp by resttime.
+
 [DAllegro5]
 :   D binding to Allegro 5 by SiegeLord.
 
