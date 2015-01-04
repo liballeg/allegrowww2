@@ -52,21 +52,21 @@ You can read the [changes since 5.0](changes-unstable.html).
 -----------------------------------------------------------------------------------------------------------------------
 Filename                        Size    Description
 ------------------------------- ------- -------------------------------------------------------------------------------
-[allegro-5.1.8.zip]                7.3M Source code for all platforms in
+[allegro-5.1.9.zip]                8.1M Source code for all platforms in
                                         DOS/Windows friendly format.
 
-[allegro-5.1.8.tar.gz]             6.5M Source code for all platforms in Unix
+[allegro-5.1.9.tar.gz]             7.2M Source code for all platforms in Unix
                                         friendly format.
 
-[allegro-5.1.8.7z]                 5.6M Source code for all platforms in DOS/Windows
+[allegro-5.1.9.7z]                 6.0M Source code for all platforms in DOS/Windows
                                         friendly format.
 
 [Browse unstable files]
 -----------------------------------------------------------------------------------------------------------------------
 
-[allegro-5.1.8.zip]:                    http://sourceforge.net/projects/alleg/files/allegro-unstable/5.1.8/allegro-5.1.8.zip/download
-[allegro-5.1.8.tar.gz]:                 http://sourceforge.net/projects/alleg/files/allegro-unstable/5.1.8/allegro-5.1.8.tar.gz/download
-[allegro-5.1.8.7z]:                     http://sourceforge.net/projects/alleg/files/allegro-unstable/5.1.8/allegro-5.1.8.7z/download
+[allegro-5.1.9.zip]:                    http://sourceforge.net/projects/alleg/files/allegro-unstable/5.1.9/allegro-5.1.9.zip/download
+[allegro-5.1.9.tar.gz]:                 http://sourceforge.net/projects/alleg/files/allegro-unstable/5.1.9/allegro-5.1.9.tar.gz/download
+[allegro-5.1.9.7z]:                     http://sourceforge.net/projects/alleg/files/allegro-unstable/5.1.9/allegro-5.1.9.7z/download
 [Browse unstable files]:		http://sourceforge.net/projects/alleg/files/allegro-unstable/
 
 ## Allegro 4.4 source releases
