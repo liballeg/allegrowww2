@@ -23,21 +23,21 @@ You can read the [full change log](changes.html).
 -----------------------------------------------------------------------------------------------------------------------
 Filename                        Size    Description
 ------------------------------- ------- -------------------------------------------------------------------------------
-[allegro-5.0.10.zip]               3.7M Source code for all platforms in
+[allegro-5.0.11.zip]               4.0M Source code for all platforms in
                                         DOS/Windows friendly format.
 
-[allegro-5.0.10.tar.gz]            3.0M Source code for all platforms in Unix
+[allegro-5.0.11.tar.gz]            3.2M Source code for all platforms in Unix
                                         friendly format.
 
-[allegro-5.0.10.7z]                2.3M Source code for all platforms in DOS/Windows
+[allegro-5.0.11.7z]                2.4M Source code for all platforms in DOS/Windows
                                         friendly format.
 
 [Browse all files]
 -----------------------------------------------------------------------------------------------------------------------
 
-[allegro-5.0.10.zip]:                   http://sourceforge.net/projects/alleg/files/allegro/5.0.10/allegro-5.0.10.zip/download
-[allegro-5.0.10.tar.gz]:                http://sourceforge.net/projects/alleg/files/allegro/5.0.10/allegro-5.0.10.tar.gz/download
-[allegro-5.0.10.7z]:                    http://sourceforge.net/projects/alleg/files/allegro/5.0.10/allegro-5.0.10.7z/download
+[allegro-5.0.11.zip]:                   http://sourceforge.net/projects/alleg/files/allegro/5.0.11/allegro-5.0.11.zip/download
+[allegro-5.0.11.tar.gz]:                http://sourceforge.net/projects/alleg/files/allegro/5.0.11/allegro-5.0.11.tar.gz/download
+[allegro-5.0.11.7z]:                    http://sourceforge.net/projects/alleg/files/allegro/5.0.11/allegro-5.0.11.7z/download
 [Browse all files]:			http://sourceforge.net/projects/alleg/files/allegro/
 
 See [below](#binary-version-only-for-windows) for third party Windows binaries.
