@@ -16,7 +16,7 @@ Online HTML           [4.4.0][st ol]      [**5.0.11**]       [5.1.x (GIT)]
 Compiled HTML         [4.2.1][st chm]
 format (CHM)          (913 KiB)
 
-PDF format            [4.2.1][st pdf]     [5.0.11]           [GIT][ext pdf]
+PDF format            [4.2.1][st pdf]     [5.0.11]
                       (2769 KiB)          [a5pdf 50]
                                           (624 KiB)
 
@@ -33,8 +33,6 @@ gzipped format        (536 KiB)
 [a5dir ol]:  http://alleg.sourceforge.net/a5docs/
 [a5dir 50]: http://alleg.sourceforge.net/a5docs/5.0.11/
 [a5pdf 50]: http://alleg.sourceforge.net/a5docs/5.0.11/refman.pdf
-
-[ext pdf]: http://www.strangesoft.net/allegro/docs/refman.pdf
 
 [Online Documentation and Source Browser](http://srnet.cz/~stepan/allegro/) -
 <br/>
