@@ -1,14 +1,37 @@
+# Books
+
+If you are from those who like to have something physically by your side when
+you are in the middle of programming you might want to take a look at some of
+the following books about Allegro. You should be able to order them from any
+big book store using their ISBN code. Or you can use book search engines like
+[BookButler](http://us.bookbutler.com/) to compare prices in different internet
+online shops and buy immediately.
+
+# Books teaching Allegro 5
+
+## Allegro 5 - Programmation de jeux en C ou C++
+
+<blockquote>
+Title:          [Allegro 5 - Programmation de jeux en C ou C++](http://www.editions-eni.fr/livres/allegro-5-programmation-de-jeux-en-c-ou-c/.9c142c2fe99964a514b61603f5060361.html)
+<br/>
+ISBN code:      978-2-7460-9386-7
+<br/>
+Author:         [Frédéric Drouillon](http://fdr.free.fr/)
+<br/>
+Available in:   French
+</blockquote>
+
+**Some words from the author:**
+*I swear that I am very happy to have achieved this piece of work.  For me the
+Allegro cross-platform game programming library is like a friend.  I have been
+with her since 1998 when version 3.13 began. I have never had the time to get
+to know all of her secrets but, in fact, this is probably for the best and even
+after all this time there still remains something to discover.  I have always
+dreamed of being able to help in her technical development but in this I have
+not succeeded.  And so I remain contemplative and I have done what I can: a
+book in French which I hope will make her better known.*
+
 # Books teaching Allegro 4
-
-If you are from those who like to have
-something physically by your side when you are in the middle of programming you
-might want to take a look at some of the following books about Allegro. You
-should be able to order them from any big book store using their ISBN code. Or
-you can use book search engines like [BookButler](http://us.bookbutler.com/) to
-compare prices in different internet online shops and buy immediately. 
-
-These books are about Allegro 4.
-We don't know of any books about Allegro 5 yet.
 
 ## Game Programming All in One
 
