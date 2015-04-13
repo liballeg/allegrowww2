@@ -40,7 +40,7 @@ Filename                        Size    Description
 [allegro-5.0.11.7z]:                    http://sourceforge.net/projects/alleg/files/allegro/5.0.11/allegro-5.0.11.7z/download
 [Browse all files]:			http://sourceforge.net/projects/alleg/files/allegro/
 
-See [below](#binary-version-only-for-windows) for third party Windows binaries.
+See [below](#windows-binaries) for third party Windows binaries.
 
 ## Allegro 5.1 source releases (unstable)
 
@@ -198,7 +198,7 @@ Filename                         Size    Description
 [physfs-1.0.2-iphone.zip]: http://alleg.sourceforge.net/files/physfs-1.0.2-iphone.zip
 [vorbis-iphone.zip]: http://alleg.sourceforge.net/files/vorbis-iphone.zip
 
-## Binary version (only for Windows)
+## Windows Binaries
 
 -----------------------------------------------------------------------------------------------------------------------
 Site                            Description
@@ -228,3 +228,22 @@ Site                            Description
 [Allegro binary package]:       http://sourceforge.net/project/showfiles.php?group_id=5665&package_id=168871
 [devpaks.org]:                  http://devpaks.org/
 [www.allegro.cc/files]:         http://www.allegro.cc/files/
+
+## Ubuntu PPA
+
+For Linux distributions based on Ubuntu (and Ubuntu itself), you can download
+binary packages for Allegro 5 by adding the following PPAs to your software
+sources, and then installing the relevant packages:
+
+-------------------------------------------------------------------------------------
+PPA                              Description
+-------------------------------- ----------------------------------------------------
+[Stable version (5.0.x) PPA]     Use this PPA to get the stable release binary and
+                                 development packages.
+
+[Unstable version (5.1.x) PPA]   Use this PPA to get the unstable release binary and
+                                 development packages.
+-------------------------------------------------------------------------------------
+
+[Stable version (5.0.x) PPA]: https://launchpad.net/~allegro/+archive/ubuntu/5.0
+[Unstable version (5.1.x) PPA]: https://launchpad.net/~allegro/+archive/ubuntu/5.1
