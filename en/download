@@ -52,22 +52,22 @@ You can read the [changes since 5.0](changes-unstable.html).
 -----------------------------------------------------------------------------------------------------------------------
 Filename                        Size    Description
 ------------------------------- ------- -------------------------------------------------------------------------------
-[allegro-5.1.9.zip]                8.1M Source code for all platforms in
+[allegro-5.1.10.zip]               8.2M Source code for all platforms in
                                         DOS/Windows friendly format.
 
-[allegro-5.1.9.tar.gz]             7.2M Source code for all platforms in Unix
+[allegro-5.1.10.tar.gz]            7.2M Source code for all platforms in Unix
                                         friendly format.
 
-[allegro-5.1.9.7z]                 6.0M Source code for all platforms in DOS/Windows
+[allegro-5.1.10.7z]                6.0M Source code for all platforms in DOS/Windows
                                         friendly format.
 
 [Browse unstable files]
 -----------------------------------------------------------------------------------------------------------------------
 
-[allegro-5.1.9.zip]:                    http://sourceforge.net/projects/alleg/files/allegro-unstable/5.1.9/allegro-5.1.9.zip/download
-[allegro-5.1.9.tar.gz]:                 http://sourceforge.net/projects/alleg/files/allegro-unstable/5.1.9/allegro-5.1.9.tar.gz/download
-[allegro-5.1.9.7z]:                     http://sourceforge.net/projects/alleg/files/allegro-unstable/5.1.9/allegro-5.1.9.7z/download
-[Browse unstable files]:		http://sourceforge.net/projects/alleg/files/allegro-unstable/
+[allegro-5.1.10.zip]:    http://sourceforge.net/projects/alleg/files/allegro-unstable/5.1.10/allegro-5.1.10.zip/download
+[allegro-5.1.10.tar.gz]: http://sourceforge.net/projects/alleg/files/allegro-unstable/5.1.10/allegro-5.1.10.tar.gz/download
+[allegro-5.1.10.7z]:     http://sourceforge.net/projects/alleg/files/allegro-unstable/5.1.10/allegro-5.1.10.7z/download
+[Browse unstable files]: http://sourceforge.net/projects/alleg/files/allegro-unstable/
 
 ## Allegro 4.4 source releases
 
@@ -203,17 +203,26 @@ Filename                         Size    Description
 -----------------------------------------------------------------------------------------------------------------------
 Site                            Description
 ------------------------------- ---------------------------------------------------------------------------------------
+[Allegro 5.1 binary packages]
+                                The allegro-unstable-bin directory at SourceForge contains
+                                several binary distributions of Allegro for
+                                Windows.
+
+[Allegro 5 dependencies]
+                                The allegro-deps directory contains at SourceForge contains
+                                pre-compiled Allegro dependencies for Windows.
+
+[Allegro binary package]
+                                The allegro-bin directory at SourceForge contains
+                                several binary distributions of Allegro for
+                                Windows.  For Allegro **4.2.2**.
+
 [www.allegro.cc/files]
                                 Matthew Leverton hosts Windows binary packages for
                                 many different compilers.
                                 For Allegro **4.2** and **5.0**.
                                 The 5.0 binaries are produced by a different
                                 process from the standard build system.
-
-[Allegro binary package]
-                                The allegro-bin package at SourceForge contains
-                                several binary distributions of Allegro for
-                                Windows.  For Allegro **4.2.2**.
 
 [devpaks.org]
                                 Michal Molhanec mantains a Devpak repository,
@@ -225,6 +234,8 @@ Site                            Description
                                 link.
 -----------------------------------------------------------------------------------------------------------------------
 
+[Allegro 5.1 binary packages]:  https://sourceforge.net/projects/alleg/files/allegro-unstable-bin/
+[Allegro 5 dependencies]:       https://sourceforge.net/projects/alleg/files/allegro-deps/
 [Allegro binary package]:       http://sourceforge.net/project/showfiles.php?group_id=5665&package_id=168871
 [devpaks.org]:                  http://devpaks.org/
 [www.allegro.cc/files]:         http://www.allegro.cc/files/
