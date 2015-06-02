@@ -176,6 +176,14 @@ Filename                        Size    Description
 [dx70_dmc.zip]: http://alleg.sourceforge.net/files/dx70_dmc.zip
 [dx9mgw.zip]:   http://alleg.sourceforge.net/files/dx9mgw.zip
 
+## MacOS X binaries
+
+Allegro 5 can be found in the `allegro` package on [homebrew]. Use the
+`--devel` switch to install a 5.1.x release.
+
+[homebrew]: http://brew.sh/
+
+
 ## IPhone binaries
 
 -----------------------------------------------------------------------------------------------------------------------
