@@ -4,83 +4,54 @@ Allegro's source code is maintained in a GIT repository.
 You can get clients for most platforms at <http://git-scm.com>, and there
 is good documentation like the [Reference Manual](http://git-scm.com/docs).
 
-The read-only URL is:
+The source repository is hosted at GitHub: <https://github.com/liballeg/allegro5>
 
-    git://git.code.sf.net/p/alleg/allegro
+You can clone the repository from either of these two URLs:
 
-For developers with a SourceForge USERNAME it is:
-
-    ssh://USERNAME@git.code.sf.net/p/alleg/allegro
+    https://github.com/liballeg/allegro5.git
+    git@github.com:liballeg/allegro5.git
 
 By default you will be on the 5.1 branch. You can change the branch from
 your working tree like this:
 
     git checkout 5.0
-
     git checkout 4.4
-
     git checkout 5.1
 
 ## Usage
 
 A quick reminder how to use git.
 
-To get the repository: (read-only access)
-<pre>
-git clone git://git.code.sf.net/p/alleg/allegro
-</pre>
+To get the repository:
 
-To get the repository: (for committers)
-<pre>
-git clone ssh://USERNAME@git.code.sf.net/p/alleg/allegro
-</pre>
+    git clone https://github.com/liballeg/allegro5.git
 
 Remember to tell git your name and email address:
-<pre>
-git config --global user.name "My Name"
-git config --global user.email "USERNAME@users.sourceforge.net"
-</pre>
+
+    git config --global user.name "My Name"
+    git config --global user.email "USERNAME@users.sourceforge.net"
 
 To make sure you're in the right branch and have the latest changes:
-<pre>
-cd allegro
-git checkout 5.1
-git pull --rebase origin 5.1
-</pre>
+
+    cd allegro
+    git checkout 5.1
+    git pull --rebase origin 5.1
 
 To locally commit your changes:
-<pre>
-git add -p
-git commit -v
-</pre>
+
+    git add -p
+    git commit -v
 
 To share your local commit (send as attachments to the Allegro developers
 mailing list):
-<pre>
-git format-patch HEAD^
-</pre>
+
+    git format-patch HEAD^
+
 
 For committers, to push changes on the local 5.1 branch to the remote 5.1 branch:
-<pre>
-git push origin 5.1
-</pre>
 
-## Web Interface
-
-You can browse the source code online at
-<http://sourceforge.net/p/alleg/allegro/>.
+    git push origin 5.1
 
 ## Test results
 
 Daily test results can be seen here: <http://allegro5.org>
-
-## Upstream tracker
-
-Shallow test results from the Upstream Tracker:
-<http://linuxtesting.org/upstream-tracker/versions/allegro.html>
-
-## Mirrors
-
-If for some reason you prefer the GitHub web interface to SourceForge, there
-happens to exist a mirror (updated hourly):
-<https://github.com/liballeg>

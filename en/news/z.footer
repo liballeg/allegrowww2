@@ -12,6 +12,7 @@ Do you want to read older news? Then follow [this link](oldnews.html).
 [download 4.9]: http://sourceforge.net/projects/alleg/files/allegro-unstable/
 [mailing list]: maillist.html
 [SourceForge tracker]: http://sourceforge.net/tracker/?group_id=5665
+[GIT]: git.html
 
 [CMake]: http://www.cmake.org/
 [AllegroGL]: http://allegrogl.sourceforge.net/
