@@ -1,6 +1,9 @@
 </div><!-- content -->
 
 <div id="footer">
+<div id="contact">
+[Contact the webmasters](webmasters.html)
+</div><!-- contact -->
 <a href="http://petition.eurolinux.org/index_html?LANG=en">
   <img src="images/nopatents.png" border="0" alt="No ePatents"
     height="33" width="88" vspace="1" hspace="1" />
@@ -9,7 +12,4 @@
   <img src="images/anyb.png" border="0" alt="Viewable with any browser"
     height="31" width="88" vspace="1" hspace="1" />
 </a>
-<div id="contact">
-[Contact the webmasters](webmasters.html)
-</div><!-- contact -->
 </div><!-- footer -->
