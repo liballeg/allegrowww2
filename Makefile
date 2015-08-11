@@ -63,7 +63,7 @@ INCLUDES := \
 OUTPAGES := $(addsuffix .html,$(addprefix $(OUTDIR)/,$(PAGES)))
 
 .PHONY: all
-all: $(OUTPAGES) $(OUTDIR)/web_style.css $(OUTDIR)/feed_atom.xml
+all: $(OUTPAGES) $(OUTDIR)/web_style.css $(OUTDIR)/feed_atom.xml $(OUTDIR)/images
 
 $(OUTDIR)/index.html: $(OUTDIR)/news.html
 	cp $< $@
@@ -80,6 +80,9 @@ $(OUTDIR):
 
 $(OUTDIR)/web_style.css: en/web_style.css
 	cp $< $@
+
+$(OUTDIR)/images: images
+	cp -r $< $@
 
 $(OUTDIR)/feed_atom.xml: $(sort $(wildcard $(SRCDIR)/news/news.*))
 	./make_feed $^ > $(OUTDIR)/feed_atom.xml
