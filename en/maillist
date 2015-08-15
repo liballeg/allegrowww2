@@ -18,7 +18,7 @@ Name                            Subscribe           Archives
 ------------------------------- ------------------- ----------------------------
 [[AL]][1]       Allegro         [(Un)Subscribe][1s] [Search/Browse archives][1a]
 
-[[AD]][2]       Allegro         [(Un)Subscribe][2s] [Search/Browse archives][2a]
+[[AD]][2]       Allegro         [(Un)Subscribe][2s] [Browse archives][2a]
                 Developers
 
 [[Alleg5]][3]   Allegro 5                           [Search/Browse archives][3a]
@@ -38,8 +38,8 @@ Name                            Subscribe           Archives
 [5]: #AGP
 [1s]: http://lists.sourceforge.net/lists/listinfo/alleg-main/
 [1a]: http://sourceforge.net/mailarchive/forum.php?forum_name=alleg-main
-[2s]: http://lists.sourceforge.net/lists/listinfo/alleg-developers/
-[2a]: http://sourceforge.net/mailarchive/forum.php?forum_name=alleg-developers
+[2s]: https://mail.gna.org/listinfo/allegro-developers
+[2a]: https://mail.gna.org/public/allegro-developers/
 [3a]: http://sourceforge.net/mailarchive/forum.php?forum_name=alleg-bigfive
 [4s]: http://lists.sourceforge.net/mailman/listinfo/alleg-commits
 [4a]: http://sourceforge.net/mailarchive/forum.php?forum_name=alleg-commits
@@ -62,11 +62,13 @@ comp.os.msdos.djgpp, comp.lang.c, or the online forums at
 
 During January of 2003 this mailing list moved to SourceForge.
 
-\[AD] Allegro Developers (alleg-developers@lists.sourceforge.net) <a name="AD"></a>
------------------------------------------------------------------
+<a name="AD"></a>
+
+\[AD] Allegro Developers (allegro-developers@gna.org)
+-----------------------------------------------------
 
 <blockquote>
-[Subscribe/Unsubscribe][2s]. [Search/Browse archives][2a].
+[Subscribe/Unsubscribe][2s]. [Browse archives][2a].
 </blockquote>
 
 This list is for the people currently working on Allegro, who use it to
@@ -74,19 +76,12 @@ coordinate their efforts. You can use this address if you need to contact the
 developers directly, for example to submit some new code that you have written
 or to report a bug.
 
-Unlike the other lists, we will be really rude to people who post inappropriate
-material here, so please don't do that! Do not send tech-support questions to
-this list. Don't post bug reports here unless you are 100% certain they aren't
-your fault (if you are in any doubt, use the main AL list instead, which is
-read by most of the same people who are subscribed here).
-
 The Allegro development is a completely open process, and everyone is welcome
-to drop by, have a listen, and start contributing code patches. This list is
-for working rather than talking, though, so please don't do anything that might
-get in our way.
+to drop by, have a listen, and start contributing code patches.
 
-During January of 2003 this mailing list moved to SourceForge, and
-[the old archives were merged succesfully into the new location](http://sourceforge.net/tracker/?func=detail&aid=689047&group_id=1&atid=200001).
+You can also
+[browse older archives](http://sourceforge.net/mailarchive/forum.php?forum_name=alleg-developers)
+on SourceForge.
 
 \[Alleg5] Allegro 5 <a name="A5"></a>
 -------------------
