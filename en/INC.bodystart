@@ -75,16 +75,10 @@ A game programming library
 </div><!-- sidebar -->
 
 <div id="hosting">
+[GitHub project](https://github.com/liballeg)
 <br/>
-Hosted by:
 <br/>
-<a href="http://sourceforge.net/projects/alleg">
-    <img src="http://sflogo.sourceforge.net/sflogo.php?group_id=5665&amp;type=13"
-	width="120" height="30" border="0"
-	alt="Get Allegro game programming library at SourceForge.net. Fast, secure and Free Open Source software downloads" />
-</a>
-<br/>
-[Project page](http://sourceforge.net/projects/alleg/)
+[Gna project](http://gna.org/projects/allegro)
 </div><!-- hosting -->
 </div><!-- left -->
 
