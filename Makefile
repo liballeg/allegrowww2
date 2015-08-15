@@ -27,8 +27,7 @@ PAGES :=		\
 	readme		\
 	git 	\
 	webmasters	\
-	download        \
-        donations
+	download
 
 # To be overridden.
 LNG = en

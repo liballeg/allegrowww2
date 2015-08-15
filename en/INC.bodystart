@@ -70,17 +70,11 @@ A game programming library
     - [Mirrors](mirrors.html)
     - [Webmasters](webmasters.html)
     - [Humor](humor.html)
-    - [Donations](donations.html)
 
 <!-- keep blank line for correct HTML -->
 </div><!-- sidebar -->
 
 <div id="hosting">
-<a href="http://sourceforge.net/donate/index.php?group_id=5665">
-<img src="http://images.sourceforge.net/images/project-support.jpg"
-    alt="Support This Project" border="0" height="32" width="88"
-    id="support" />
-</a>
 <br/>
 Hosted by:
 <br/>
