@@ -8,8 +8,8 @@ LNG=${LNG:-en}
 
 METAFILE="${LNG}/META.atom"
 case $LNG in
-	en) HOMEPAGE="http://alleg.sourceforge.net/" ;;
-	*)  HOMEPAGE="http://alleg.sourceforge.net/${LNG}/" ;;
+	en) HOMEPAGE="http://liballeg.org/" ;;
+	*)  HOMEPAGE="http://liballeg.org/${LNG}/" ;;
 esac
 
 rfc3339_date () {
