@@ -29,7 +29,7 @@ To get the repository:
 Remember to tell git your name and email address:
 
     git config --global user.name "My Name"
-    git config --global user.email "USERNAME@users.sourceforge.net"
+    git config --global user.email "USERNAME@example.net"
 
 To make sure you're in the right branch and have the latest changes:
 
