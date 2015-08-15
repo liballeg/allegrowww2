@@ -10,8 +10,8 @@ Page **1** -
 <br/>
 
 <center>
-    <img src="images/logos/cooltextUtopia128.png" width="432" height="134"
-    vspace="1" hspace="1" alt="[Big Allegro logo]"/>
+  <img src="images/logos/cooltextUtopia128.png" width="432" height="134"
+  vspace="1" hspace="1" alt="[Big Allegro logo]"/>
 </center>
 
 <img src="images/alex.png" width="48" height="48" align="left" vspace="2"
@@ -27,7 +27,7 @@ It was created using the 128 pixels Utopia font,
 `#ffffff` as the hightlight color.
 
 <center>
-    <img src="images/logos/cooltext_small.png" alt="[Small Allegro logo]"/>
+  <img src="images/logos/cooltext_small.png" alt="[Small Allegro logo]"/>
 </center>
 
 The top left corner logo may not look the same, but that's because the
