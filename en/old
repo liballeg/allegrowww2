@@ -6,24 +6,24 @@ should get the most recent version instead.
 
 ## Ancient versions
 
-[Allegro 1.02](http://alleg.sourceforge.net/files/allegro1.zip) (119k) - Sometime in 1995.
+[Allegro 1.02](http://download.gna.org/allegro/files/allegro1.zip) (119k) - Sometime in 1995.
 
-[Allegro 2.0](http://alleg.sourceforge.net/files/alleg20.zip) (304k) - March 1996.
+[Allegro 2.0](http://download.gna.org/allegro/files/alleg20.zip) (304k) - March 1996.
 
-[Allegro 2.1](http://alleg.sourceforge.net/files/alleg21.zip) (562k) - June 1996.
+[Allegro 2.1](http://download.gna.org/allegro/files/alleg21.zip) (562k) - June 1996.
 
-[Allegro 2.11](http://alleg.sourceforge.net/files/alleg211.zip) (563k) - November 1996.
+[Allegro 2.11](http://download.gna.org/allegro/files/alleg211.zip) (563k) - November 1996.
 
-[Allegro 2.2](http://alleg.sourceforge.net/files/alleg22.zip) (990k) - February 1997.
+[Allegro 2.2](http://download.gna.org/allegro/files/alleg22.zip) (990k) - February 1997.
 
-[Allegro 3.0](http://alleg.sourceforge.net/files/alleg30.zip) (1225k) - December 1997.
+[Allegro 3.0](http://download.gna.org/allegro/files/alleg30.zip) (1225k) - December 1997.
 
-[Allegro 3.1](http://alleg.sourceforge.net/files/alleg31.zip) (1422k) - January 1999.
+[Allegro 3.1](http://download.gna.org/allegro/files/alleg31.zip) (1422k) - January 1999.
 
-[Allegro 3.11](http://alleg.sourceforge.net/files/alleg311.zip) (1434k) - February 1999.
-[Patch](http://alleg.sourceforge.net/files/al312dif.zip) to upgrade to version 3.12.
+[Allegro 3.11](http://download.gna.org/allegro/files/alleg311.zip) (1434k) - February 1999.
+[Patch](http://download.gna.org/allegro/files/al312dif.zip) to upgrade to version 3.12.
 
-[Allegro 3.12](http://alleg.sourceforge.net/files/alleg312.zip) (1434k) - August 1999.
+[Allegro 3.12](http://download.gna.org/allegro/files/alleg312.zip) (1434k) - August 1999.
 This is a DOS/DJGPP library, and can be obtained from your [local Simtel
 mirror](mirrors.html#simtel), in the directory gnu/djgpp/v2tk/allegro/,
 filename alleg312.zip.
@@ -38,12 +38,10 @@ filename alleg312.zip.
 * [all400_bin.zip] (1301k)
 * [allegro-enduser-4.0.0.tar.gz] (576k) 
 
-[all400.zip]:                   http://prdownloads.sourceforge.net/alleg/all400.zip?download
-[allegro-4.0.0.tar.gz]:         http://prdownloads.sourceforge.net/alleg/allegro-4.0.0.tar.gz?download
-[allegro-4.0.0-1.src.rpm]:      http://prdownloads.sourceforge.net/alleg/allegro-4.0.0-1.src.rpm?download
-[all400_bin.zip]:               http://prdownloads.sourceforge.net/alleg/all400_bin.zip?download
-[allegro-enduser-4.0.0.tar.gz]: http://prdownloads.sourceforge.net/alleg/allegro-enduser-4.0.0.tar.gz?download
+[all400.zip]:                   http://download.gna.org/allegro/allegro/4.0.0/all400.zip
+[allegro-4.0.0.tar.gz]:         http://download.gna.org/allegro/allegro/4.0.0/allegro-4.0.0.tar.gz
+[allegro-4.0.0-1.src.rpm]:      http://download.gna.org/allegro/allegro/4.0.0/allegro-4.0.0-1.src.rpm
+[all400_bin.zip]:               http://download.gna.org/allegro/OldFiles/all400_bin.zip
+[allegro-enduser-4.0.0.tar.gz]: http://download.gna.org/allegro/allegro-enduser/4.0.0/allegro-enduser-4.0.0.tar.gz
 
-There have been some releases between the current stable/unstable version and
-the last old stable version written above. You can get one of those releases
-from [Sourceforge's files page](http://sourceforge.net/project/showfiles.php?group_id=5665). 
+See the [download area](http://download.gna.org/allegro/).

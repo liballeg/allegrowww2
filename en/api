@@ -24,10 +24,10 @@ PostScript            [4.2.1][st ps]
 gzipped format        (536 KiB)
 --------------------------------------------------------------------------------
 
-[st chm]: http://prdownloads.sourceforge.net/alleg/allegro-manual-4.2.1.en.chm?download
+[st chm]: http://download.gna.org/allegro/allegro-manual/4.2.2/allegro-manual-4.2.2.en.chm
 [st ol]:  http://alleg.sourceforge.net/stabledocs/en/index.html
-[st pdf]: http://prdownloads.sourceforge.net/alleg/allegro-manual-4.2.1.en.pdf?download
-[st ps]:  http://prdownloads.sourceforge.net/alleg/allegro-manual-4.2.1.en.ps.gz?download
+[st pdf]: http://download.gna.org/allegro/allegro-manual/4.2.1/allegro-manual-4.2.1.en.pdf
+[st ps]:  http://download.gna.org/allegro/allegro-manual/4.2.1/allegro-manual-4.2.1.en.ps.gz
 
 [a5now ol]:  http://alleg.sourceforge.net/a5docs/refman/index.html
 [a5dir ol]:  http://alleg.sourceforge.net/a5docs/

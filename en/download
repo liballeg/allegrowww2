@@ -35,10 +35,10 @@ Filename                        Size    Description
 [Browse all files]
 -----------------------------------------------------------------------------------------------------------------------
 
-[allegro-5.0.11.zip]:                   http://sourceforge.net/projects/alleg/files/allegro/5.0.11/allegro-5.0.11.zip/download
-[allegro-5.0.11.tar.gz]:                http://sourceforge.net/projects/alleg/files/allegro/5.0.11/allegro-5.0.11.tar.gz/download
-[allegro-5.0.11.7z]:                    http://sourceforge.net/projects/alleg/files/allegro/5.0.11/allegro-5.0.11.7z/download
-[Browse all files]:			http://sourceforge.net/projects/alleg/files/allegro/
+[allegro-5.0.11.zip]:                   http://download.gna.org/allegro/allegro/5.0.11/allegro-5.0.11.zip
+[allegro-5.0.11.tar.gz]:                http://download.gna.org/allegro/allegro/5.0.11/allegro-5.0.11.tar.gz
+[allegro-5.0.11.7z]:                    http://download.gna.org/allegro/allegro/5.0.11/allegro-5.0.11.7z
+[Browse all files]:			http://download.gna.org/allegro/allegro/
 
 See [below](#windows-binaries) for third party Windows binaries.
 
@@ -64,10 +64,10 @@ Filename                        Size    Description
 [Browse unstable files]
 -----------------------------------------------------------------------------------------------------------------------
 
-[allegro-5.1.11.zip]:    http://sourceforge.net/projects/alleg/files/allegro-unstable/5.1.11/allegro-5.1.11.zip/download
-[allegro-5.1.11.tar.gz]: http://sourceforge.net/projects/alleg/files/allegro-unstable/5.1.11/allegro-5.1.11.tar.gz/download
-[allegro-5.1.11.7z]:     http://sourceforge.net/projects/alleg/files/allegro-unstable/5.1.11/allegro-5.1.11.7z/download
-[Browse unstable files]: http://sourceforge.net/projects/alleg/files/allegro-unstable/
+[allegro-5.1.11.zip]:    http://download.gna.org/allegro/allegro-unstable/5.1.11/allegro-5.1.11.zip
+[allegro-5.1.11.tar.gz]: http://download.gna.org/allegro/allegro-unstable/5.1.11/allegro-5.1.11.tar.gz
+[allegro-5.1.11.7z]:     http://download.gna.org/allegro/allegro-unstable/5.1.11/allegro-5.1.11.7z
+[Browse unstable files]: http://download.gna.org/allegro/allegro-unstable/
 
 ## Allegro 4.4 source releases
 
@@ -90,9 +90,9 @@ Filename                        Size    Description
 [Browse all files]
 -----------------------------------------------------------------------------------------------------------------------
 
-[allegro-4.4.2.zip]:                    http://sourceforge.net/projects/alleg/files/allegro/4.4.2/allegro-4.4.2.zip/download
-[allegro-4.4.2.tar.gz]:			http://sourceforge.net/projects/alleg/files/allegro/4.4.2/allegro-4.4.2.tar.gz/download
-[allegro-4.4.2.7z]:			http://sourceforge.net/projects/alleg/files/allegro/4.4.2/allegro-4.4.2.7z/download
+[allegro-4.4.2.zip]:                    http://download.gna.org/allegro/allegro/4.4.2/allegro-4.4.2.zip
+[allegro-4.4.2.tar.gz]:			http://download.gna.org/allegro/allegro/4.4.2/allegro-4.4.2.tar.gz
+[allegro-4.4.2.7z]:			http://download.gna.org/allegro/allegro/4.4.2/allegro-4.4.2.7z
 
 ## Allegro 4.2 source releases
 
@@ -125,10 +125,10 @@ Filename                        Size    Description
 [Browse all files]
 -----------------------------------------------------------------------------------------------------------------------
 
-[all4231.zip]:                          http://sourceforge.net/projects/alleg/files/allegro/4.2.3.1/all4231.zip/download
-[allegro-4.2.3.1.tar.gz]:               http://sourceforge.net/projects/alleg/files/allegro/4.2.3.1/allegro-4.2.3.1.tar.gz/download
-[all4231_diff.zip]:                     http://sourceforge.net/projects/alleg/files/allegro/4.2.3.1/all4231_diff.zip/download
-[allegro-enduser-4.2.3.1.tar.gz]:       http://sourceforge.net/projects/alleg/files/allegro/4.2.3.1/allegro-enduser-4.2.3.1.tar.gz/download
+[all4231.zip]:                          http://download.gna.org/allegro/allegro/4.2.3.1/all4231.zip
+[allegro-4.2.3.1.tar.gz]:               http://download.gna.org/allegro/allegro/4.2.3.1/allegro-4.2.3.1.tar.gz
+[all4231_diff.zip]:                     http://download.gna.org/allegro/allegro/4.2.3.1/all4231_diff.zip
+[allegro-enduser-4.2.3.1.tar.gz]:       http://download.gna.org/allegro/allegro/4.2.3.1/allegro-enduser-4.2.3.1.tar.gz
 
 ## Miscellaneous files
 
@@ -169,12 +169,12 @@ Filename                        Size    Description
                                         files for compiling Allegro 5.
 -----------------------------------------------------------------------------------------------------------------------
 
-[alldata.zip]:  http://alleg.sourceforge.net/files/alldata.zip
-[dx70_min.zip]: http://alleg.sourceforge.net/files/dx70_min.zip
-[dx70_mgw.zip]: http://alleg.sourceforge.net/files/dx70_mgw.zip
-[dx80_mgw.zip]: http://alleg.sourceforge.net/files/dx80_mgw.zip
-[dx70_dmc.zip]: http://alleg.sourceforge.net/files/dx70_dmc.zip
-[dx9mgw.zip]:   http://alleg.sourceforge.net/files/dx9mgw.zip
+[alldata.zip]:  http://download.gna.org/allegro/files/alldata.zip
+[dx70_min.zip]: http://download.gna.org/allegro/files/dx70_min.zip
+[dx70_mgw.zip]: http://download.gna.org/allegro/files/dx70_mgw.zip
+[dx80_mgw.zip]: http://download.gna.org/allegro/files/dx80_mgw.zip
+[dx70_dmc.zip]: http://download.gna.org/allegro/files/dx70_dmc.zip
+[dx9mgw.zip]:   http://download.gna.org/allegro/files/dx9mgw.zip
 
 ## MacOS X binaries
 
@@ -202,9 +202,9 @@ Filename                         Size    Description
                                          folder and CMake should pick them up.
 -----------------------------------------------------------------------------------------------------------------------
 
-[freetype-iphone-2.3.12-bin.zip]: http://alleg.sourceforge.net/files/freetype-iphone-2.3.12-bin.zip
-[physfs-1.0.2-iphone.zip]: http://alleg.sourceforge.net/files/physfs-1.0.2-iphone.zip
-[vorbis-iphone.zip]: http://alleg.sourceforge.net/files/vorbis-iphone.zip
+[freetype-iphone-2.3.12-bin.zip]: http://download.gna.org/allegro/files/freetype-iphone-2.3.12-bin.zip
+[physfs-1.0.2-iphone.zip]: http://download.gna.org/allegro/files/physfs-1.0.2-iphone.zip
+[vorbis-iphone.zip]: http://download.gna.org/allegro/files/vorbis-iphone.zip
 
 ## Windows Binaries
 
@@ -242,9 +242,9 @@ Site                            Description
                                 link.
 -----------------------------------------------------------------------------------------------------------------------
 
-[Allegro 5.1 binary packages]:  https://sourceforge.net/projects/alleg/files/allegro-unstable-bin/
-[Allegro 5 dependencies]:       https://sourceforge.net/projects/alleg/files/allegro-deps/
-[Allegro binary package]:       http://sourceforge.net/project/showfiles.php?group_id=5665&package_id=168871
+[Allegro 5.1 binary packages]:  http://download.gna.org/allegro/allegro-unstable-bin/
+[Allegro 5 dependencies]:       http://download.gna.org/allegro/allegro-deps/
+[Allegro binary package]:       http://download.gna.org/allegro/allegro-bin/
 [devpaks.org]:                  http://devpaks.org/
 [www.allegro.cc/files]:         http://www.allegro.cc/files/
 
