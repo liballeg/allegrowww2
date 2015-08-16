@@ -7,34 +7,34 @@ between fiction and reality...
 
 ## Allegro related humor
 
-[Aliens have landed!](http://alleg.sourceforge.net/docs/april_1st_2000.en.html)
+[Aliens have landed!](docs/april_1st_2000.en.html)
 :   One of the first April fool day jokes. Nobody knew what would come
     afterward.
 
-[Allegro 4.0 beta](http://alleg.sourceforge.net/docs/april_1st_2001.en.html)
+[Allegro 4.0 beta](docs/april_1st_2001.en.html)
 :   Just when many had lost their faith and thought Allegro would stagnate
     before reaching version 4.0, Shawn came and threw some light on
     the subject.
 
-[Proposal for Allegro's future](http://alleg.sourceforge.net/docs/grozilla.en.html)
+[Proposal for Allegro's future](docs/grozilla.en.html)
 :   An imaginative proposal which was met with a sound silence, possibly
     meaning that everybody was in agreement. It even [spawned a
     logo](logos_03.html)...
 
 [a5r]: http://www.allegro.cc/forums/view_thread.php?_id=175954
-[a5r copy]: http://alleg.sourceforge.net/docs/humor_a5_released.en.txt
+[a5r copy]: docs/humor_a5_released.en.txt
 [Allegro 5 released!][a5r] - [(low quality copy)][a5r copy]
 :   With an excellent timing, Bob managed to announce the fantastic features
     of the recent fifth incarnation of Allegro, this time even with mind
     accelerated control! Could this be true?
 
-[A new compression format](http://alleg.sourceforge.net/docs/lzip_compression.en.html)
+[A new compression format](docs/lzip_compression.en.html)
 :   The previous release of Allegro 5 creates some uncertainty among the
     Allegro users who don't know how to handle the new
     [lzip](http://lzip.sourceforge.net/) compression format.
 
 [sa]: http://www.allegro.cc/forums/view_thread.php?_id=206624
-[sa copy]: http://alleg.sourceforge.net/docs/humor_spectrum_allegro.en.txt
+[sa copy]: docs/humor_spectrum_allegro.en.txt
 [Spectrum Allegro 1.0][sa] - [(low quality copy)][sa copy]
 :   A discussion about the development of Allegro 5 spawns a new port, it's
     time for the [Spectrum] platform.
@@ -42,7 +42,7 @@ between fiction and reality...
 [Spectrum]: http://dictionary.reference.com/search?q=zx%20spectrum
 
 [ufa]: http://www.allegro.cc/forums/view_thread.php?_id=256501
-[ufa copy]: http://alleg.sourceforge.net/docs/humor_future_of_allegro.en.txt
+[ufa copy]: docs/humor_future_of_allegro.en.txt
 [The uncertain future of Allegro][ufa] - [(low quality copy)][ufa copy]
 :   Peter Wang sadly announces that development of Allegro 5 stagnates
     favoring a [coup d'état] by Bob and migration of Allegro users to SDL. 
@@ -56,13 +56,13 @@ between fiction and reality...
     resembles the slow growth of... a big ball of mud.
 
 [rp]: http://www.agcs.com/supportv2/techpapers/patterns/papers/respat.htm
-[rp copy]: http://alleg.sourceforge.net/docs/resign_patterns.en.txt
+[rp copy]: docs/resign_patterns.en.txt
 [Resign Patterns][rp] - [(low quality copy)][rp copy]
 :   While students in universities are taught design patterns, sooner or later
     they will meet the anti-patterns of real life.
 
 [kp]: http://www-users.cs.york.ac.uk/~susan/joke/klingon.htm
-[kp copy]: http://alleg.sourceforge.net/docs/klingon_programmer.en.txt
+[kp copy]: docs/klingon_programmer.en.txt
 [The Klingon programmer][kp] - [(low quality copy)][kp copy]
 :   While puny little humans write buggy software, we Klingons laugh in the
     face of danger and battle with honor!  Don't forget to read [other jokes
@@ -71,7 +71,7 @@ between fiction and reality...
 [stepney]: http://www-users.cs.york.ac.uk/~susan/joke/index.htm
 
 [pj]: http://www.yuksrus.com/programr.html
-[pj copy]: http://alleg.sourceforge.net/docs/programmer_jokes.en.txt
+[pj copy]: docs/programmer_jokes.en.txt
 [Programmer jokes][pj] - [(low quality copy)][pj copy]
 :   The title says it all, a bunch of programmer jokes. Some really worth of
     reading are the undocumented assembler instructions, the lesser-known
@@ -79,12 +79,12 @@ between fiction and reality...
     C++.  Terrifying.
 
 [ep]: http://www.pvv.ntnu.no/~steinl/vitser/evolution.html
-[ep copy]: http://alleg.sourceforge.net/docs/programmer_evolution.en.txt
+[ep copy]: docs/programmer_evolution.en.txt
 [The evolution of a programmer][ep] - [(low quality copy)][ep copy]
 :   One of the numerous jokes collected by Stein Langørgen.
 
 [pl]: http://weblog.burningbird.net/fires/000581.htm
-[pl copy]: http://alleg.sourceforge.net/docs/if_languages_could_speak.en.txt
+[pl copy]: docs/if_languages_could_speak.en.txt
 [The parable of the languages][pl] - [(low quality copy)][pl copy]
 :   If programming languages could speak, really speak, not just crunch bytes
     and stream bits, they would have much to say that is both wise and
@@ -92,14 +92,14 @@ between fiction and reality...
     programming languages were philosopher tools...
 
 [iaq]: http://www.allegro.cc/forums/view_thread.php?_id=262904
-[iaq copy]: http://alleg.sourceforge.net/docs/comp_lang_c_iaq.en.txt
+[iaq copy]: docs/comp_lang_c_iaq.en.txt
 [Infrequently Asked Questions in comp.lang.c][iaq] - [(low quality copy)][iaq copy]
 :   An allegro.cc thread commenting on the discouraging comp.lang.c IAQ. The
     location of the linked document has changed now to
     <http://www.seebs.net/faqs/c-iaq.html>.
 
 [lkpl]: http://quark.physics.uwo.ca/~harwood/humor10.html
-[lkpl copy]: http://alleg.sourceforge.net/docs/lesser_known_languages.en.txt
+[lkpl copy]: docs/lesser_known_languages.en.txt
 [The lesser known programming languages][lkpl] - [(low quality copy)][lkpl copy]
 :   Some languages are not mainstream, yet address important needs, like the
     programmer-friendly Laidback, or the mathematically precise Fifth. Michael
