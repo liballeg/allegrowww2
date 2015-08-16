@@ -32,11 +32,12 @@ PAGES :=		\
 SRCDIR := en
 OUTDIR := OUT
 
+# Note: before-body and after-body are converted to html
 INCLUDES := \
-	$(SRCDIR)/INC.bodystart.html \
-	$(SRCDIR)/INC.bodyend.html \
-	$(SRCDIR)/INC.head \
-	$(SRCDIR)/INC.links
+	$(SRCDIR)/_include/before-body.html \
+	$(SRCDIR)/_include/after-body.html \
+	$(SRCDIR)/_include/in-header \
+	$(SRCDIR)/_include/links
 
 OUTPAGES := $(addsuffix .html,$(addprefix $(OUTDIR)/,$(PAGES)))
 
@@ -49,8 +50,8 @@ $(OUTDIR)/index.html: $(OUTDIR)/news.html
 $(OUTDIR)/%.html: $(SRCDIR)/% $(INCLUDES) $(OUTDIR)
 	./make_page $< $(OUTDIR)
 
-.SECONDARY: $(SRCDIR)/INC.%.html
-$(SRCDIR)/INC.%.html: $(SRCDIR)/INC.% $(SRCDIR)/INC.links
+.SECONDARY: $(SRCDIR)/_include/%.html
+$(SRCDIR)/_include/%.html: $(SRCDIR)/_include/% $(SRCDIR)/_include/links
 	$(PANDOC) $^ --to html --output $@
 
 $(OUTDIR):

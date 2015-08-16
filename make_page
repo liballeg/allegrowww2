@@ -22,7 +22,7 @@ check_for_pandoc () {
 
 page_files () {
     revdatesort $1/*
-    echo INC.links
+    echo _include/links
 }
 
 # Reverse any series of filenames containing dates.
@@ -85,9 +85,9 @@ page_files=$( page_files "$inpage" )
 title="$( get_title $inpage )"
 
 "$PANDOC" $page_files                           \
-    --include-in-header INC.head                \
-    --include-before-body INC.bodystart.html    \
-    --include-after-body INC.bodyend.html       \
+    --include-in-header _include/in-header      \
+    --include-before-body _include/before-body.html \
+    --include-after-body _include/after-body.html \
     --title-prefix "$title"                     \
     --css "$STYLESHEET"                         \
     --standalone                                \
