@@ -1,66 +1,17 @@
 # Mailing lists
 
-There are several mailing lists related to Allegro. Some are for development
-discussion, Allegro contributions, etc. Before posting on one of these lists,
-please check that your mail message is appropriate for it. If you dislike or
-can't use mailing lists, maybe you could try the online web forums at
-[Allegro.cc](http://www.allegro.cc/forums/), where you can also get the
-appropriate answers after you ask the appropriate questions.
+There have been several mailing lists related to Allegro in the past.
+As of 2015, only the developer's mailing list is really used.
 
-**Important:** Make sure you understand how a mailing list works and that you
-have read the instructions at the end of this page before you post any mail to
-these lists. While you don't have to be subscribed to post to them, you won't
-get any answers if you don't indicate that people should answer to you
-directly, as by default the answers get sent to the mailing list.
+For general discussion you are encouraged to use the
+[Allegro.cc forums](http://www.allegro.cc/forums/).
 
---------------------------------------------------------------------------------
-Name                            Subscribe           Archives
-------------------------------- ------------------- ----------------------------
-[[AL]][1]       Allegro         [(Un)Subscribe][1s] [Search/Browse archives][1a]
-
-[[AD]][2]       Allegro         [(Un)Subscribe][2s] [Browse archives][2a]
-                Developers
-
-[[Alleg5]][3]   Allegro 5                           [Search/Browse archives][3a]
-
-[[Commits]][4]  Allegro         [(Un)Subscribe][4s] [Search/Browse archives][4a]
-                Commits
-
-[[AGP]][5]      Allegro
-                Game
-                Programming
---------------------------------------------------------------------------------
-
-[1]: #AL
-[2]: #AD
-[3]: #A5
-[4]: #ALLEGCOMMIT
-[5]: #AGP
 [1s]: http://lists.sourceforge.net/lists/listinfo/alleg-main/
 [1a]: http://sourceforge.net/mailarchive/forum.php?forum_name=alleg-main
 [2s]: https://mail.gna.org/listinfo/allegro-developers
 [2a]: https://mail.gna.org/public/allegro-developers/
 [3a]: http://sourceforge.net/mailarchive/forum.php?forum_name=alleg-bigfive
-[4s]: http://lists.sourceforge.net/mailman/listinfo/alleg-commits
 [4a]: http://sourceforge.net/mailarchive/forum.php?forum_name=alleg-commits
-
-[Notes about mailing list usage](#NOTES)
-
-\[AL] Allegro (alleg-main@lists.sourceforge.net) <a name="AL"></a>
-------------------------------------------------
-
-<blockquote>
-[Subscribe/Unsubscribe][1s]. [Search/Browse archives][1a].
-</blockquote>
-
-This list is for any kind of discussion about Allegro, questions about Allegro,
-reports of problems with Allegro, suggestions for new features, announcements
-of programs written using Allegro, etc. General rule: if it has to do with
-Allegro, you can post it here. If not, go somewhere else (for example
-comp.os.msdos.djgpp, comp.lang.c, or the online forums at
-<http://www.allegro.cc/>).
-
-During January of 2003 this mailing list moved to SourceForge.
 
 <a name="AD"></a>
 
@@ -71,19 +22,41 @@ During January of 2003 this mailing list moved to SourceForge.
 [Subscribe/Unsubscribe][2s]. [Browse archives][2a].
 </blockquote>
 
-This list is for the people currently working on Allegro, who use it to
-coordinate their efforts. You can use this address if you need to contact the
-developers directly, for example to submit some new code that you have written
-or to report a bug.
-
-The Allegro development is a completely open process, and everyone is welcome
-to drop by, have a listen, and start contributing code patches.
+This list is for the people currently working on Allegro. You can use this
+address if you need to contact the developers, for example to submit some new
+code that you have written or to report a bug.
 
 You can also
 [browse older archives](http://sourceforge.net/mailarchive/forum.php?forum_name=alleg-developers)
 on SourceForge.
 
-\[Alleg5] Allegro 5 <a name="A5"></a>
+<a name="AL"></a>
+
+\[AL] Allegro (alleg-main@lists.sourceforge.net)
+------------------------------------------------
+
+<blockquote>
+[Subscribe/Unsubscribe][1s]. [Search/Browse archives][1a].
+</blockquote>
+
+This list is for any kind of discussion about Allegro. It has very low traffic
+these days so you are more likely to receive a response on the forums.
+
+<a name="AGP"></a>
+
+\[AGP] Allegro Game Programming
+-------------------------------
+
+Between September 1998 and January 2003 existed the Allegro Game Programming
+mailing list. This list was used by people to ask about generic game
+programming problems not so closely related to Allegro. The mailing list
+dropped in popularity and was not moved to SourceForge,
+leaving the main Allegro mailing for both Allegro and generic programming
+problems.
+
+<a name="A5"></a>
+
+\[Alleg5] Allegro 5
 -------------------
 
 <blockquote>
@@ -91,87 +64,16 @@ on SourceForge.
 </blockquote>
 
 This list was once available for discussing the next major version of Allegro,
-when it was too noisy to do so on [AD]. This is no longer the case so the list
-has been shut down. However, its archives are still valuable.
+when it was too noisy to do so on [AD].
 
-\[Commits] Allegro Commits <a name="ALLEGCOMMIT"></a>
+<a name="ALLEGCOMMIT"></a>
+
+\[Commits] Allegro Commits
 --------------------------
 
 <blockquote>
-[Subscribe/Unsubscribe][4s]. [Search/Browse archives][4a].
+[Search/Browse archives][4a].
 </blockquote>
 
-This is a read only notification mailing list. Every time a developer modifies
-Allegro's cvs sources, a mail notification is sent to this list along with the
-log message and the changes diff file. You can use this list to watch progress
-on what is being done by who. Allegro developers are encouraged to subscribe to
-this list, since not all modifications are mentioned on the AD list.
-
-\[AGP] Allegro Game Programming <a name="AGP"></a>
--------------------------------
-
-Between September 1998 and January 2003 existed the Allegro Game Programming
-mailing list. This list was used by people to ask about generic game
-programming problems not so closely related to Allegro. The mailing list
-dropped in popularity during the last year, so it was not moved to SourceForge,
-leaving the main Allegro mailing for both Allegro and generic programming
-problems.
-
-Mailing list usage <a name="NOTES"></a>
-------------------
-
-To subscribe to the SourceForge's lists, simply go to it's web page and use the
-online forms to subscribe yourself. You can remove yourself from a list going
-to the same page above, which can be used to remind you your password too, in
-case you forgot it.
-
-To send a message to one of the lists, write to
-`alleg-main@lists.sourceforge.net` or
-`alleg-developers@lists.sourceforge.net`.
-You don't need to be subscribed to these mailing lists before you can post
-there, but it is a good idea to subscribe in order to see the replies. Before
-posting tech-support questions to the Allegro list, please take a moment to
-[read the guidelines](http://alleg.sourceforge.net/latestdocs/en/help.html).
-
-Notes about mailing list usage
-------------------------------
-
-Please don't send messages in HTML format. The increased size places an
-unnecessary load on the server, and many subscribers have a hard time reading
-these posts.
-
-Please do not crosspost between these lists. Choose the most appropriate one
-for your message, and then send it only to that list.
-
-Please do not start new discussion threads by replying to existing ones, since
-usually the subject will be wrong, and you will confuse people who have
-threaded mail programs. Also, somebody may have killed a particular thread when
-he thinks it's done, and won't get your post. Simply use the "new message"
-option of your mail program.
-
-Please don't send large binary attachments to any of the lists, they will be
-rejected by the size limit filter, which is set to 100KB for the developers
-mailing list, and 40KB for the others. Upload your files to a website and then
-post the URL, or if you can't do that, post an announcement asking people to
-write to you privately, and then send the file by individual email to whoever
-responded.
-
-Please use English in your messages. You could eventually post messages in
-whatever language you prefer, but that would terribly limit the chances of
-getting a useful answer.
-
-Remember that the [RFC 1855: netiquette guidelines][RFC 1855] describes other
-general guidelines you should follow as a correct internet user (in mailing
-lists and other places as well), and provides more verbose descriptions and
-explanations about why you should follow the above guidelines.
-
-One of the important guidelines you should be aware of is how to quote
-correctly the message you are replying to. The previous RFC doesn't really
-explain how to do it, so you might want to read the document [How do I quote
-correctly in Usenet?][learn2quote]. Quoting correctly is easier said than done,
-especially for users of Microsoft Outlook. If you are such a user, you can help
-yourself using the [Outlook-QuoteFix] extension written by Dominik Jain.
-
-[RFC 1855]:         http://www.rfc-editor.org/rfc/rfc1855.txt
-[learn2quote]:      http://www.netmeister.org/news/learn2quote.html
-[Outlook-QuoteFix]: http://home.in.tum.de/~jain/software/outlook-quotefix/
+This was a read only notification mailing list for commits to the Allegro
+repository. Nowadays you should watch for activity on [GitHub].
