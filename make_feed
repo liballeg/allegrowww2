@@ -4,7 +4,7 @@
 
 set -e
 
-METAFILE="en/META.atom"
+METAFILE="en/_meta/atom"
 HOMEPAGE="http://liballeg.org/"
 
 rfc3339_date () {

@@ -45,7 +45,7 @@ revdatesort () {(
 )}
 
 get_title () {
-    grep -e "^$1=" "$TOP/en/META.title" | cut -d '=' -f 2-
+    grep -e "^$1=" "$TOP/en/_meta/title" | cut -d '=' -f 2-
 }
 
 # main
