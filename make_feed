@@ -4,13 +4,8 @@
 
 set -e
 
-LNG=${LNG:-en}
-
-METAFILE="${LNG}/META.atom"
-case $LNG in
-	en) HOMEPAGE="http://liballeg.org/" ;;
-	*)  HOMEPAGE="http://liballeg.org/${LNG}/" ;;
-esac
+METAFILE="en/META.atom"
+HOMEPAGE="http://liballeg.org/"
 
 rfc3339_date () {
 	# Validators say that T must be used as date-time separator.

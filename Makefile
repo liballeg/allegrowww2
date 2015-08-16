@@ -29,29 +29,8 @@ PAGES :=		\
 	webmasters	\
 	download
 
-# To be overridden.
-LNG = en
-
-ifeq ($(LNG),en)
-
 SRCDIR := en
 OUTDIR := OUT
-
-.PHONY: prepare
-prepare:
-
-else
-    
-SRCDIR := IN.$(LNG)
-OUTDIR := OUT/$(LNG)
-
-.PHONY: prepare
-prepare:
-	$(RM) -r $(SRCDIR)
-	./mklndir $(LNG) $(SRCDIR)
-	./mklndir en $(SRCDIR)
-
-endif
 
 INCLUDES := \
 	$(SRCDIR)/INC.bodystart.html \
