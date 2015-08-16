@@ -37,15 +37,6 @@
 [PyAllegro]:	http://pyallegro.sourceforge.net/
 [Python]:	http://www.python.org/
 
-[Bigloo-Allegro]: http://tjaden.strangesoft.net/bigloo-allegro/index.html
-[Bigloo]:	http://www-sop.inria.fr/mimosa/fp/Bigloo/
-[Scheme]:	http://groups.csail.mit.edu/mac/projects/scheme/
-
 [allegro-mzscheme]: http://rafkind.com/jon/allegro-scheme/
-
-[scheme-a5]:	http://tjaden.strangesoft.net/a5/scheme-a5/
-[CHICKEN]:	http://www.call-with-current-continuation.org/chicken.html
-[Gambit-C]:	http://www.iro.umontreal.ca/~gambit/
-[Bigloo]:	http://www-sop.inria.fr/mimosa/fp/Bigloo/
 
 [awiki_bindings]: http://awiki.tomasu.org/bin/view/Main/AllegroLanguages
