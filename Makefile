@@ -40,9 +40,10 @@ INCLUDES := \
 	$(SRCDIR)/_include/links
 
 OUTPAGES := $(addsuffix .html,$(addprefix $(OUTDIR)/,$(PAGES)))
+OUTSTATIC := $(subst static/,$(OUTDIR)/,$(wildcard static/*))
 
 .PHONY: all
-all: $(OUTPAGES) $(OUTDIR)/web_style.css $(OUTDIR)/feed_atom.xml $(OUTDIR)/images
+all: $(OUTPAGES) $(OUTSTATIC) $(OUTDIR)/feed_atom.xml
 
 $(OUTDIR)/index.html: $(OUTDIR)/news.html
 	cp $< $@
@@ -57,10 +58,7 @@ $(SRCDIR)/_include/%.html: $(SRCDIR)/_include/% $(SRCDIR)/_include/links
 $(OUTDIR):
 	mkdir $(OUTDIR)
 
-$(OUTDIR)/web_style.css: en/web_style.css
-	cp $< $@
-
-$(OUTDIR)/images: images
+$(OUTDIR)/%: static/%
 	cp -r $< $@
 
 $(OUTDIR)/feed_atom.xml: $(sort $(wildcard $(SRCDIR)/news/news.*))
