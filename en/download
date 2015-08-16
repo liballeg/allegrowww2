@@ -212,16 +212,16 @@ Filename                         Size    Description
 Site                            Description
 ------------------------------- ---------------------------------------------------------------------------------------
 [Allegro 5.1 binary packages]
-                                The allegro-unstable-bin directory at SourceForge contains
+                                The allegro-unstable-bin directory contains
                                 several binary distributions of Allegro for
                                 Windows.
 
 [Allegro 5 dependencies]
-                                The allegro-deps directory contains at SourceForge contains
+                                The allegro-deps directory contains contains
                                 pre-compiled Allegro dependencies for Windows.
 
 [Allegro binary package]
-                                The allegro-bin directory at SourceForge contains
+                                The allegro-bin directory contains
                                 several binary distributions of Allegro for
                                 Windows.  For Allegro **4.2.2**.
 
@@ -236,10 +236,9 @@ Site                            Description
                                 Michal Molhanec mantains a Devpak repository,
                                 where you can get a package of the precompiled
                                 library for MinGW and Dev-C++. Note that the
-                                Allegro Devpaks are also mirrored through
-                                SourceForge's allegro-bin package. If the
-                                Devpak site is down, check the previous entry's
-                                link.
+                                Allegro Devpaks are also mirrored in the
+                                allegro-bin directory. If the Devpak site is
+                                down, check the previous entry's link.
 -----------------------------------------------------------------------------------------------------------------------
 
 [Allegro 5.1 binary packages]:  http://download.gna.org/allegro/allegro-unstable-bin/
