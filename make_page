@@ -21,12 +21,7 @@ check_for_pandoc () {
 }
 
 page_files () {
-    if test -d "$1"
-    then
-        revdatesort $1/*
-    else
-        echo "$1"
-    fi
+    revdatesort $1/*
     echo INC.links
 }
 
