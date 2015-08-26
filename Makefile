@@ -41,11 +41,15 @@ INCLUDES := \
 
 OUTPAGES := $(addsuffix .html,$(addprefix $(OUTDIR)/,$(PAGES)))
 OUTSTATIC := $(subst static/,$(OUTDIR)/,$(wildcard static/*))
+OUTDOCINDEX := $(OUTDIR)/a5docs/index.html
 
 .PHONY: all
-all: $(OUTPAGES) $(OUTSTATIC) $(OUTDIR)/feed_atom.xml
+all: $(OUTPAGES) $(OUTSTATIC) $(OUTDIR)/feed_atom.xml $(OUTDOCINDEX)
 
 $(OUTDIR)/index.html: $(OUTDIR)/news.html
+	cp $< $@
+
+$(OUTDIR)/a5docs/index.html: static/docs/old_docs.html $(OUTDIR)/a5docs
 	cp $< $@
 
 $(OUTDIR)/%.html: $(SRCDIR)/% $(INCLUDES) $(OUTDIR)
@@ -57,6 +61,9 @@ $(SRCDIR)/_include/%.html: $(SRCDIR)/_include/% $(SRCDIR)/_include/links
 
 $(OUTDIR):
 	mkdir $(OUTDIR)
+
+$(OUTDIR)/a5docs:
+	mkdir $(OUTDIR)/a5docs
 
 $(OUTDIR)/%: static/%
 	cp -r $< $@
