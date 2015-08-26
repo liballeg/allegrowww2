@@ -25,14 +25,14 @@ gzipped format        (536 KiB)
 --------------------------------------------------------------------------------
 
 [st chm]: http://download.gna.org/allegro/allegro-manual/4.2.2/allegro-manual-4.2.2.en.chm
-[st ol]:  http://alleg.sourceforge.net/stabledocs/en/index.html
+[st ol]:  http://liballeg.org/stabledocs/en/index.html
 [st pdf]: http://download.gna.org/allegro/allegro-manual/4.2.1/allegro-manual-4.2.1.en.pdf
 [st ps]:  http://download.gna.org/allegro/allegro-manual/4.2.1/allegro-manual-4.2.1.en.ps.gz
 
-[a5now ol]:  http://alleg.sourceforge.net/a5docs/refman/index.html
-[a5dir ol]:  http://alleg.sourceforge.net/a5docs/
-[a5dir 50]: http://alleg.sourceforge.net/a5docs/5.0.11/
-[a5pdf 50]: http://alleg.sourceforge.net/a5docs/5.0.11/refman.pdf
+[a5now ol]:  http://liballeg.org/a5docs/trunk/index.html
+[a5dir ol]:  http://liballeg.org/a5docs/
+[a5dir 50]: http://liballeg.org/a5docs/5.0.11/
+[a5pdf 50]: http://liballeg.org/a5docs/5.0.11/refman.pdf
 
 [Online Documentation and Source Browser](http://srnet.cz/~stepan/allegro/) -
 <br/>
