@@ -5,6 +5,7 @@ PANDOC := pandoc
 
 PAGES :=		\
 	api		\
+	addons	\
 	bindings	\
 	books		\
 	changes		\
