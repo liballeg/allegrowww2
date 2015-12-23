@@ -208,6 +208,13 @@ Filename                         Size    Description
 
 ## Windows Binaries
 
+Allegro can be installed for MSVC using NuGet. Allegro's package is called
+`Allegro`, see the package [description] for more details.
+
+[description]: https://www.nuget.org/packages/Allegro/
+
+Also, there are some additional binaries here:
+
 -----------------------------------------------------------------------------------------------------------------------
 Site                            Description
 ------------------------------- ---------------------------------------------------------------------------------------
