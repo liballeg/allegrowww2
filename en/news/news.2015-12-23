@@ -1,0 +1,7 @@
+## 2015-12-23 - Allegro on NuGet!
+
+Allegro is now packaged by [NuGet](https://www.nuget.org/packages/Allegro/)!
+
+Currently only MSVC 2015 is supported, but stay tuned as we figure out what set of platforms and build types to support.
+
+Follow the tutorial [here](https://wiki.allegro.cc/index.php?title=Windows,_Visual_Studio_2015_and_Nuget_Allegro_5) to test it out.
