@@ -1,27 +1,27 @@
-# API
+# Documentation
 
 The Allegro documentation comes in the source package.
 Here, we host some popular versions of the generated documentation, and provide
 an online browseable version, too.
 
 --------------------------------------------------------------------------------
-File format           Allegro 4.x         Allegro 5.0        Allegro 5.1
---------------------- ------------------- ------------------ -------------------
-Online HTML           [4.4.0][st ol]      [**5.0.11**]       [5.1.x (GIT)]
-                                          [a5dir 50]         [a5now ol]
-
-                                          [older versions]
-                                          [a5dir ol]
-
-Compiled HTML         [4.2.1][st chm]
-format (CHM)          (913 KiB)
-
-PDF format            [4.2.1][st pdf]     [5.0.11]
-                      (2769 KiB)          [a5pdf 50]
-                                          (624 KiB)
-
-PostScript            [4.2.1][st ps]
-gzipped format        (536 KiB)
+File format           Allegro 5.0        Allegro 5.1         Allegro 4.x        
+--------------------- ------------------ ------------------- -------------------
+Online HTML           [**5.0.11**]       [5.1.x (GIT)]       [4.4.0][st ol]     
+                      [a5dir 50]         [a5now ol]                             
+                                                            
+                      [older versions]                                          
+                      [a5dir ol]                                                
+                                                            
+Compiled HTML                                                [4.2.1][st chm]
+format (CHM)                                                 (913 KiB)
+                                                            
+PDF format            [5.0.11]                               [4.2.1][st pdf]    
+                      [a5pdf 50]                             (2769 KiB)         
+                      (624 KiB)                                                 
+                                                            
+PostScript                                                   [4.2.1][st ps]
+gzipped format                                               (536 KiB)
 --------------------------------------------------------------------------------
 
 [st chm]: http://download.gna.org/allegro/allegro-manual/4.2.2/allegro-manual-4.2.2.en.chm

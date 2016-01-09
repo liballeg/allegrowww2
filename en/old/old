@@ -1,10 +1,127 @@
 # Older versions
 
+Here you can find some downloads of the classical Allegro 4 library (and even 
+older versions!).  Allegro 5 is *not* backwards compatible with Allegro 4.
+
+Since version 3.12, Allegro has adopted this versioning scheme: The first
+number indicates a major version; differences here usually mean that a lot of
+things have changed. The second number indicates if the release is stable (even
+number) or unstable (odd number). Finally the third number marks smaller
+differences between releases. A fourth number is used if we need to fix a minor
+mistake found in a previous release.
+
+## Allegro 4.4 source releases
+
+Allegro 4.4 supports **Unix** (Linux, FreeBSD, etc.), **Windows**, **MacOS X**
+and **Haiku/BeOS**.
+You can read the [full change log](stabledocs/en/changes.html).
+
+-----------------------------------------------------------------------------------------------------------------------
+Filename                        Size    Description
+------------------------------- ------- -------------------------------------------------------------------------------
+[allegro-4.4.2.zip]                4.8M Source code for all platforms in
+                                        DOS/Windows friendly format.
+
+[allegro-4.4.2.tar.gz]             4.5M Source code for all platforms in Unix
+                                        friendly format.
+
+[allegro-4.4.2.7z]                 3.0M Source code for all platforms in DOS/Windows
+                                        friendly format.
+
+[Browse all files]
+-----------------------------------------------------------------------------------------------------------------------
+
+[allegro-4.4.2.zip]:    http://download.gna.org/allegro/allegro/4.4.2/allegro-4.4.2.zip
+[allegro-4.4.2.tar.gz]: http://download.gna.org/allegro/allegro/4.4.2/allegro-4.4.2.tar.gz
+[allegro-4.4.2.7z]:     http://download.gna.org/allegro/allegro/4.4.2/allegro-4.4.2.7z
+
+## Allegro 4.2 source releases
+
+Allegro 4.2 supports **Unix** (Linux, FreeBSD, etc.), **Windows**, **MacOS X**,
+**Haiku/BeOS**, **DOS** and **QNX**.
+
+-----------------------------------------------------------------------------------------------------------------------
+Filename                        Size    Description
+------------------------------- ------- -------------------------------------------------------------------------------
+[all4231.zip]                      3.8M Source code for all platforms in
+                                        DOS/Windows friendly format.
+
+[allegro-4.2.3.1.tar.gz]           3.1M Source code for all platforms in Unix
+                                        friendly format.
+
+[all4231_diff.zip]                 139k This file is a diff that can be
+                                        installed over a clean copy of the
+                                        **4.2.3** version of Allegro to update it
+                                        to the current version.
+
+[allegro-enduser-4.2.3.1.tar.gz]   863k This version contains the base library,
+                                        without documentation or example
+                                        programs. It's targeted at those who
+                                        want to run Allegro programs written by
+                                        other people. If you want to develop
+                                        programs yourself, you will have to
+                                        download the full source code version.
+                                        **Only for Linux/Unix.**
+
+[Browse all files]
+-----------------------------------------------------------------------------------------------------------------------
+
+[all4231.zip]:                          http://download.gna.org/allegro/allegro/4.2.3.1/all4231.zip
+[allegro-4.2.3.1.tar.gz]:               http://download.gna.org/allegro/allegro/4.2.3.1/allegro-4.2.3.1.tar.gz
+[all4231_diff.zip]:                     http://download.gna.org/allegro/allegro/4.2.3.1/all4231_diff.zip
+[allegro-enduser-4.2.3.1.tar.gz]:       http://download.gna.org/allegro/allegro/4.2.3.1/allegro-enduser-4.2.3.1.tar.gz
+
+## Allegro 4.2 Windows Binaries
+
+-----------------------------------------------------------------------------------------------------------------------
+Site                            Description
+------------------------------- ---------------------------------------------------------------------------------------
+
+[Allegro binary package]
+                                The allegro-bin directory contains
+                                several binary distributions of Allegro for
+                                Windows.  For Allegro **4.2.2**.
+
+[www.allegro.cc/files]
+                                Matthew Leverton hosts Windows binary packages for
+                                many different compilers.
+
+[devpaks.org]
+                                Michal Molhanec mantains a Devpak repository,
+                                where you can get a package of the precompiled
+                                library for MinGW and Dev-C++. Note that the
+                                Allegro Devpaks are also mirrored in the
+                                allegro-bin directory. If the Devpak site is
+                                down, check the previous entry's link.
+-----------------------------------------------------------------------------------------------------------------------
+
+[devpaks.org]:                  http://devpaks.org/
+[www.allegro.cc/files]:         http://www.allegro.cc/files/
+[Allegro binary package]:       http://download.gna.org/allegro/allegro-bin/
+
+## Allegro 4.0
+
+**Allegro 4.0.0** - 10th of December, 2001.
+
+* [all400.zip] (2687k)
+* [allegro-4.0.0.tar.gz] (2332k)
+* [allegro-4.0.0-1.src.rpm] (2313k)
+* [all400_bin.zip] (1301k)
+* [allegro-enduser-4.0.0.tar.gz] (576k) 
+
+[all400.zip]:                   http://download.gna.org/allegro/allegro/4.0.0/all400.zip
+[allegro-4.0.0.tar.gz]:         http://download.gna.org/allegro/allegro/4.0.0/allegro-4.0.0.tar.gz
+[allegro-4.0.0-1.src.rpm]:      http://download.gna.org/allegro/allegro/4.0.0/allegro-4.0.0-1.src.rpm
+[all400_bin.zip]:               http://download.gna.org/allegro/OldFiles/all400_bin.zip
+[allegro-enduser-4.0.0.tar.gz]: http://download.gna.org/allegro/allegro-enduser/4.0.0/allegro-enduser-4.0.0.tar.gz
+
+See the [download area](http://download.gna.org/allegro/).
+
+## Ancient versions
+
 These files are being made available for historical interest, and as reference
 material. They are unsupported, and for any serious programming work, you
 should get the most recent version instead.
-
-## Ancient versions
 
 [Allegro 1.02](http://download.gna.org/allegro/files/allegro1.zip) (119k) - Sometime in 1995.
 
@@ -27,21 +144,3 @@ should get the most recent version instead.
 This is a DOS/DJGPP library, and can be obtained from your [local Simtel
 mirror](mirrors.html#simtel), in the directory gnu/djgpp/v2tk/allegro/,
 filename alleg312.zip.
-
-## Allegro 4
-
-**Allegro 4.0.0** - 10th of December, 2001.
-
-* [all400.zip] (2687k)
-* [allegro-4.0.0.tar.gz] (2332k)
-* [allegro-4.0.0-1.src.rpm] (2313k)
-* [all400_bin.zip] (1301k)
-* [allegro-enduser-4.0.0.tar.gz] (576k) 
-
-[all400.zip]:                   http://download.gna.org/allegro/allegro/4.0.0/all400.zip
-[allegro-4.0.0.tar.gz]:         http://download.gna.org/allegro/allegro/4.0.0/allegro-4.0.0.tar.gz
-[allegro-4.0.0-1.src.rpm]:      http://download.gna.org/allegro/allegro/4.0.0/allegro-4.0.0-1.src.rpm
-[all400_bin.zip]:               http://download.gna.org/allegro/OldFiles/all400_bin.zip
-[allegro-enduser-4.0.0.tar.gz]: http://download.gna.org/allegro/allegro-enduser/4.0.0/allegro-enduser-4.0.0.tar.gz
-
-See the [download area](http://download.gna.org/allegro/).

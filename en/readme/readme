@@ -1,11 +1,4 @@
-# Introduction
-
-Allegro 4 and Allegro 5 are cross-platform, libraries mainly aimed at video
-game and multimedia programming.  They handle common, low-level tasks such as
-creating windows, accepting user input, loading data, drawing images, playing
-sounds, etc. and generally abstracting away the underlying platform.
-However, Allegro is *not* a game engine: you are free to design and structure
-your program as you like.
+# History
 
 According to the Oxford Companion to Music, Allegro is the Italian for «quick,
 lively, bright». It is also a recursive acronym which stands for «Allegro Low

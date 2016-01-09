@@ -1,18 +1,22 @@
-# Latest version
+# Downloads
 
-Here you can download either the modern Allegro 5 library, or the classical
-Allegro 4 library.  Allegro 5 is *not* backwards compatible with Allegro 4.
+Here you can download releases of the Allegro 5 library.
 
 Instructions on how to build Allegro for each of the supported platforms are
 included in the source packages, either in the README files, or in the
 `docs/build` subdirectory.
 
-Since version 3.12, Allegro has adopted this versioning scheme: The first
-number indicates a major version; differences here usually mean that a lot of
-things have changed. The second number indicates if the release is stable (even
-number) or unstable (odd number). Finally the third number marks smaller
-differences between releases. A fourth number is used if we need to fix a minor
-mistake found in a previous release.
+Additional installation instructions can be found on the
+[wiki](https://wiki.allegro.cc/index.php?title=Getting_Started#Installing_Allegro).
+
+Allegro 5 follows this versioning scheme: The first number indicates a major 
+version; this is always 5 for Allegro 5. The second number indicates if the 
+release is stable (even number) or unstable (odd number). Finally the third 
+number marks smaller differences between releases. A fourth number is used if 
+we need to fix a minor mistake found in a previous release. Stable releases are 
+binary and source backwards compatible with each other. The unstable releases 
+are source backwards compatible with the stable releases, but otherwise are 
+incompatible with other versions.
 
 ## Allegro 5.0 source releases (stable)
 
@@ -35,12 +39,10 @@ Filename                        Size    Description
 [Browse all files]
 -----------------------------------------------------------------------------------------------------------------------
 
-[allegro-5.0.11.zip]:                   http://download.gna.org/allegro/allegro/5.0.11/allegro-5.0.11.zip
-[allegro-5.0.11.tar.gz]:                http://download.gna.org/allegro/allegro/5.0.11/allegro-5.0.11.tar.gz
-[allegro-5.0.11.7z]:                    http://download.gna.org/allegro/allegro/5.0.11/allegro-5.0.11.7z
-[Browse all files]:			http://download.gna.org/allegro/allegro/
-
-See [below](#windows-binaries) for third party Windows binaries.
+[allegro-5.0.11.zip]:    http://download.gna.org/allegro/allegro/5.0.11/allegro-5.0.11.zip
+[allegro-5.0.11.tar.gz]: http://download.gna.org/allegro/allegro/5.0.11/allegro-5.0.11.tar.gz
+[allegro-5.0.11.7z]:     http://download.gna.org/allegro/allegro/5.0.11/allegro-5.0.11.7z
+[Browse all files]:      http://download.gna.org/allegro/allegro/
 
 ## Allegro 5.1 source releases (unstable)
 
@@ -69,66 +71,99 @@ Filename                        Size    Description
 [allegro-5.1.12.7z]:     http://download.gna.org/allegro/allegro-unstable/5.1.12/allegro-5.1.12.7z
 [Browse unstable files]: http://download.gna.org/allegro/allegro-unstable/
 
-## Allegro 4.4 source releases
+## Windows Binaries
 
-Allegro 4.4 supports **Unix** (Linux, FreeBSD, etc.), **Windows**, **MacOS X**
-and **Haiku/BeOS**.
-You can read the [full change log](stabledocs/en/changes.html).
-
------------------------------------------------------------------------------------------------------------------------
-Filename                        Size    Description
-------------------------------- ------- -------------------------------------------------------------------------------
-[allegro-4.4.2.zip]                4.8M Source code for all platforms in
-                                        DOS/Windows friendly format.
-
-[allegro-4.4.2.tar.gz]             4.5M Source code for all platforms in Unix
-                                        friendly format.
-
-[allegro-4.4.2.7z]                 3.0M Source code for all platforms in DOS/Windows
-                                        friendly format.
-
-[Browse all files]
------------------------------------------------------------------------------------------------------------------------
-
-[allegro-4.4.2.zip]:                    http://download.gna.org/allegro/allegro/4.4.2/allegro-4.4.2.zip
-[allegro-4.4.2.tar.gz]:			http://download.gna.org/allegro/allegro/4.4.2/allegro-4.4.2.tar.gz
-[allegro-4.4.2.7z]:			http://download.gna.org/allegro/allegro/4.4.2/allegro-4.4.2.7z
-
-## Allegro 4.2 source releases
-
-Allegro 4.2 supports **Unix** (Linux, FreeBSD, etc.), **Windows**, **MacOS X**,
-**Haiku/BeOS**, **DOS** and **QNX**.
+There are several official and unofficial ways to obtain Windows binaries of 
+Allegro releases. See the [wiki 
+tutorial](https://wiki.allegro.cc/index.php?title=Getting_Started#Windows) for 
+installation instructions.
 
 -----------------------------------------------------------------------------------------------------------------------
-Filename                        Size    Description
-------------------------------- ------- -------------------------------------------------------------------------------
-[all4231.zip]                      3.8M Source code for all platforms in
-                                        DOS/Windows friendly format.
+Site                            Description
+------------------------------- ---------------------------------------------------------------------------------------
+[Nuget]                         The `Allegro` package on Nuget contains the official
+                                binaries in a format that is easy to use from 
+                                MSVC.
 
-[allegro-4.2.3.1.tar.gz]           3.1M Source code for all platforms in Unix
-                                        friendly format.
+[Allegro 5.1 binary packages]
+                                The `allegro-unstable-bin` directory contains
+                                several binary distributions of Allegro for
+                                Windows.
 
-[all4231_diff.zip]                 139k This file is a diff that can be
-                                        installed over a clean copy of the
-                                        **4.2.3** version of Allegro to update it
-                                        to the current version.
+[Allegro 5 dependencies]
+                                The `allegro-deps` directory contains contains
+                                pre-compiled Allegro dependencies for Windows.
 
-[allegro-enduser-4.2.3.1.tar.gz]   863k This version contains the base library,
-                                        without documentation or example
-                                        programs. It's targeted at those who
-                                        want to run Allegro programs written by
-                                        other people. If you want to develop
-                                        programs yourself, you will have to
-                                        download the full source code version.
-                                        **Only for Linux/Unix.**
+[www.allegro.cc/files]
+                                **Unofficial.** Matthew Leverton hosts Windows
+                                binary packages for many different compilers.
+                                The 5.0 binaries are produced by a different
+                                process from the standard build system.
 
-[Browse all files]
+[devpaks.org]
+                                **Unofficial.** Michal Molhanec mantains a
+                                Devpak repository, where you can get a package
+                                of the precompiled library for MinGW and
+                                Dev-C++.
 -----------------------------------------------------------------------------------------------------------------------
 
-[all4231.zip]:                          http://download.gna.org/allegro/allegro/4.2.3.1/all4231.zip
-[allegro-4.2.3.1.tar.gz]:               http://download.gna.org/allegro/allegro/4.2.3.1/allegro-4.2.3.1.tar.gz
-[all4231_diff.zip]:                     http://download.gna.org/allegro/allegro/4.2.3.1/all4231_diff.zip
-[allegro-enduser-4.2.3.1.tar.gz]:       http://download.gna.org/allegro/allegro/4.2.3.1/allegro-enduser-4.2.3.1.tar.gz
+[Nuget]: https://www.nuget.org/packages/Allegro/
+[Allegro 5.1 binary packages]:  http://download.gna.org/allegro/allegro-unstable-bin/
+[Allegro 5 dependencies]:       http://download.gna.org/allegro/allegro-deps/
+[devpaks.org]:                  http://devpaks.org/
+[www.allegro.cc/files]:         http://www.allegro.cc/files/
+
+## MacOS X binaries
+
+Allegro 5 can be found in the `allegro` package on [homebrew]. Use the 
+`--devel` switch to install a 5.1.x release. See the [wiki 
+tutorial](https://wiki.allegro.cc/index.php?title=Installing_with_homebrew) for 
+more details.
+
+## Ubuntu PPA
+
+For Linux distributions based on Ubuntu (and Ubuntu itself), you can download 
+binary packages for Allegro 5 by adding the following PPAs to your software 
+sources, and then installing the relevant packages. See the [wiki 
+tutorial](https://wiki.allegro.cc/index.php?title=Install_Allegro_from_Ubuntu_PPAs) 
+for more details.
+
+-------------------------------------------------------------------------------------
+PPA                              Description
+-------------------------------- ----------------------------------------------------
+[Stable version (5.0.x) PPA]     Use this PPA to get the stable release binary and
+                                 development packages.
+
+[Unstable version (5.1.x) PPA]   Use this PPA to get the unstable release binary and
+                                 development packages.
+-------------------------------------------------------------------------------------
+
+[Stable version (5.0.x) PPA]: https://launchpad.net/~allegro/+archive/ubuntu/5.0
+[Unstable version (5.1.x) PPA]: https://launchpad.net/~allegro/+archive/ubuntu/5.1
+
+[homebrew]: http://brew.sh/
+
+## IPhone binaries
+
+-----------------------------------------------------------------------------------------------------------------------
+Filename                         Size    Description
+-------------------------------  ------- ------------------------------------------------------------------------------
+[freetype-iphone-2.3.12-bin.zip] 1.3M    Freetype libraries and headers compiled
+                                         for IPhone. Drop these into the deps
+                                         folder and CMake should pick them up.
+
+[physfs-1.0.2-iphone.zip]        165K    PhysFS libraries and headers compiled
+                                         for IPhone. Drop these into the deps
+                                         folder and CMake should pick them up.
+
+[vorbis-iphone.zip]              280K    Ogg Vorbis libraries and headers compiled
+                                         for IPhone. Drop these into the deps
+                                         folder and CMake should pick them up.
+-----------------------------------------------------------------------------------------------------------------------
+
+[freetype-iphone-2.3.12-bin.zip]: http://download.gna.org/allegro/files/freetype-iphone-2.3.12-bin.zip
+[physfs-1.0.2-iphone.zip]: http://download.gna.org/allegro/files/physfs-1.0.2-iphone.zip
+[vorbis-iphone.zip]: http://download.gna.org/allegro/files/vorbis-iphone.zip
 
 ## Miscellaneous files
 
@@ -175,100 +210,3 @@ Filename                        Size    Description
 [dx80_mgw.zip]: http://download.gna.org/allegro/files/dx80_mgw.zip
 [dx70_dmc.zip]: http://download.gna.org/allegro/files/dx70_dmc.zip
 [dx9mgw.zip]:   http://download.gna.org/allegro/files/dx9mgw.zip
-
-## MacOS X binaries
-
-Allegro 5 can be found in the `allegro` package on [homebrew]. Use the
-`--devel` switch to install a 5.1.x release.
-
-[homebrew]: http://brew.sh/
-
-
-## IPhone binaries
-
------------------------------------------------------------------------------------------------------------------------
-Filename                         Size    Description
--------------------------------  ------- ------------------------------------------------------------------------------
-[freetype-iphone-2.3.12-bin.zip] 1.3M    Freetype libraries and headers compiled
-                                         for IPhone. Drop these into the deps
-                                         folder and CMake should pick them up.
-
-[physfs-1.0.2-iphone.zip]        165K    PhysFS libraries and headers compiled
-                                         for IPhone. Drop these into the deps
-                                         folder and CMake should pick them up.
-
-[vorbis-iphone.zip]              280K    Ogg Vorbis libraries and headers compiled
-                                         for IPhone. Drop these into the deps
-                                         folder and CMake should pick them up.
------------------------------------------------------------------------------------------------------------------------
-
-[freetype-iphone-2.3.12-bin.zip]: http://download.gna.org/allegro/files/freetype-iphone-2.3.12-bin.zip
-[physfs-1.0.2-iphone.zip]: http://download.gna.org/allegro/files/physfs-1.0.2-iphone.zip
-[vorbis-iphone.zip]: http://download.gna.org/allegro/files/vorbis-iphone.zip
-
-## Windows Binaries
-
-Allegro can be installed for MSVC using NuGet. Allegro's package is called
-`Allegro`, see the package [description] for more details.
-
-[description]: https://www.nuget.org/packages/Allegro/
-
-Also, there are some additional binaries here:
-
------------------------------------------------------------------------------------------------------------------------
-Site                            Description
-------------------------------- ---------------------------------------------------------------------------------------
-[Allegro 5.1 binary packages]
-                                The allegro-unstable-bin directory contains
-                                several binary distributions of Allegro for
-                                Windows.
-
-[Allegro 5 dependencies]
-                                The allegro-deps directory contains contains
-                                pre-compiled Allegro dependencies for Windows.
-
-[Allegro binary package]
-                                The allegro-bin directory contains
-                                several binary distributions of Allegro for
-                                Windows.  For Allegro **4.2.2**.
-
-[www.allegro.cc/files]
-                                Matthew Leverton hosts Windows binary packages for
-                                many different compilers.
-                                For Allegro **4.2** and **5.0**.
-                                The 5.0 binaries are produced by a different
-                                process from the standard build system.
-
-[devpaks.org]
-                                Michal Molhanec mantains a Devpak repository,
-                                where you can get a package of the precompiled
-                                library for MinGW and Dev-C++. Note that the
-                                Allegro Devpaks are also mirrored in the
-                                allegro-bin directory. If the Devpak site is
-                                down, check the previous entry's link.
------------------------------------------------------------------------------------------------------------------------
-
-[Allegro 5.1 binary packages]:  http://download.gna.org/allegro/allegro-unstable-bin/
-[Allegro 5 dependencies]:       http://download.gna.org/allegro/allegro-deps/
-[Allegro binary package]:       http://download.gna.org/allegro/allegro-bin/
-[devpaks.org]:                  http://devpaks.org/
-[www.allegro.cc/files]:         http://www.allegro.cc/files/
-
-## Ubuntu PPA
-
-For Linux distributions based on Ubuntu (and Ubuntu itself), you can download
-binary packages for Allegro 5 by adding the following PPAs to your software
-sources, and then installing the relevant packages:
-
--------------------------------------------------------------------------------------
-PPA                              Description
--------------------------------- ----------------------------------------------------
-[Stable version (5.0.x) PPA]     Use this PPA to get the stable release binary and
-                                 development packages.
-
-[Unstable version (5.1.x) PPA]   Use this PPA to get the unstable release binary and
-                                 development packages.
--------------------------------------------------------------------------------------
-
-[Stable version (5.0.x) PPA]: https://launchpad.net/~allegro/+archive/ubuntu/5.0
-[Unstable version (5.1.x) PPA]: https://launchpad.net/~allegro/+archive/ubuntu/5.1
