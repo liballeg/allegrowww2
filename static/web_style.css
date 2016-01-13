@@ -88,11 +88,11 @@ th, td {
 
 /* Get the table corners looking ok... */
 tr:only-child td:first-child {
-    border-radius: 5px 0 0 5px;
+    border-radius: 5px 0 0 5px !important;
 }
 
 tr:only-child td:last-child {
-    border-radius: 0 5px 5px 0;
+    border-radius: 0 5px 5px 0 !important;
 }
 
 tr:last-child td:first-child {
