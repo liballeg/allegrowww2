@@ -69,6 +69,7 @@ table {
     background-color: #f8f8fa;
     border: solid 1px #ccc;
     border-spacing: 0;
+    width: 100%;
     -moz-border-radius: 5px;
     -webkit-border-radius: 5px;
 }
