@@ -1,0 +1,13 @@
+## 2016-02-28 - Allegro 5.1.13.1 (WIP) released!
+
+This is a bug fix release for 5.1.13 which fixes a regression that only appears
+when Allegro is compiled with MSVC compiler. If you are using a different
+compiler then there is no need to upgrade.
+
+You can
+[download](http://download.gna.org/allegro/allegro-unstable/5.1.13.1/)
+it from Gna.org. Additional packages for other platforms are available on
+the [downloads] page.
+
+The reference manual is available [online][a5docs], as is the list of
+[changes][changes-unstable].
