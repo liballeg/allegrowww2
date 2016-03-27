@@ -1,0 +1,4 @@
+## 2016-03-27 - Allegro now developed on the master branch.
+
+Allegro's development has moved from '5.1' branch to the 'master' branch.
+Update your clones and scripts which pull the development version accordingly!
