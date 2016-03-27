@@ -11,12 +11,12 @@ You can clone the repository from either of these two URLs:
     https://github.com/liballeg/allegro5.git
     git@github.com:liballeg/allegro5.git
 
-By default you will be on the 5.1 branch. You can change the branch from
+By default you will be on the master branch. You can change the branch from
 your working tree like this:
 
     git checkout 5.0
     git checkout 4.4
-    git checkout 5.1
+    git checkout master
 
 ## Usage
 
@@ -34,8 +34,8 @@ Remember to tell git your name and email address:
 To make sure you're in the right branch and have the latest changes:
 
     cd allegro
-    git checkout 5.1
-    git pull --rebase origin 5.1
+    git checkout master
+    git pull --rebase origin master
 
 To locally commit your changes:
 
@@ -48,9 +48,9 @@ mailing list):
     git format-patch HEAD^
 
 
-For committers, to push changes on the local 5.1 branch to the remote 5.1 branch:
+For committers, to push changes on the local master branch to the remote master branch:
 
-    git push origin 5.1
+    git push origin master
 
 ## Test results
 
