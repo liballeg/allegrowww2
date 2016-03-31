@@ -15,66 +15,32 @@ included in the source packages, either in the README files, or in the
 Additional installation instructions can be found on the
 [wiki](https://wiki.allegro.cc/index.php?title=Getting_Started#Installing_Allegro).
 
-There are two major versions of Allegro. The stable 5.0 releases maintain 
-source and binary compatibility. The unstable/work-in-progress 5.1 releases 
-contain provisional features which may be removed at any time, so they don't 
-maintain any compatibility with each other, except that all are source 
-compatible with 5.0. Despite the API instability, Allegro 5.1 tends to receive 
-more bug fixes and is thus a perfectly usable version for development. In 
-particular, only version 5.1 supports Android development.
+## Allegro 5.2 source releases {#source}
 
-## Allegro 5.0 source releases (stable) {#source}
-
-Allegro 5.0 supports **Unix** (Linux, FreeBSD, etc.), **Windows**, **MacOS X**
-and **iPhone**.
+Allegro 5.2 supports **Unix** (Linux, FreeBSD, etc.), **Windows**, **MacOS X**
+and **iPhone**. Allegro 5.2 is source compatible but not binary compatible with
+Allegro 5.0.
 You can read the [full change log](changes.html).
 
 -----------------------------------------------------------------------------------------------------------------------
 Filename                        Size    Description
 ------------------------------- ------- -------------------------------------------------------------------------------
-[allegro-5.0.11.zip]               4.0M Source code for all platforms in
-                                        DOS/Windows friendly format.
-
-[allegro-5.0.11.tar.gz]            3.2M Source code for all platforms in Unix
-                                        friendly format.
-
-[allegro-5.0.11.7z]                2.4M Source code for all platforms in DOS/Windows
+[allegro-5.2.0.zip]                8.1M Source code for all platforms in
+                                         DOS/Windows friendly format.
+                                   
+[allegro-5.2.0.tar.gz]             7.2M Source code for all platforms in Unix
+                                         friendly format.
+                                   
+[allegro-5.2.0.7z]                 6.1M Source code for all platforms in DOS/Windows
                                         friendly format.
 
 [Browse all files]
 -----------------------------------------------------------------------------------------------------------------------
 
-[allegro-5.0.11.zip]:    http://download.gna.org/allegro/allegro/5.0.11/allegro-5.0.11.zip
-[allegro-5.0.11.tar.gz]: http://download.gna.org/allegro/allegro/5.0.11/allegro-5.0.11.tar.gz
-[allegro-5.0.11.7z]:     http://download.gna.org/allegro/allegro/5.0.11/allegro-5.0.11.7z
+[allegro-5.2.0.zip]:     http://download.gna.org/allegro/allegro/5.2.0/allegro-5.2.0.zip
+[allegro-5.2.0.tar.gz]:  http://download.gna.org/allegro/allegro/5.2.0/allegro-5.2.0.tar.gz
+[allegro-5.2.0.7z]:      http://download.gna.org/allegro/allegro/5.2.0/allegro-5.2.0.7z
 [Browse all files]:      http://download.gna.org/allegro/allegro/
-
-## Allegro 5.1 source releases (unstable)
-
-The 5.1 branch is source compatible, but not binary compatible, with the stable
-5.0 branch.
-It contains provisional new features which are *subject to change at any time*.
-You can read the [changes since 5.0](changes-unstable.html).
-
------------------------------------------------------------------------------------------------------------------------
-Filename                        Size    Description
-------------------------------- ------- -------------------------------------------------------------------------------
-[allegro-5.1.13.1.zip]             8.1M Source code for all platforms in
-                                        DOS/Windows friendly format.
-
-[allegro-5.1.13.1.tar.gz]          7.2M Source code for all platforms in Unix
-                                        friendly format.
-
-[allegro-5.1.13.1.7z]              6.0M Source code for all platforms in DOS/Windows
-                                        friendly format.
-
-[Browse unstable files]
------------------------------------------------------------------------------------------------------------------------
-
-[allegro-5.1.13.1.zip]:    http://download.gna.org/allegro/allegro-unstable/5.1.13.1/allegro-5.1.13.1.zip
-[allegro-5.1.13.1.tar.gz]: http://download.gna.org/allegro/allegro-unstable/5.1.13.1/allegro-5.1.13.1.tar.gz
-[allegro-5.1.13.1.7z]:     http://download.gna.org/allegro/allegro-unstable/5.1.13.1/allegro-5.1.13.1.7z
-[Browse unstable files]: http://download.gna.org/allegro/allegro-unstable/
 
 ## Windows Binaries {#windows}
 
@@ -90,8 +56,8 @@ Site                            Description
                                 binaries in a format that is easy to use from
                                 MSVC.
 
-[Allegro 5.1 binary packages]
-                                The `allegro-unstable-bin` directory contains
+[Allegro 5.2 binary packages]
+                                The `allegro-bin` directory contains
                                 several binary distributions of Allegro for
                                 Windows.
 
@@ -112,17 +78,16 @@ Site                            Description
 -----------------------------------------------------------------------------------------------------------------------
 
 [Nuget]: https://www.nuget.org/packages/Allegro/
-[Allegro 5.1 binary packages]:  http://download.gna.org/allegro/allegro-unstable-bin/
+[Allegro 5.2 binary packages]:  http://download.gna.org/allegro/allegro-bin/
 [Allegro 5 dependencies]:       http://download.gna.org/allegro/allegro-deps/
 [devpaks.org]:                  http://devpaks.org/
 [www.allegro.cc/files]:         http://www.allegro.cc/files/
 
 ## MacOS X binaries {#osx}
 
-Allegro 5 can be found in the `allegro` package on [homebrew]. Use the
-`--devel` switch to install a 5.1.x release. See the [wiki
-tutorial](https://wiki.allegro.cc/index.php?title=Installing_with_homebrew) for
-more details.
+Allegro 5 can be found in the `allegro` package on [homebrew].See the
+[wiki tutorial](https://wiki.allegro.cc/index.php?title=Installing_with_homebrew)
+for more details.
 
 ## Ubuntu PPA {#linux}
 

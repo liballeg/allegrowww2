@@ -5,10 +5,10 @@ Here, we host some popular versions of the generated documentation, and provide
 an online browseable version, too.
 
 --------------------------------------------------------------------------------
-File format           Allegro 5.0        Allegro 5.1         Allegro 4.x        
+File format           Allegro 5.2        Allegro GIT         Allegro 4.x        
 --------------------- ------------------ ------------------- -------------------
-Online HTML           [**5.0.11**]       [5.1.x (GIT)]       [4.4.0][st ol]     
-                      [a5dir 50]         [a5now ol]                             
+Online HTML           [**5.2.0**]        [5.2.x (GIT)]       [4.4.0][st ol]     
+                      [a5dir 52]         [a5now ol]                             
                                                             
                       [older versions]                                          
                       [a5dir ol]                                                
@@ -16,9 +16,9 @@ Online HTML           [**5.0.11**]       [5.1.x (GIT)]       [4.4.0][st ol]
 Compiled HTML                                                [4.2.1][st chm]
 format (CHM)                                                 (913 KiB)
                                                             
-PDF format            [5.0.11]                               [4.2.1][st pdf]    
-                      [a5pdf 50]                             (2769 KiB)         
-                      (624 KiB)                                                 
+PDF format            [5.2.0]                                [4.2.1][st pdf]    
+                      [a5pdf 52]                             (2769 KiB)         
+                      (905 KiB)                                                 
                                                             
 PostScript                                                   [4.2.1][st ps]
 gzipped format                                               (536 KiB)
@@ -29,10 +29,10 @@ gzipped format                                               (536 KiB)
 [st pdf]: http://download.gna.org/allegro/allegro-manual/4.2.1/allegro-manual-4.2.1.en.pdf
 [st ps]:  http://download.gna.org/allegro/allegro-manual/4.2.1/allegro-manual-4.2.1.en.ps.gz
 
-[a5now ol]:  http://liballeg.org/a5docs/trunk/index.html
-[a5dir ol]:  http://liballeg.org/a5docs/
-[a5dir 50]: http://liballeg.org/a5docs/5.0.11/
-[a5pdf 50]: http://liballeg.org/a5docs/5.0.11/refman.pdf
+[a5now ol]: http://liballeg.org/a5docs/trunk/index.html
+[a5dir ol]: http://liballeg.org/a5docs/
+[a5dir 52]: http://liballeg.org/a5docs/5.2.0/
+[a5pdf 52]: http://liballeg.org/a5docs/5.2.0/refman.pdf
 
 [Allegro.cc's manuals](http://www.allegro.cc/manual/) -
 <br/>

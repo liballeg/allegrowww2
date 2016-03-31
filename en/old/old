@@ -1,7 +1,8 @@
 # Older versions
 
-Here you can find some downloads of the classical Allegro 4 library (and even 
-older versions!).  Allegro 5 is *not* backwards compatible with Allegro 4.
+Here you can find some downloads of the older 5.x releases as well as the
+classical Allegro 4 library (and even older versions!).  Allegro 5 is *not*
+backwards compatible with Allegro 4.
 
 Since version 3.12, Allegro has adopted this versioning scheme: The first
 number indicates a major version; differences here usually mean that a lot of
@@ -9,6 +10,59 @@ things have changed. The second number indicates if the release is stable (even
 number) or unstable (odd number). Finally the third number marks smaller
 differences between releases. A fourth number is used if we need to fix a minor
 mistake found in a previous release.
+
+## Allegro 5.0 source releases (stable)
+
+Allegro 5.0 supports **Unix** (Linux, FreeBSD, etc.), **Windows**, **MacOS X**
+and **iPhone**.
+You can read the [full change log](changes.html).
+
+-----------------------------------------------------------------------------------------------------------------------
+Filename                        Size    Description
+------------------------------- ------- -------------------------------------------------------------------------------
+[allegro-5.0.11.zip]               4.0M Source code for all platforms in
+                                        DOS/Windows friendly format.
+
+[allegro-5.0.11.tar.gz]            3.2M Source code for all platforms in Unix
+                                        friendly format.
+
+[allegro-5.0.11.7z]                2.4M Source code for all platforms in DOS/Windows
+                                        friendly format.
+
+[Browse all files]
+-----------------------------------------------------------------------------------------------------------------------
+
+[allegro-5.0.11.zip]:    http://download.gna.org/allegro/allegro/5.0.11/allegro-5.0.11.zip
+[allegro-5.0.11.tar.gz]: http://download.gna.org/allegro/allegro/5.0.11/allegro-5.0.11.tar.gz
+[allegro-5.0.11.7z]:     http://download.gna.org/allegro/allegro/5.0.11/allegro-5.0.11.7z
+[Browse all files]:      http://download.gna.org/allegro/allegro/
+
+## Allegro 5.1 source releases (unstable)
+
+The 5.1 branch is source compatible, but not binary compatible, with the stable
+5.0 branch.
+It contains provisional new features which are *subject to change at any time*.
+You can read the [changes since 5.0](changes-unstable.html).
+
+-----------------------------------------------------------------------------------------------------------------------
+Filename                        Size    Description
+------------------------------- ------- -------------------------------------------------------------------------------
+[allegro-5.1.13.1.zip]             8.1M Source code for all platforms in
+                                        DOS/Windows friendly format.
+
+[allegro-5.1.13.1.tar.gz]          7.2M Source code for all platforms in Unix
+                                        friendly format.
+
+[allegro-5.1.13.1.7z]              6.0M Source code for all platforms in DOS/Windows
+                                        friendly format.
+
+[Browse unstable files]
+-----------------------------------------------------------------------------------------------------------------------
+
+[allegro-5.1.13.1.zip]:    http://download.gna.org/allegro/allegro-unstable/5.1.13.1/allegro-5.1.13.1.zip
+[allegro-5.1.13.1.tar.gz]: http://download.gna.org/allegro/allegro-unstable/5.1.13.1/allegro-5.1.13.1.tar.gz
+[allegro-5.1.13.1.7z]:     http://download.gna.org/allegro/allegro-unstable/5.1.13.1/allegro-5.1.13.1.7z
+[Browse unstable files]: http://download.gna.org/allegro/allegro-unstable/
 
 ## Allegro 4.4 source releases
 

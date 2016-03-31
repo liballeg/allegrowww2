@@ -9,6 +9,7 @@ PAGES :=		\
 	bindings	\
 	books		\
 	changes		\
+	changes-5.2		\
 	changes-unstable \
 	digmid		\
 	docs		\

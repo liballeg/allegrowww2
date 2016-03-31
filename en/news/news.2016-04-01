@@ -1,0 +1,28 @@
+## 2016-04-01 - Allegro 5.2.0 released!
+
+After many years of development in the unstable branch, the next stable version
+of Allegro is ready for release! This version brings most of the features from
+the unstable branch, but now with a guarantee of backwards source and ABI
+compatibility. Allegro 5.2 is source but *not* binary compatible with 5.0.
+
+Allegro 5.2 is developed a little differently than 5.0 and 5.1 were. This
+version combines both unstable and stable APIs in one branch. The unstable
+branch is no more! Unstable APIs may be changed between versions, or even
+removed entirely. Because of this, to use them you must opt into this
+instability by defining `ALLEGRO_UNSTABLE` definition before including
+Allegro's headers.
+
+Combining the two branches will result in more rapid bug fixes and faster
+addition of new features.
+
+You can
+[download](http://download.gna.org/allegro/allegro/5.2.0/)
+it from Gna.org. Additional packages for other platforms are available on
+the [downloads] page.
+
+The reference manual is available [online][a5docs], as is the list of
+[changes][changes 5.2].
+
+We would like to thank everyone who has contributed to Allegro during
+all these years, not only the developers, but the users who have tested
+pre-releases, reported bugs and submitted patches.

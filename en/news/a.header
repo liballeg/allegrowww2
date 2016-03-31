@@ -8,16 +8,14 @@ game engine: you are free to design and structure your program as you like.
 
 Allegro 5 has the following additional features:
 
-* Supported on Windows, Linux, Mac OSX, iPhone and Android<sup>†</sup>
+* Supported on Windows, Linux, Mac OSX, iPhone and Android
 * User-friendly, intuitive C API usable from C++ and many other languages
 * Hardware accelerated bitmap and graphical primitive drawing support (via OpenGL or Direct3D)
-* Audio recording<sup>†</sup> support
+* Audio recording support
 * Font loading and drawing
-* Video playback<sup>†</sup>
-* Abstractions over shaders<sup>†</sup> and low-level polygon drawing
+* Video playback
+* Abstractions over shaders and low-level polygon drawing
 * And [more](http://liballeg.org/a5docs/trunk/getting_started.html)!
-
-<sup>†</sup> *5.1.x only*
 
 <!-- we must use raw HTML to avoid pandoc creating a div -->
 # News
