@@ -85,32 +85,21 @@ Site                            Description
 
 ## MacOS X binaries {#osx}
 
-Allegro 5 can be found in the `allegro` package on [homebrew].See the
+Allegro 5 can be found in the `allegro` package on [homebrew]. See the
 [wiki tutorial](https://wiki.allegro.cc/index.php?title=Installing_with_homebrew)
 for more details.
+
+[homebrew]: http://brew.sh/
 
 ## Ubuntu PPA {#linux}
 
 For Linux distributions based on Ubuntu (and Ubuntu itself), you can download
-binary packages for Allegro 5 by adding the following PPAs to your software
+binary packages for Allegro 5 by adding the a [PPA] to your software
 sources, and then installing the relevant packages. See the [wiki
 tutorial](https://wiki.allegro.cc/index.php?title=Install_Allegro_from_Ubuntu_PPAs)
 for more details.
 
--------------------------------------------------------------------------------------
-PPA                              Description
--------------------------------- ----------------------------------------------------
-[Stable version (5.0.x) PPA]     Use this PPA to get the stable release binary and
-                                 development packages.
-
-[Unstable version (5.1.x) PPA]   Use this PPA to get the unstable release binary and
-                                 development packages.
--------------------------------------------------------------------------------------
-
-[Stable version (5.0.x) PPA]: https://launchpad.net/~allegro/+archive/ubuntu/5.0
-[Unstable version (5.1.x) PPA]: https://launchpad.net/~allegro/+archive/ubuntu/5.1
-
-[homebrew]: http://brew.sh/
+[PPA]: https://launchpad.net/~allegro/+archive/ubuntu/5.2
 
 ## IPhone binaries {#iphone}
 
