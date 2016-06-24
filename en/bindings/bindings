@@ -24,6 +24,9 @@ to contact the webmaster and report the change.
 [go-allegro]
 :   Go binding to Allegro 5 by Damien Radtke.
 
+[jalleg]
+:   Java binding to Allegro 5.2 by Jason Winnebeck.
+
 Python
 :   The Allegro 5 distribution comes with a basic Python wrapper;
     see the `python` directory.
