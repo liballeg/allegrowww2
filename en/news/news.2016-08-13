@@ -1,0 +1,16 @@
+## 2016-08-13 - Allegro 5.2.1.1 released!
+
+This is a patch release of for Allegro 5.2.1. This release fixes a few API
+regressions found in 5.2.1 release.
+
+You can
+[download](http://download.gna.org/allegro/allegro/5.2.1.1/)
+it from Gna.org. Additional packages for other platforms are available on
+the [downloads] page.
+
+The reference manual is available [online](a5docs/5.2.1.1/index.html), as is the
+list of [changes][changes 5.2].
+
+We would like to thank everyone who has contributed to Allegro during
+all these years, not only the developers, but the users who have tested
+pre-releases, reported bugs and submitted patches.

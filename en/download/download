@@ -25,22 +25,22 @@ You can read the [full change log](changes.html).
 -----------------------------------------------------------------------------------------------------------------------
 Filename                        Size    Description
 ------------------------------- ------- -------------------------------------------------------------------------------
-[allegro-5.2.1.zip]                8.2M Source code for all platforms in
+[allegro-5.2.1.1.zip]              8.2M Source code for all platforms in
                                          DOS/Windows friendly format.
                                    
-[allegro-5.2.1.tar.gz]             7.2M Source code for all platforms in Unix
+[allegro-5.2.1.1.tar.gz]           7.2M Source code for all platforms in Unix
                                          friendly format.
                                    
-[allegro-5.2.1.7z]                 6.1M Source code for all platforms in DOS/Windows
+[allegro-5.2.1.1.7z]               6.1M Source code for all platforms in DOS/Windows
                                         friendly format.
 
 [Browse all files]
 -----------------------------------------------------------------------------------------------------------------------
 
-[allegro-5.2.1.zip]:     http://download.gna.org/allegro/allegro/5.2.1/allegro-5.2.1.zip
-[allegro-5.2.1.tar.gz]:  http://download.gna.org/allegro/allegro/5.2.1/allegro-5.2.1.tar.gz
-[allegro-5.2.1.7z]:      http://download.gna.org/allegro/allegro/5.2.1/allegro-5.2.1.7z
-[Browse all files]:      http://download.gna.org/allegro/allegro/
+[allegro-5.2.1.1.zip]:    http://download.gna.org/allegro/allegro/5.2.1.1/allegro-5.2.1.1.zip
+[allegro-5.2.1.1.tar.gz]: http://download.gna.org/allegro/allegro/5.2.1.1/allegro-5.2.1.1.tar.gz
+[allegro-5.2.1.1.7z]:     http://download.gna.org/allegro/allegro/5.2.1.1/allegro-5.2.1.1.7z
+[Browse all files]:       http://download.gna.org/allegro/allegro/
 
 ## Windows Binaries {#windows}
 
