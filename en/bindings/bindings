@@ -13,7 +13,7 @@ to contact the webmaster and report the change.
 :   Lua binding to Allegro 5 by Trezker.
 
 [lallegro]
-;   Lua binding for Allegro 5.2 by gilzoide
+:   Lua binding for Allegro 5.2 by gilzoide
 
 [Chicken Scheme]
 :   Binding for Chicken Scheme by Daniel Leslie.
