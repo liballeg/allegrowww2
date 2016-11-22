@@ -30,6 +30,9 @@ to contact the webmaster and report the change.
 [jalleg]
 :   Java binding to Allegro 5.2 by Jason Winnebeck.
 
+[jllegro]
+:   Java Allegro wrapper by Mitchell Larson
+
 Python
 :   The Allegro 5 distribution comes with a basic Python wrapper;
     see the `python` directory.
