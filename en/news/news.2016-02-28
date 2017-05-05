@@ -5,8 +5,8 @@ when Allegro is compiled with MSVC compiler. If you are using a different
 compiler then there is no need to upgrade.
 
 You can
-[download](http://download.gna.org/allegro/allegro-unstable/5.1.13.1/)
-it from Gna.org. Additional packages for other platforms are available on
+[download](https://github.com/liballeg/allegro5/releases/5.1.13.1)
+it from GitHub. Additional packages for other platforms are available on
 the [downloads] page.
 
 The reference manual is available [online][a5docs], as is the list of

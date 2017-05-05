@@ -37,10 +37,10 @@ Filename                        Size    Description
 [Browse all files]
 -----------------------------------------------------------------------------------------------------------------------
 
-[allegro-5.2.2.zip]:    http://download.gna.org/allegro/allegro/5.2.2/allegro-5.2.2.zip
-[allegro-5.2.2.tar.gz]: http://download.gna.org/allegro/allegro/5.2.2/allegro-5.2.2.tar.gz
-[allegro-5.2.2.7z]:     http://download.gna.org/allegro/allegro/5.2.2/allegro-5.2.2.7z
-[Browse all files]:     http://download.gna.org/allegro/allegro/
+[allegro-5.2.2.zip]:    https://github.com/liballeg/allegro5/releases/download/5.2.2.0/allegro-5.2.2.zip
+[allegro-5.2.2.tar.gz]: https://github.com/liballeg/allegro5/releases/download/5.2.2.0/allegro-5.2.2.tar.gz
+[allegro-5.2.2.7z]:     https://github.com/liballeg/allegro5/releases/download/5.2.2.0/allegro-5.2.2.7z
+[Browse all files]:     https://github.com/liballeg/allegro5/releases
 
 ## Windows Binaries {#windows}
 
@@ -57,13 +57,14 @@ Site                            Description
                                 MSVC.
 
 [Allegro 5.2 binary packages]
-                                The `allegro-bin` directory contains
+                                Allegro releases on GitHub also come with
                                 several binary distributions of Allegro for
                                 Windows.
 
 [Allegro 5 dependencies]
-                                The `allegro-deps` directory contains contains
-                                pre-compiled Allegro dependencies for Windows.
+                                The `allegro_winpkg` GitHub project has releases
+                                that come with the pre-compiled Allegro
+                                dependencies for Windows.
 
 [www.allegro.cc/files]
                                 Matthew Leverton hosts Windows binary packages
@@ -78,8 +79,8 @@ Site                            Description
 -----------------------------------------------------------------------------------------------------------------------
 
 [Nuget]: https://www.nuget.org/packages/Allegro/
-[Allegro 5.2 binary packages]:  http://download.gna.org/allegro/allegro-bin/
-[Allegro 5 dependencies]:       http://download.gna.org/allegro/allegro-deps/
+[Allegro 5.2 binary packages]:  https://github.com/liballeg/allegro5/releases
+[Allegro 5 dependencies]:       https://github.com/liballeg/allegro_winpkg/releases
 [devpaks.org]:                  http://devpaks.org/
 [www.allegro.cc/files]:         http://www.allegro.cc/files/
 
@@ -122,9 +123,9 @@ Filename                         Size    Description
                                          folder and CMake should pick them up.
 -----------------------------------------------------------------------------------------------------------------------
 
-[freetype-iphone-2.3.12-bin.zip]: http://download.gna.org/allegro/files/freetype-iphone-2.3.12-bin.zip
-[physfs-1.0.2-iphone.zip]: http://download.gna.org/allegro/files/physfs-1.0.2-iphone.zip
-[vorbis-iphone.zip]: http://download.gna.org/allegro/files/vorbis-iphone.zip
+[freetype-iphone-2.3.12-bin.zip]: https://download.tuxfamily.org/allegro/files/freetype-iphone-2.3.12-bin.zip
+[physfs-1.0.2-iphone.zip]: https://download.tuxfamily.org/allegro/files/physfs-1.0.2-iphone.zip
+[vorbis-iphone.zip]: https://download.tuxfamily.org/allegro/files/vorbis-iphone.zip
 
 ## Miscellaneous files {#misc}
 
@@ -138,4 +139,4 @@ Filename                        Size    Description
                                         directory.
 -----------------------------------------------------------------------------------------------------------------------
 
-[sal.h]:   http://download.gna.org/allegro/files/sal.h
+[sal.h]:   https://download.tuxfamily.org/allegro/files/sal.h

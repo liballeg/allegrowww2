@@ -16,8 +16,8 @@ Combining the two branches will result in more rapid bug fixes and faster
 addition of new features.
 
 You can
-[download](http://download.gna.org/allegro/allegro/5.2.0/)
-it from Gna.org. Additional packages for other platforms are available on
+[download](https://github.com/liballeg/allegro5/releases/5.2.0.0)
+it from GitHub. Additional packages for other platforms are available on
 the [downloads] page.
 
 The reference manual is available [online](a5docs/5.2.0/index.html), as is the

@@ -6,8 +6,8 @@ The 5.1 branch is source compatible, but not binary compatible, with the stable
 It contains provisional new features which are *subject to change at any time*.
 
 You can
-[download](http://download.gna.org/allegro/allegro-unstable/5.1.13/)
-it from Gna.org. Additional packages for other platforms are available on
+[download](https://github.com/liballeg/allegro5/releases/5.1.13.0)
+it from GitHub. Additional packages for other platforms are available on
 the [downloads] page.
 
 The reference manual is available [online][a5docs], as is the list of

@@ -32,10 +32,10 @@ Filename                        Size    Description
 [Browse all files]
 -----------------------------------------------------------------------------------------------------------------------
 
-[allegro-5.0.11.zip]:    http://download.gna.org/allegro/allegro/5.0.11/allegro-5.0.11.zip
-[allegro-5.0.11.tar.gz]: http://download.gna.org/allegro/allegro/5.0.11/allegro-5.0.11.tar.gz
-[allegro-5.0.11.7z]:     http://download.gna.org/allegro/allegro/5.0.11/allegro-5.0.11.7z
-[Browse all files]:      http://download.gna.org/allegro/allegro/
+[allegro-5.0.11.zip]:    https://github.com/liballeg/allegro5/releases/download/5.0.11/allegro-5.0.11.zip
+[allegro-5.0.11.tar.gz]: https://github.com/liballeg/allegro5/releases/download/5.0.11/allegro-5.0.11.tar.gz
+[allegro-5.0.11.7z]:     https://github.com/liballeg/allegro5/releases/download/5.0.11/allegro-5.0.11.7z
+[Browse all files]:      https://github.com/liballeg/allegro5/releases
 
 ## Allegro 5.1 source releases (unstable)
 
@@ -59,10 +59,10 @@ Filename                        Size    Description
 [Browse unstable files]
 -----------------------------------------------------------------------------------------------------------------------
 
-[allegro-5.1.13.1.zip]:    http://download.gna.org/allegro/allegro-unstable/5.1.13.1/allegro-5.1.13.1.zip
-[allegro-5.1.13.1.tar.gz]: http://download.gna.org/allegro/allegro-unstable/5.1.13.1/allegro-5.1.13.1.tar.gz
-[allegro-5.1.13.1.7z]:     http://download.gna.org/allegro/allegro-unstable/5.1.13.1/allegro-5.1.13.1.7z
-[Browse unstable files]: http://download.gna.org/allegro/allegro-unstable/
+[allegro-5.1.13.1.zip]:    https://github.com/liballeg/allegro5/releases/download/5.1.13.1/allegro-5.1.13.1.zip
+[allegro-5.1.13.1.tar.gz]: https://github.com/liballeg/allegro5/releases/download/5.1.13.1/allegro-5.1.13.1.tar.gz
+[allegro-5.1.13.1.7z]:     https://github.com/liballeg/allegro5/releases/download/5.1.13.1/allegro-5.1.13.1.7z
+[Browse unstable files]:   https://github.com/liballeg/allegro5/releases
 
 ## Allegro 4.4 source releases
 
@@ -85,9 +85,9 @@ Filename                        Size    Description
 [Browse all files]
 -----------------------------------------------------------------------------------------------------------------------
 
-[allegro-4.4.2.zip]:    http://download.gna.org/allegro/allegro/4.4.2/allegro-4.4.2.zip
-[allegro-4.4.2.tar.gz]: http://download.gna.org/allegro/allegro/4.4.2/allegro-4.4.2.tar.gz
-[allegro-4.4.2.7z]:     http://download.gna.org/allegro/allegro/4.4.2/allegro-4.4.2.7z
+[allegro-4.4.2.zip]:    https://github.com/liballeg/allegro5/releases/download/4.4.2/allegro-4.4.2.zip
+[allegro-4.4.2.tar.gz]: https://github.com/liballeg/allegro5/releases/download/4.4.2/allegro-4.4.2.tar.gz
+[allegro-4.4.2.7z]:     https://github.com/liballeg/allegro5/releases/download/4.4.2/allegro-4.4.2.7z
 
 ## Allegro 4.2 source releases
 
@@ -120,10 +120,10 @@ Filename                        Size    Description
 [Browse all files]
 -----------------------------------------------------------------------------------------------------------------------
 
-[all4231.zip]:                          http://download.gna.org/allegro/allegro/4.2.3.1/all4231.zip
-[allegro-4.2.3.1.tar.gz]:               http://download.gna.org/allegro/allegro/4.2.3.1/allegro-4.2.3.1.tar.gz
-[all4231_diff.zip]:                     http://download.gna.org/allegro/allegro/4.2.3.1/all4231_diff.zip
-[allegro-enduser-4.2.3.1.tar.gz]:       http://download.gna.org/allegro/allegro/4.2.3.1/allegro-enduser-4.2.3.1.tar.gz
+[all4231.zip]:                          https://github.com/liballeg/allegro5/releases/download/v4-2-3-1/all4231.zip
+[allegro-4.2.3.1.tar.gz]:               https://github.com/liballeg/allegro5/releases/download/v4-2-3-1/allegro-4.2.3.1.tar.gz
+[all4231_diff.zip]:                     https://github.com/liballeg/allegro5/releases/download/v4-2-3-1/all4231_diff.zip
+[allegro-enduser-4.2.3.1.tar.gz]:       https://github.com/liballeg/allegro5/releases/download/v4-2-3-1/allegro-enduser-4.2.3.1.tar.gz
 
 ## Allegro 4.2 Windows Binaries
 
@@ -150,7 +150,7 @@ Site                            Description
 
 [devpaks.org]:                  http://devpaks.org/
 [www.allegro.cc/files]:         http://www.allegro.cc/files/
-[Allegro binary package]:       http://download.gna.org/allegro/allegro-bin/
+[Allegro binary package]:       https://github.com/liballeg/allegro5/releases
 
 ## Allegro 4.0
 
@@ -162,13 +162,13 @@ Site                            Description
 * [all400_bin.zip] (1301k)
 * [allegro-enduser-4.0.0.tar.gz] (576k) 
 
-[all400.zip]:                   http://download.gna.org/allegro/allegro/4.0.0/all400.zip
-[allegro-4.0.0.tar.gz]:         http://download.gna.org/allegro/allegro/4.0.0/allegro-4.0.0.tar.gz
-[allegro-4.0.0-1.src.rpm]:      http://download.gna.org/allegro/allegro/4.0.0/allegro-4.0.0-1.src.rpm
-[all400_bin.zip]:               http://download.gna.org/allegro/OldFiles/all400_bin.zip
-[allegro-enduser-4.0.0.tar.gz]: http://download.gna.org/allegro/allegro-enduser/4.0.0/allegro-enduser-4.0.0.tar.gz
+[all400.zip]:                   https://github.com/liballeg/allegro5/releases/download/v4-0-0/all400.zip
+[allegro-4.0.0.tar.gz]:         https://github.com/liballeg/allegro5/releases/download/v4-0-0/allegro-4.0.0.tar.gz
+[allegro-4.0.0-1.src.rpm]:      https://github.com/liballeg/allegro5/releases/download/v4-0-0/allegro-4.0.0-1.src.rpm
+[all400_bin.zip]:               https://download.tuxfamily.org/allegro/OldFiles/all400_bin.zip
+[allegro-enduser-4.0.0.tar.gz]: https://github.com/liballeg/allegro5/releases/download/v4-0-0/allegro-enduser-4.0.0.tar.gz
 
-See the [download area](http://download.gna.org/allegro/).
+See the [download area](https://github.com/liballeg/allegro5/releases).
 
 ## Ancient versions
 
@@ -176,24 +176,24 @@ These files are being made available for historical interest, and as reference
 material. They are unsupported, and for any serious programming work, you
 should get the most recent version instead.
 
-[Allegro 1.02](http://download.gna.org/allegro/files/allegro1.zip) (119k) - Sometime in 1995.
+[Allegro 1.02](https://download.tuxfamily.org/allegro/files/allegro1.zip) (119k) - Sometime in 1995.
 
-[Allegro 2.0](http://download.gna.org/allegro/files/alleg20.zip) (304k) - March 1996.
+[Allegro 2.0](https://download.tuxfamily.org/allegro/files/alleg20.zip) (304k) - March 1996.
 
-[Allegro 2.1](http://download.gna.org/allegro/files/alleg21.zip) (562k) - June 1996.
+[Allegro 2.1](https://download.tuxfamily.org/allegro/files/alleg21.zip) (562k) - June 1996.
 
-[Allegro 2.11](http://download.gna.org/allegro/files/alleg211.zip) (563k) - November 1996.
+[Allegro 2.11](https://download.tuxfamily.org/allegro/files/alleg211.zip) (563k) - November 1996.
 
-[Allegro 2.2](http://download.gna.org/allegro/files/alleg22.zip) (990k) - February 1997.
+[Allegro 2.2](https://download.tuxfamily.org/allegro/files/alleg22.zip) (990k) - February 1997.
 
-[Allegro 3.0](http://download.gna.org/allegro/files/alleg30.zip) (1225k) - December 1997.
+[Allegro 3.0](https://download.tuxfamily.org/allegro/files/alleg30.zip) (1225k) - December 1997.
 
-[Allegro 3.1](http://download.gna.org/allegro/files/alleg31.zip) (1422k) - January 1999.
+[Allegro 3.1](https://download.tuxfamily.org/allegro/files/alleg31.zip) (1422k) - January 1999.
 
-[Allegro 3.11](http://download.gna.org/allegro/files/alleg311.zip) (1434k) - February 1999.
-[Patch](http://download.gna.org/allegro/files/al312dif.zip) to upgrade to version 3.12.
+[Allegro 3.11](https://download.tuxfamily.org/allegro/files/alleg311.zip) (1434k) - February 1999.
+[Patch](https://download.tuxfamily.org/allegro/files/al312dif.zip) to upgrade to version 3.12.
 
-[Allegro 3.12](http://download.gna.org/allegro/files/alleg312.zip) (1434k) - August 1999.
+[Allegro 3.12](https://download.tuxfamily.org/allegro/files/alleg312.zip) (1434k) - August 1999.
 This is a DOS/DJGPP library, and can be obtained from your [local Simtel
 mirror](mirrors.html#simtel), in the directory gnu/djgpp/v2tk/allegro/,
 filename alleg312.zip.

@@ -4,8 +4,8 @@ This is a patch release of for Allegro 5.2.1. This release fixes a few API
 regressions found in 5.2.1 release.
 
 You can
-[download](http://download.gna.org/allegro/allegro/5.2.1.1/)
-it from Gna.org. Additional packages for other platforms are available on
+[download](https://github.com/liballeg/allegro5/releases/5.2.1.1/)
+it from GitHub. Additional packages for other platforms are available on
 the [downloads] page.
 
 The reference manual is available [online](a5docs/5.2.1.1/index.html), as is the
