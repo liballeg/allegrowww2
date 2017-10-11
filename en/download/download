@@ -25,21 +25,21 @@ You can read the [full change log](changes.html).
 -----------------------------------------------------------------------------------------------------------------------
 Filename                        Size    Description
 ------------------------------- ------- -------------------------------------------------------------------------------
-[allegro-5.2.2.zip]                8.1M Source code for all platforms in
+[allegro-5.2.3.zip]                8.5M Source code for all platforms in
                                            DOS/Windows friendly format.
                                      
-[allegro-5.2.2.tar.gz]             7.2M Source code for all platforms in Unix
+[allegro-5.2.3.tar.gz]             7.5M Source code for all platforms in Unix
                                            friendly format.
                                      
-[allegro-5.2.2.7z]                 6.1M Source code for all platforms in DOS/Windows
+[allegro-5.2.3.7z]                 6.3M Source code for all platforms in DOS/Windows
                                         friendly format.
 
 [Browse all files]
 -----------------------------------------------------------------------------------------------------------------------
 
-[allegro-5.2.2.zip]:    https://github.com/liballeg/allegro5/releases/download/5.2.2.0/allegro-5.2.2.zip
-[allegro-5.2.2.tar.gz]: https://github.com/liballeg/allegro5/releases/download/5.2.2.0/allegro-5.2.2.tar.gz
-[allegro-5.2.2.7z]:     https://github.com/liballeg/allegro5/releases/download/5.2.2.0/allegro-5.2.2.7z
+[allegro-5.2.3.zip]:    https://github.com/liballeg/allegro5/releases/download/5.2.3.0/allegro-5.2.3.zip
+[allegro-5.2.3.tar.gz]: https://github.com/liballeg/allegro5/releases/download/5.2.3.0/allegro-5.2.3.tar.gz
+[allegro-5.2.3.7z]:     https://github.com/liballeg/allegro5/releases/download/5.2.3.0/allegro-5.2.3.7z
 [Browse all files]:     https://github.com/liballeg/allegro5/releases
 
 ## Windows Binaries {#windows}
