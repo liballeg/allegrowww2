@@ -37,6 +37,10 @@ Python
 :   The Allegro 5 distribution comes with a basic Python wrapper;
     see the `python` directory.
 
+[Allegro.pas]
+:   Allegro.pas is a wrapper to use Allegro with Pascal compilers
+    like [Delphi] or [Free Pascal].
+
 
 # Bindings for Allegro 4
 
