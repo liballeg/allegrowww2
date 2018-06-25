@@ -13,7 +13,8 @@ Online HTML           [**5.2.4**]        [5.2.x (GIT)]       [4.4.0][st ol]
                       [older versions]                                          
                       [a5dir ol]                                                
                                                             
-Compiled HTML                                                [4.2.1][st chm]
+Compiled HTML         [5.2.4][a5chm524]                      [4.4.3][a4chm443]
+                                                             [4.2.1][st chm]
 format (CHM)                                                 (913 KiB)
                                                             
 PDF format            [5.2.4]                                [4.2.1][st pdf]    
@@ -29,6 +30,9 @@ gzipped format                                               (536 KiB)
 [st pdf]: https://download.tuxfamily.org/allegro/allegro-manual//4.2.1/allegro-manual-4.2.1.en.pdf
 [st ps]:  https://download.tuxfamily.org/allegro/allegro-manual//4.2.1/allegro-manual-4.2.1.en.ps.gz
 
+[a5chm524]: https://bitbucket.org/bugsquasher/unofficial-allegro-5-binaries/downloads/Allegro524.chm
+[a4chm443]: https://bitbucket.org/bugsquasher/unofficial-allegro-5-binaries/downloads/Allegro443.chm
+
 [a5now ol]: http://liballeg.org/a5docs/trunk/index.html
 [a5dir ol]: http://liballeg.org/a5docs/
 [a5dir 52]: http://liballeg.org/a5docs/5.2.4/
@@ -37,7 +41,8 @@ gzipped format                                               (536 KiB)
 [Allegro.cc's manuals](http://www.allegro.cc/manual/) -
 <br/>
 Matthew Leverton hosts the Allegro manuals, with a different style and
-integration with the Allegro.cc forums.
+integration with the Allegro.cc forums. However, these have not been
+updated in quite a while.
 
 Apart from Allegro's manual, there is also a
 [tutorial](docs.html) section with links to contributed documentation.
