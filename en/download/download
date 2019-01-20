@@ -17,9 +17,9 @@ Additional installation instructions can be found on the
 
 ## Allegro 5.2 source releases {#source}
 
-Allegro 5.2 supports **Unix** (Linux, FreeBSD, etc.), **Windows**, **MacOS X**
-and **iPhone**. Allegro 5.2 is source compatible but not binary compatible with
-Allegro 5.0.
+Allegro 5.2 supports **Unix** (Linux, FreeBSD, etc.), **Windows**, **macOS**,
+**Android** and **iPhone**. Allegro 5.2 is source compatible but not binary
+compatible with Allegro 5.0.
 You can read the [full change log](changes.html).
 
 -----------------------------------------------------------------------------------------------------------------------
