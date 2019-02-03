@@ -13,7 +13,7 @@ Online HTML           [**5.2.4**]        [5.2.x (GIT)]       [4.4.0][st ol]
                       [older versions]                                          
                       [a5dir ol]                                                
                                                             
-Compiled HTML                                                [4.2.1][st chm]
+Compiled HTML                                                [4.2.2][st chm]
 format (CHM)                                                 (913 KiB)
                                                             
 PDF format            [5.2.4]                                [4.2.1][st pdf]    
@@ -24,10 +24,10 @@ PostScript                                                   [4.2.1][st ps]
 gzipped format                                               (536 KiB)
 --------------------------------------------------------------------------------
 
-[st chm]: https://download.tuxfamily.org/allegro/allegro-manual//4.2.2/allegro-manual-4.2.2.en.chm
+[st chm]: https://download.tuxfamily.org/allegro/allegro-manual/4.2.2/allegro-manual-4.2.2.en.chm
 [st ol]:  http://liballeg.org/stabledocs/en/index.html
-[st pdf]: https://download.tuxfamily.org/allegro/allegro-manual//4.2.1/allegro-manual-4.2.1.en.pdf
-[st ps]:  https://download.tuxfamily.org/allegro/allegro-manual//4.2.1/allegro-manual-4.2.1.en.ps.gz
+[st pdf]: https://download.tuxfamily.org/allegro/allegro-manual/4.2.1/allegro-manual-4.2.1.en.pdf
+[st ps]:  https://download.tuxfamily.org/allegro/allegro-manual/4.2.1/allegro-manual-4.2.1.en.ps.gz
 
 [a5now ol]: http://liballeg.org/a5docs/trunk/index.html
 [a5dir ol]: http://liballeg.org/a5docs/
