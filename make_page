@@ -88,7 +88,7 @@ title="$( get_title $inpage )"
     --include-in-header _include/in-header      \
     --include-before-body _include/before-body.html \
     --include-after-body _include/after-body.html \
-    --title-prefix "$title"                     \
+    --metadata title="$title"                     \
     --css "$STYLESHEET"                         \
     --standalone                                \
     --output "$outpage"
