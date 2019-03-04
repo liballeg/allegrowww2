@@ -73,21 +73,21 @@ You can read the [full change log](stabledocs/en/changes.html).
 -----------------------------------------------------------------------------------------------------------------------
 Filename                        Size    Description
 ------------------------------- ------- -------------------------------------------------------------------------------
-[allegro-4.4.3.zip]                4.9M Source code for all platforms in
+[allegro-4.4.3.1.zip]              4.9M Source code for all platforms in
                                         DOS/Windows friendly format.
 
-[allegro-4.4.3.tar.gz]             4.5M Source code for all platforms in Unix
+[allegro-4.4.3.1.tar.gz]           4.5M Source code for all platforms in Unix
                                         friendly format.
 
-[allegro-4.4.3.7z]                 3.1M Source code for all platforms in DOS/Windows
+[allegro-4.4.3.1.7z]               3.1M Source code for all platforms in DOS/Windows
                                         friendly format.
 
 [Browse all files]
 -----------------------------------------------------------------------------------------------------------------------
 
-[allegro-4.4.3.zip]:    https://github.com/liballeg/allegro5/releases/download/4.4.3/allegro-4.4.3.zip
-[allegro-4.4.3.tar.gz]: https://github.com/liballeg/allegro5/releases/download/4.4.3/allegro-4.4.3.tar.gz
-[allegro-4.4.3.7z]:     https://github.com/liballeg/allegro5/releases/download/4.4.3/allegro-4.4.3.7z
+[allegro-4.4.3.1.zip]:    https://github.com/liballeg/allegro5/releases/download/4.4.3.1/allegro-4.4.3.1.zip
+[allegro-4.4.3.1.tar.gz]: https://github.com/liballeg/allegro5/releases/download/4.4.3.1/allegro-4.4.3.1.tar.gz
+[allegro-4.4.3.1.7z]:     https://github.com/liballeg/allegro5/releases/download/4.4.3.1/allegro-4.4.3.1.7z
 
 ## Allegro 4.2 source releases
 
