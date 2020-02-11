@@ -4,25 +4,24 @@ The Allegro documentation comes in the source package.
 Here, we host some popular versions of the generated documentation, and provide
 an online browseable version, too.
 
---------------------------------------------------------------------------------
-File format           Allegro 5.2        Allegro GIT         Allegro 4.x        
---------------------- ------------------ ------------------- -------------------
-Online HTML           [**5.2.6**]        [5.2.x (GIT)]       [4.4.0][st ol]     
-                      [a5dir 52]         [a5now ol]                             
+-------------------------------------------------------------------------------------------
+File format           Allegro 5.2               Allegro GIT             Allegro 4.x        
+--------------------- ------------------------- ----------------------- -------------------
+Online HTML           [**5.2.6**][a5dir 52]     [5.2.x (GIT)][a5now ol] [4.4.0][st ol]     
                                                             
-                      [older versions]                                          
-                      [a5dir ol]                                                
                                                             
-Compiled HTML                                                [4.2.2][st chm]
-format (CHM)                                                 (913 KiB)
+                      [older versions][a5dir ol]                                                
                                                             
-PDF format            [5.2.6]                                [4.2.1][st pdf]    
-                      [a5pdf 52]                             (2769 KiB)         
-                      (1.1 MiB)                                                 
+Compiled HTML                                                           [4.2.2][st chm]
+format (CHM)                                                            (913 KiB)
                                                             
-PostScript                                                   [4.2.1][st ps]
-gzipped format                                               (536 KiB)
---------------------------------------------------------------------------------
+PDF format            [5.2.6][a5pdf 52]                                 [4.2.1][st pdf]    
+                      (1.1 MiB)                                         (2769 KiB)         
+                                                                       
+                                                            
+PostScript                                                              [4.2.1][st ps]
+gzipped format                                                          (536 KiB)
+-------------------------------------------------------------------------------------------
 
 [st chm]: https://download.tuxfamily.org/allegro/allegro-manual/4.2.2/allegro-manual-4.2.2.en.chm
 [st ol]:  http://liballeg.org/stabledocs/en/index.html
