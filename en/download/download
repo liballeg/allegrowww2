@@ -13,7 +13,7 @@ included in the source packages, either in the README files, or in the
 `docs/build` subdirectory.
 
 Additional installation instructions can be found on the
-[wiki](https://wiki.allegro.cc/index.php?title=Getting_Started#Installing_Allegro).
+[wiki](https://github.com/liballeg/allegro_wiki/wiki/Quickstart).
 
 ## Allegro 5.2 source releases {#source}
 
@@ -46,7 +46,7 @@ Filename                        Size    Description
 
 There are several official and unofficial ways to obtain Windows binaries of
 Allegro releases. See the [wiki
-tutorial](https://wiki.allegro.cc/index.php?title=Getting_Started#Windows) for
+tutorial](https://github.com/liballeg/allegro_wiki/wiki/Quickstart) for
 installation instructions.
 
 -----------------------------------------------------------------------------------------------------------------------
@@ -87,7 +87,7 @@ Site                            Description
 ## MacOS X binaries {#osx}
 
 Allegro 5 can be found in the `allegro` package on [homebrew]. See the
-[wiki tutorial](https://wiki.allegro.cc/index.php?title=Installing_with_homebrew)
+[wiki tutorial](https://github.com/liballeg/allegro_wiki/wiki/Quickstart)
 for more details.
 
 [homebrew]: http://brew.sh/
@@ -97,7 +97,7 @@ for more details.
 For Linux distributions based on Ubuntu (and Ubuntu itself), you can download
 binary packages for Allegro 5 by adding the a [PPA] to your software
 sources, and then installing the relevant packages. See the [wiki
-tutorial](https://wiki.allegro.cc/index.php?title=Install_Allegro_from_Ubuntu_PPAs)
+tutorial](https://github.com/liballeg/allegro_wiki/wiki/Quickstart)
 for more details.
 
 [PPA]: https://launchpad.net/~allegro/+archive/ubuntu/5.2
