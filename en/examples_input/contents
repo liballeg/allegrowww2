@@ -1,0 +1,26 @@
+::: tabbar
+[Demos](examples_demos.html) -
+[Graphics](examples_graphics.html) -
+[Bitmap](examples_bitmap.html) -
+[Audio](examples_audio.html) -
+[Display](examples_display.html) -
+**Input** -
+[Misc](examples_misc.html)
+:::
+
+::: examples
+ex_joystick_events
+ex_mouse
+ex_mouse_cursor
+ex_mouse_events
+ex_mouse_focus
+ex_mouse_warp
+ex_inject_events
+ex_keyboard_events
+ex_keyboard_focus
+ex_haptic
+ex_haptic2
+ex_touch_input
+ex_user_events
+ex_joystick_hotplugging
+:::

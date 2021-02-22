@@ -1,0 +1,15 @@
+::: tabbar
+**Demos** -
+[Graphics](examples_graphics.html) -
+[Bitmap](examples_bitmap.html) -
+[Audio](examples_audio.html) -
+[Display](examples_display.html) -
+[Input](examples_input.html) -
+[Misc](examples_misc.html)
+:::
+
+::: examples
+demos/skater
+demos/cosmic_protector
+demos/speed
+:::
