@@ -1,0 +1,52 @@
+::: tabbar
+[Demos](examples_demos.html) -
+**Graphics** -
+[Bitmap](examples_bitmap.html) -
+[Audio](examples_audio.html) -
+[Display](examples_display.html) -
+[Input](examples_input.html) -
+[Misc](examples_misc.html)
+:::
+
+::: examples
+ex_prim
+ex_blend
+ex_blend2
+ex_blend_target
+ex_camera
+ex_vertex_buffer
+ex_color2
+ex_depth_mask
+ex_depth_target
+ex_draw
+ex_font
+ex_glext
+ex_haiku
+ex_multisample_target
+ex_prim_shader
+ex_projection
+ex_projection2
+ex_shader
+ex_shader_multitex
+ex_font_justify
+ex_font_multiline
+ex_color
+ex_gldepth
+ex_lines
+ex_logo
+ex_multisample
+ex_opengl
+ex_opengl_pixel_shader
+ex_palette
+ex_pixelformat
+ex_polygon
+ex_shader_target
+ex_transform
+ex_ttf
+ex_utf8
+ex_drawpixels
+ex_blend_bench
+ex_video
+ex_vsync
+ex_blend_test
+:::

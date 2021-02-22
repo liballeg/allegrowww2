@@ -1,0 +1,28 @@
+::: tabbar
+[Demos](examples_demos.html) -
+[Graphics](examples_graphics.html) -
+[Bitmap](examples_bitmap.html) -
+**Audio** -
+[Display](examples_display.html) -
+[Input](examples_input.html) -
+[Misc](examples_misc.html)
+:::
+
+::: examples
+ex_mixer_pp
+ex_resample_test
+ex_stream_seek
+ex_synth
+ex_record_name
+ex_audio_chain
+ex_acodec
+ex_acodec_multi
+ex_audio_props
+ex_audio_simple
+ex_audio_timer
+ex_kcm_direct
+ex_mixer_chain
+ex_record
+ex_saw
+ex_stream_file
+:::

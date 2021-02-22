@@ -13,6 +13,13 @@ PAGES :=		\
 	changes-unstable \
 	digmid		\
 	docs		\
+	examples_demos	\
+	examples_graphics	\
+	examples_bitmap	\
+	examples_audio	\
+	examples_display	\
+	examples_input	\
+	examples_misc	\
 	humor 		\
 	index		\
 	irc		\

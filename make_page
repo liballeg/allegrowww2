@@ -91,6 +91,8 @@ title="$( get_title $inpage )"
     --metadata title="$title"                     \
     --css "$STYLESHEET"                         \
     --standalone                                \
+    --from markdown+fenced_divs                 \
+    --lua-filter ../filter_example.lua          \
     --output "$outpage"
 
 # vim: ft=sh sts=4 sw=4 et:

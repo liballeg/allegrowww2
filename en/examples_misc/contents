@@ -1,0 +1,36 @@
+::: tabbar
+[Demos](examples_demos.html) -
+[Graphics](examples_graphics.html) -
+[Bitmap](examples_bitmap.html) -
+[Audio](examples_audio.html) -
+[Display](examples_display.html) -
+[Input](examples_input.html) -
+**Misc**
+:::
+
+::: examples
+ex_threads
+ex_threads2
+ex_menu
+ex_loading_thread
+ex_clipboard
+ex_cpu
+ex_dir
+ex_disable_screensaver
+ex_enet_client
+ex_enet_server
+ex_path
+ex_path_test
+ex_physfs
+ex_file
+ex_file_slice
+ex_get_path
+ex_config
+ex_icon
+ex_icon2
+ex_native_filechooser
+ex_memfile
+ex_timedwait
+ex_timer
+ex_timer_pause
+:::

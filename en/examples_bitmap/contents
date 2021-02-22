@@ -1,0 +1,28 @@
+::: tabbar
+[Demos](examples_demos.html) -
+[Graphics](examples_graphics.html) -
+**Bitmap** -
+[Audio](examples_audio.html) -
+[Display](examples_display.html) -
+[Input](examples_input.html) -
+[Misc](examples_misc.html)
+:::
+
+::: examples
+ex_bitmap
+ex_bitmap_file
+ex_bitmap_flip
+ex_blit
+ex_clip
+ex_compressed
+ex_draw_bitmap
+ex_lockbitmap
+ex_membmp
+ex_filter
+ex_premulalpha
+ex_reparent
+ex_rotate
+ex_scale
+ex_subbitmap
+ex_convert
+:::

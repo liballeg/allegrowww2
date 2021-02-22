@@ -1,0 +1,29 @@
+::: tabbar
+[Demos](examples_demos.html) -
+[Graphics](examples_graphics.html) -
+[Bitmap](examples_bitmap.html) -
+[Audio](examples_audio.html) -
+**Display** -
+[Input](examples_input.html) -
+[Misc](examples_misc.html)
+:::
+
+::: examples
+ex_expose
+ex_fs_resize
+ex_fs_window
+ex_multiwin
+ex_noframe
+ex_monitorinfo
+ex_resize
+ex_resize2
+ex_window_constraints
+ex_window_maximized
+ex_windows
+ex_display_options
+ex_window_title
+ex_winfull
+ex_display_events
+ex_dualies
+ex_nodisplay
+:::
