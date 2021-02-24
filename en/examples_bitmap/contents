@@ -14,7 +14,7 @@ ex_bitmap_file
 ex_bitmap_flip
 ex_blit
 ex_clip
-ex_compressed
+ex_compressed:no_try
 ex_draw_bitmap
 ex_lockbitmap
 ex_membmp
@@ -24,5 +24,5 @@ ex_reparent
 ex_rotate
 ex_scale
 ex_subbitmap
-ex_convert
+ex_convert:no_try
 :::

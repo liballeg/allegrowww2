@@ -17,19 +17,26 @@ function Div(elem)
         for _, block in pairs(elem.content[1]["content"]) do
             local text = block["text"]
             if text ~= nil then
+                path = text:gsub(":.*", "")
+                option = text:gsub(".*:", "")
                 if text:match("^demos/") then
-                    name = string.gsub(text, ".*/", "")
+                    name = path:gsub(".*/", "")
                     link = "demos/" .. name .. "/" .. name
                     source = "demos/" .. name
                 else
-                    name = text
+                    name = path
                     link = "examples/" .. name
                     source = "examples/" .. name .. ".c"
+                end
+                if option == "no_try" then
+                    try_link = pandoc.Str("")
+                else
+                    try_link = pandoc.Link("try", "https://allegro5.org/examples/" .. link .. ".html", "Try", {class = "try"})
                 end
                 content2[i] = pandoc.Div(
                     pandoc.Para {
                         pandoc.Str(name),
-                        pandoc.Link("try", "https://allegro5.org/examples/" .. link .. ".html", "Try", {class = "try"}),
+                        try_link,
                         pandoc.Link("source", "https://github.com/liballeg/allegro5/tree/master/" .. source, "Source", {class = "try"}),
                         pandoc.LineBreak(),
                         pandoc.Image(name .. " screenshot", "screenshots/" .. name .. ".png")
