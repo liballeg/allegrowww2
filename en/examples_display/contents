@@ -9,7 +9,7 @@
 :::
 
 ::: examples
-ex_expose
+ex_expose:no_try
 ex_fs_resize
 ex_fs_window
 ex_multiwin
@@ -17,13 +17,13 @@ ex_noframe
 ex_monitorinfo
 ex_resize
 ex_resize2
-ex_window_constraints
-ex_window_maximized
+ex_window_constraints:no_try
+ex_window_maximized:no_try
 ex_windows
 ex_display_options
 ex_window_title
-ex_winfull
+ex_winfull:no_try
 ex_display_events
-ex_dualies
-ex_nodisplay
+ex_dualies:no_try
+ex_nodisplay:no_try
 :::

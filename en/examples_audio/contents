@@ -9,20 +9,20 @@
 :::
 
 ::: examples
-ex_mixer_pp
+ex_mixer_pp:no_try
 ex_resample_test
-ex_stream_seek
+ex_stream_seek:no_try
 ex_synth
-ex_record_name
+ex_record_name:no_try
 ex_audio_chain
 ex_acodec
 ex_acodec_multi
 ex_audio_props
 ex_audio_simple
 ex_audio_timer
-ex_kcm_direct
+ex_kcm_direct:no_try
 ex_mixer_chain
-ex_record
+ex_record:no_try
 ex_saw
-ex_stream_file
+ex_stream_file:no_try
 :::

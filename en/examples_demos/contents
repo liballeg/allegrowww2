@@ -11,5 +11,5 @@
 ::: examples
 demos/skater
 demos/cosmic_protector
-demos/speed
+demos/speed:no_try
 :::

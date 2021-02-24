@@ -11,15 +11,15 @@
 ::: examples
 ex_joystick_events
 ex_mouse
-ex_mouse_cursor
+ex_mouse_cursor:no_try
 ex_mouse_events
 ex_mouse_focus
-ex_mouse_warp
+ex_mouse_warp:no_try
 ex_inject_events
 ex_keyboard_events
 ex_keyboard_focus
-ex_haptic
-ex_haptic2
+ex_haptic:no_try
+ex_haptic2:no_try
 ex_touch_input
 ex_user_events
 ex_joystick_hotplugging
