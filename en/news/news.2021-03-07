@@ -1,0 +1,18 @@
+## 2021-03-07 - Allegro 5.2.7 released!
+
+This is a stable release of Allegro. This release includes many important bug
+fixes and exciting new features. Also, for the release we added an [examples
+section](examples_demos.html) to the website, which contains runnable (via
+Emscripten) Allegro examples.
+
+You can
+[download](https://github.com/liballeg/allegro5/releases/5.2.7.0/)
+it from GitHub. Additional packages for other platforms are available on
+the [downloads] page.
+
+The reference manual is available [online](a5docs/5.2.7/index.html), as is the
+list of [changes][changes 5.2].
+
+We would like to thank everyone who has contributed to Allegro during
+all these years, not only the developers, but the users who have tested
+pre-releases, reported bugs and submitted patches.
