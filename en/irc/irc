@@ -1,26 +1,16 @@
 # Allegro on IRC
 
 If you want to get help quickly, or simply discuss programming with Allegro
-with other people, join us in the FreeNode IRC network
-<http://irc.freenode.net/>. We run two channels there:
-
-## #allegro
-
-This is the general Allegro channel, where you can discuss about anything you
-like. You will find many of the allegro.cc regulars and some of the developers
-there. Discussion will be related to Allegro as often as it will be not.
-
-## #allegro-dev
-
-This is the channel for Allegro development. Usually only the developers will
-be here and discuss development issues of Allegro. This is also the channel
-where monthly developer meetings are held.
+with other people, join us in the **#allegro** channel on the Libera IRC network
+<https://libera.chat/>. You will find many of the allegro.cc regulars and
+some of the developers there. Discussion will be related to Allegro as often
+as it will be not.
 
 ## Notes about using IRC
 
 If you don't know how to enter the channel, you can obtain a list of servers
-from <https://freenode.net>. If you are new to IRC, it is also
-a good idea to read <https://freenode.net/changuide> so you can
+from <https://libera.chat/>. If you are new to IRC, it is also
+a good idea to read <https://libera.chat/guidelines> so you can
 learn quickly what are the things you shouldn't do on the channel to avoid
 upsetting people. If you have problems using the Allegro library, there is a
 lot of documentation you should check before coming here. You can for example
