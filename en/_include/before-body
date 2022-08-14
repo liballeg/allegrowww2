@@ -11,8 +11,9 @@
     - [About](index.html)
     - [Git repository](git.html)
     - [License](license.html)
-    - [Language bindings](bindings.html)
     - [Examples](examples_demos.html)
+    - [Bug tracker](https://github.com/liballeg/allegro5/issues)
+    - [Language bindings](bindings.html)
 
 * **Downloads**
     - **[Latest version](download.html)**
@@ -30,7 +31,7 @@
     - [Forums](http://www.allegro.cc/forums/)
     - [Discord](https://discord.gg/f3Cd4TZzpp)
     - [IRC](irc.html)
-    - [Bug tracker](https://github.com/liballeg/allegro5/issues)
+    - [Game Jams](game_jams.html)
     - [Mailing lists](maillist.html)
 
 * **Misc**

@@ -20,6 +20,7 @@ PAGES :=		\
 	examples_display	\
 	examples_input	\
 	examples_misc	\
+	game_jams	\
 	humor 		\
 	index		\
 	irc		\

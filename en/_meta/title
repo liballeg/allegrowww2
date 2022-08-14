@@ -13,6 +13,7 @@ examples_display=Allegro - Examples - Display
 examples_input=Allegro - Examples - Input
 examples_misc=Allegro - Examples - Miscellaneous
 faq=Allegro - Documentation - Frequently asked questions
+game_jams=Allegro - Community - Game Jams
 help=Allegro - Community - Help
 humor=Allegro - Humor
 irc=Allegro - Community - IRC
