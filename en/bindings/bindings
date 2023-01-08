@@ -15,6 +15,9 @@ to contact the webmaster and report the change.
 [lallegro]
 :   Lua binding for Allegro 5.2 by gilzoide
 
+[AllegroDotNet]
+:   C# bindings for Allegro 5 by Sub-C.
+
 [Chicken Scheme]
 :   Binding for Chicken Scheme by Daniel Leslie.
 
