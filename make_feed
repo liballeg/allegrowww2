@@ -5,7 +5,7 @@
 set -e
 
 METAFILE="en/_meta/atom"
-HOMEPAGE="http://liballeg.org/"
+HOMEPAGE="https://liballeg.github.io/"
 
 rfc3339_date () {
 	# Validators say that T must be used as date-time separator.
