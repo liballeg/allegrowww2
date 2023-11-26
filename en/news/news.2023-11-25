@@ -1,0 +1,12 @@
+## 2023-11-25 - Allegro 5.2.9 released!
+
+After a lot of delays, a new stable release of Allegro is upon us! There were a
+lot of bug fixes, and a small number of API improvements. Thanks to all users
+who reported issues, filed feature requests and especially those that sent in
+pull requests.
+
+A summary of the changes can be found [here][changes 5.2].
+
+You can download the sources and MinGW binaries from
+[GitHub](https://github.com/liballeg/allegro5/releases/5.2.9.0/). Additional
+packages for other platforms are available on the [downloads] page.
