@@ -1,0 +1,10 @@
+## 2024-01-19 - Allegro 5.2.9.1 released!
+
+This is a patch release for 5.2.9.1, fixing a Linux-only regression (thanks
+to Steve Fosdick for finding it and providing the initial fix).
+
+A summary of the changes can be found [here][changes 5.2].
+
+You can download the sources and MinGW binaries from
+[GitHub](https://github.com/liballeg/allegro5/releases/5.2.9.1/). Additional
+packages for other platforms are available on the [downloads] page.
