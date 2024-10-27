@@ -1,5 +1,7 @@
 name: Build and Deploy
-on: [push]
+on:
+  push:
+    branches: [master]
 permissions:
   contents: write
 jobs:
@@ -19,6 +21,7 @@ jobs:
             version: tags/2.19.2
             file: pandoc-2.19.2-1-amd64.deb
             target: pandoc-2.19.2-1-amd64.deb
+
       - name: Install and Build
         run: |
             sudo dpkg -i pandoc-2.19.2-1-amd64.deb
