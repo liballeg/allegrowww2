@@ -25,20 +25,21 @@ jobs:
             pandoc --version
             make
 
-      - name: Deploy
-        uses: JamesIves/github-pages-deploy-action@v4
+      - name: Checkout liballeg
+        uses: actions/checkout@v4
         with:
-            folder: OUT
-            ssh-key: ${{ secrets.LIBALLEG_DEPLOY_KEY }}
-            branch: master
-            repository-name: liballeg/liballeg.github.io
-            commit-message: Automatic update from allegrowww2
-            clean: true
-            clean-exclude: |
-                CNAME
-                donations.html
-                a5docs/4*/**
-                a5docs/5*/**
-                a5docs/trunk**
-                docs/docs/**
-                search/**
+          repository: liballeg/liballeg.github.io
+          ssh-key: ${{ secrets.LIBALLEG_DEPLOY_KEY }}
+          ref: master
+          path: liballeg
+
+      - name: Deploy
+        run: |
+          cd liballeg
+          git config user.name "allebot"
+          git config user.email "13711631+allebot@users.noreply.github.com"
+          find . -type f ! \( -path "./.git/*" -o -path "./CNAME" -o -path "./donations.html" -o -path "./a5docs/4*" -o -path "./a5docs/5*" -o -path "./a5docs/trunk*" -o -path "./docs/docs/*" -o -path "./search/*" \) -exec rm -f {} +
+          cp -R ../OUT/* .
+          git add .
+          git diff-index --quiet HEAD || git commit -m "Automatic update from allegrowww2"
+          git push
