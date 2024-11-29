@@ -1,21 +1,21 @@
-[allua]:	http://github.com/trezker/allua
+[allua]:	https://github.com/trezker/allua
 
-[lallegro]:	http://github.com/gilzoide/lallegro
+[lallegro]:	https://github.com/gilzoide/lallegro
 
-[AdaAllegro]:	http://www.websamba.com/guibuilder
+[AdaAllegro]:	https://web.archive.org/web/20070301224230/http://www.websamba.com/guibuilder
 
-[alBitmap]:	http://www.cellosoft.com/software/view.php?id=14
-[Allegro Simplificator]: http://sourceforge.net/projects/als
+[alBitmap]:	https://web.archive.org/web/20080930102142/http://www.cellosoft.com/software/view.php?id=14
+[Allegro Simplificator]: https://sourceforge.net/projects/als
 
-[AllegNet]:	http://www.skorzec.com/allegnet/
-[wikipedia_C#]: http://en.wikipedia.org/wiki/C_Sharp_programming_language
+[AllegNet]:	https://web.archive.org/web/20080213005751/http://www.skorzec.com/allegnet/
+[wikipedia_C#]: https://en.wikipedia.org/wiki/C_Sharp_programming_language
 
 [AllegroDotNet]: https://github.com/sub-c/AllegroDotNet
 
-[Mallegro]:	http://code.google.com/p/mallegro/
+[Mallegro]:	https://web.archive.org/web/20100312132457/http://code.google.com/p/mallegro/
 
-[SharpAllegro]:	http://elvenprogrammer.themanaworld.org/projects-list/games/sharpallegro/
-[SharpAllegGL]:	http://elvenprogrammer.themanaworld.org/projects-list/games/sharpalleggl/
+[SharpAllegro]:	https://web.archive.org/web/20140516071427/http://elvenprogrammer.themanaworld.org/projects-list/games/sharpallegro/
+[SharpAllegGL]:	https://web.archive.org/web/20140510131739/http://elvenprogrammer.themanaworld.org/projects-list/games/sharpalleggl/
 
 [Chicken Scheme]: https://github.com/dleslie/allegro-egg
 
@@ -27,23 +27,21 @@
 [go-allegro]: https://github.com/dradtke/go-allegro
 
 [jalleg]: https://github.com/gillius/jalleg
-[jllegro]: https://github.com/LeqxLeqx/jllegro
+[jllegro]: https://web.archive.org/web/20170306003803/https://github.com/LeqxLeqx/jllegro
 
-[LuAllegro]:	http://luallegro.luaforge.net/
-[Lua]:		http://www.lua.org/
+[LuAllegro]:	https://web.archive.org/web/20170422041301/http://luallegro.luaforge.net/
+[Lua]:		https://www.lua.org/
 
-[Mercury]:	http://www.cs.mu.oz.au/research/mercury/
+[Mercury]:	https://web.archive.org/web/20090310031338/http://www.cs.mu.oz.au/research/mercury/
 
-[Allegro.pas]:	http://allegro-pas.sourceforge.net/
-[Delphi]:	http://www.turboexplorer.com/delphi/
-[Free Pascal]:	http://www.freepascal.org/
+[Allegro.pas]:	https://allegro-pas.sourceforge.net/
+[Delphi]:	https://www.embarcadero.com/products/delphi/features/delphi
+[Free Pascal]:	https://www.freepascal.org/
 
-[AlPerl]:	http://alperl.mx3.org/
-[Perl]:		http://www.perl.org/
+[AlPerl]:	https://sourceforge.net/projects/alperl/
+[Perl]:		https://www.perl.org/
 
-[PyAllegro]:	http://pyallegro.sourceforge.net/
-[Python]:	http://www.python.org/
+[PyAllegro]:	https://pyallegro.sourceforge.net/
+[Python]:	https://www.python.org/
 
-[allegro-mzscheme]: http://rafkind.com/jon/allegro-scheme/
-
-[awiki_bindings]: http://awiki.tomasu.org/bin/view/Main/AllegroLanguages
+[allegro-mzscheme]: https://web.archive.org/web/20080618091710/http://rafkind.com/jon/allegro-scheme/

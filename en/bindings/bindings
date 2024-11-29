@@ -67,7 +67,7 @@ Python
     (cross-platform networking). It comes with some examples and extensive
     documentation. 
 
-## C#
+## C\#
 
 [AllegNet]
 :   AllegNet is a .NET library, coded in [C# 2.0][wikipedia_C#] based on
@@ -144,10 +144,3 @@ Python
     scheme to any C library. There is a set of bindings directly to Allegro in
     allegro.ss and a scheme wrapper which should make it easier to use in
     image.ss.
-
-# Other resources
-
-[Wiki page about bindings][awiki_bindings]
-:   The Wiki also has a page about language bindings.
-    Because everyone can edit it, it may have additional links not listed here.
-    But they may not work or point to abandoned or very work in progress work.
