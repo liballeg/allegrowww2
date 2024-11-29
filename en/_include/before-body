@@ -9,7 +9,7 @@
 <div id="sidebar">
 * **Allegro**
     - [About](index.html)
-    - [Git repository](git.html)
+    - [Git repository](https://github.com/liballeg/allegro5)
     - [License](license.html)
     - [Examples](examples_demos.html)
     - [Bug tracker](https://github.com/liballeg/allegro5/issues)
@@ -28,7 +28,6 @@
     - [Wiki][Allegro Wiki]
 
 * **Community**
-    - [Forums](http://www.allegro.cc/forums/)
     - [Discord](https://discord.gg/f3Cd4TZzpp)
     - [IRC](irc.html)
     - [Game Jams](game_jams.html)
