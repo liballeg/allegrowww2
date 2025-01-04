@@ -41,7 +41,7 @@ jobs:
           cd liballeg
           git config user.name "allebot"
           git config user.email "13711631+allebot@users.noreply.github.com"
-          find . -type f ! \( -path "./.git/*" -o -path "./CNAME" -o -path "./donations.html" -o -path "./a5docs/4*" -o -path "./a5docs/5*" -o -path "./a5docs/trunk*" -o -path "./docs/docs/*" -o -path "./search/*"  -o -path "./allegro-manual/*" -o -path "./OldFiles/*" -o -path "./files/*"\) -exec rm -f {} +
+          find . -type f ! \( -path "./.git/*" -o -path "./CNAME" -o -path "./donations.html" -o -path "./a5docs/4*" -o -path "./a5docs/5*" -o -path "./a5docs/trunk*" -o -path "./docs/docs/*" -o -path "./search/*"  -o -path "./allegro-manual/*" -o -path "./OldFiles/*" -o -path "./files/*" \) -exec rm -f {} +
           cp -R ../OUT/* .
           git add .
           git diff-index --quiet HEAD || git commit -m "Automatic update from allegrowww2"
