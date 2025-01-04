@@ -168,7 +168,7 @@ Site                            Description
 [all400.zip]:                   https://github.com/liballeg/allegro5/releases/download/v4-0-0/all400.zip
 [allegro-4.0.0.tar.gz]:         https://github.com/liballeg/allegro5/releases/download/v4-0-0/allegro-4.0.0.tar.gz
 [allegro-4.0.0-1.src.rpm]:      https://github.com/liballeg/allegro5/releases/download/v4-0-0/allegro-4.0.0-1.src.rpm
-[all400_bin.zip]:               https://download.tuxfamily.org/allegro/OldFiles/all400_bin.zip
+[all400_bin.zip]:               https://liballeg.org/OldFiles/all400_bin.zip
 [allegro-enduser-4.0.0.tar.gz]: https://github.com/liballeg/allegro5/releases/download/v4-0-0/allegro-enduser-4.0.0.tar.gz
 
 See the [download area](https://github.com/liballeg/allegro5/releases).
@@ -214,12 +214,12 @@ Filename                        Size    Description
 
 -----------------------------------------------------------------------------------------------------------------------
 
-[alldata.zip]:  https://download.tuxfamily.org/allegro/files/alldata.zip
-[dx70_min.zip]: https://download.tuxfamily.org/allegro/files/dx70_min.zip
-[dx70_mgw.zip]: https://download.tuxfamily.org/allegro/files/dx70_mgw.zip
-[dx80_mgw.zip]: https://download.tuxfamily.org/allegro/files/dx80_mgw.zip
-[dx70_dmc.zip]: https://download.tuxfamily.org/allegro/files/dx70_dmc.zip
-[dx9mgw.zip]:   https://download.tuxfamily.org/allegro/files/dx9mgw.zip
+[alldata.zip]:  https://liballeg.org/files/alldata.zip
+[dx70_min.zip]: https://liballeg.org/files/dx70_min.zip
+[dx70_mgw.zip]: https://liballeg.org/files/dx70_mgw.zip
+[dx80_mgw.zip]: https://liballeg.org/files/dx80_mgw.zip
+[dx70_dmc.zip]: https://liballeg.org/files/dx70_dmc.zip
+[dx9mgw.zip]:   https://liballeg.org/files/dx9mgw.zip
 
 
 ## Ancient versions
@@ -228,24 +228,24 @@ These files are being made available for historical interest, and as reference
 material. They are unsupported, and for any serious programming work, you
 should get the most recent version instead.
 
-[Allegro 1.02](https://download.tuxfamily.org/allegro/files/allegro1.zip) (119k) - Sometime in 1995.
+[Allegro 1.02](https://liballeg.org/files/allegro1.zip) (119k) - Sometime in 1995.
 
-[Allegro 2.0](https://download.tuxfamily.org/allegro/files/alleg20.zip) (304k) - March 1996.
+[Allegro 2.0](https://liballeg.org/files/alleg20.zip) (304k) - March 1996.
 
-[Allegro 2.1](https://download.tuxfamily.org/allegro/files/alleg21.zip) (562k) - June 1996.
+[Allegro 2.1](https://liballeg.org/files/alleg21.zip) (562k) - June 1996.
 
-[Allegro 2.11](https://download.tuxfamily.org/allegro/files/alleg211.zip) (563k) - November 1996.
+[Allegro 2.11](https://liballeg.org/files/alleg211.zip) (563k) - November 1996.
 
-[Allegro 2.2](https://download.tuxfamily.org/allegro/files/alleg22.zip) (990k) - February 1997.
+[Allegro 2.2](https://liballeg.org/files/alleg22.zip) (990k) - February 1997.
 
-[Allegro 3.0](https://download.tuxfamily.org/allegro/files/alleg30.zip) (1225k) - December 1997.
+[Allegro 3.0](https://liballeg.org/files/alleg30.zip) (1225k) - December 1997.
 
-[Allegro 3.1](https://download.tuxfamily.org/allegro/files/alleg31.zip) (1422k) - January 1999.
+[Allegro 3.1](https://liballeg.org/files/alleg31.zip) (1422k) - January 1999.
 
-[Allegro 3.11](https://download.tuxfamily.org/allegro/files/alleg311.zip) (1434k) - February 1999.
-[Patch](https://download.tuxfamily.org/allegro/files/al312dif.zip) to upgrade to version 3.12.
+[Allegro 3.11](https://liballeg.org/files/alleg311.zip) (1434k) - February 1999.
+[Patch](https://liballeg.org/files/al312dif.zip) to upgrade to version 3.12.
 
-[Allegro 3.12](https://download.tuxfamily.org/allegro/files/alleg312.zip) (1434k) - August 1999.
+[Allegro 3.12](https://liballeg.org/files/alleg312.zip) (1434k) - August 1999.
 This is a DOS/DJGPP library, and can be obtained from your [local Simtel
 mirror](mirrors.html#simtel), in the directory gnu/djgpp/v2tk/allegro/,
 filename alleg312.zip.

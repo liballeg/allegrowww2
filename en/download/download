@@ -123,9 +123,9 @@ Filename                         Size    Description
                                          folder and CMake should pick them up.
 -----------------------------------------------------------------------------------------------------------------------
 
-[freetype-iphone-2.3.12-bin.zip]: https://download.tuxfamily.org/allegro/files/freetype-iphone-2.3.12-bin.zip
-[physfs-1.0.2-iphone.zip]: https://download.tuxfamily.org/allegro/files/physfs-1.0.2-iphone.zip
-[vorbis-iphone.zip]: https://download.tuxfamily.org/allegro/files/vorbis-iphone.zip
+[freetype-iphone-2.3.12-bin.zip]: https://liballeg.org/files/freetype-iphone-2.3.12-bin.zip
+[physfs-1.0.2-iphone.zip]: https://liballeg.org/files/physfs-1.0.2-iphone.zip
+[vorbis-iphone.zip]: https://liballeg.org/files/vorbis-iphone.zip
 
 ## Miscellaneous files {#misc}
 
@@ -139,4 +139,4 @@ Filename                        Size    Description
                                         directory.
 -----------------------------------------------------------------------------------------------------------------------
 
-[sal.h]:   https://download.tuxfamily.org/allegro/files/sal.h
+[sal.h]:   https://liballeg.org/files/sal.h
