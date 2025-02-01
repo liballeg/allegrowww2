@@ -44,6 +44,9 @@ Python
 :   Allegro.pas is a wrapper to use Allegro with Pascal compilers
     like [Delphi] or [Free Pascal].
 
+[RustAllegro]
+:   Rust wrapper to Allegro 5 by SiegeLord.
+
 
 # Bindings for Allegro 4
 
