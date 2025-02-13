@@ -4,8 +4,8 @@ Although Allegro is written in C and C++, and is mainly designed to be used
 from such, it's possible to use Allegro from other programming languages.
 
 If you would like to add a link to this page, or there is a dead link which
-should be fixed/removed, please use the address given at the bottom of the page
-to contact the webmaster and report the change. 
+should be fixed/removed, please submit a pull request on the
+[website's repository][website_repository].
 
 # Bindings for Allegro 5
 
@@ -13,7 +13,7 @@ to contact the webmaster and report the change.
 :   Lua binding to Allegro 5 by Trezker.
 
 [lallegro]
-:   Lua binding for Allegro 5.2 by gilzoide
+:   Lua binding for Allegro 5.2 by gilzoide.
 
 [AllegroDotNet]
 :   C# bindings for Allegro 5 by Sub-C.
@@ -34,15 +34,18 @@ to contact the webmaster and report the change.
 :   Java binding to Allegro 5.2 by Jason Winnebeck.
 
 [jllegro]
-:   Java Allegro wrapper by Mitchell Larson
+:   Java Allegro wrapper by Mitchell Larson.
 
-Python
-:   The Allegro 5 distribution comes with a basic Python wrapper;
-    see the `python` directory.
+[OCaml Allegro 5]
+:   OCaml binding to Allegro 5 by Sylvain Chiron.
 
 [Allegro.pas]
 :   Allegro.pas is a wrapper to use Allegro with Pascal compilers
     like [Delphi] or [Free Pascal].
+
+Python
+:   The Allegro 5 distribution comes with a basic Python wrapper;
+    see the `python` directory.
 
 [RustAllegro]
 :   Rust wrapper to Allegro 5 by SiegeLord.
@@ -120,6 +123,11 @@ Python
     Allegro and AllegroGL for the Mercury programming language. It's available as
     part of the mercury-extras ROTD (release-of-the-day) distributions on the
     Mercury web site. 
+
+## OCaml
+
+[OCaml Allegro]
+:   An OCaml interface to Allegro written by Florent Monnier.
 
 ## Pascal
 

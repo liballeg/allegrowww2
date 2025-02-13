@@ -1,3 +1,5 @@
+[website_repository]: https://github.com/liballeg/allegrowww2
+
 [allua]:	https://github.com/trezker/allua
 
 [lallegro]:	https://github.com/gilzoide/lallegro
@@ -33,6 +35,9 @@
 [Lua]:		https://www.lua.org/
 
 [Mercury]:	https://web.archive.org/web/20090310031338/http://www.cs.mu.oz.au/research/mercury/
+
+[OCaml Allegro 5]: https://github.com/Frigory33/ocaml-allegro-5
+[OCaml Allegro]: https://github.com/fccm/ocaml-allegro
 
 [Allegro.pas]:	https://allegro-pas.sourceforge.net/
 [Delphi]:	https://www.embarcadero.com/products/delphi/features/delphi
