@@ -78,8 +78,18 @@ emit_bottom () {
 	EOF
 }
 
+get_first_date() {
+	file="$1"
+	date=$( grep "^$file date=" $METAFILE | cut -d= -f2- )
+	if test -z "$date"
+	then
+		date=$( rfc3339_date -r ${@%% *} )
+	fi
+	echo "$date"
+}
+
 all_files=$( revdatesort "$@" )
-first_date=$( rfc3339_date -r ${all_files%% *} )
+first_date=$( get_first_date ${all_files%% *} )
 
 >> $METAFILE
 
