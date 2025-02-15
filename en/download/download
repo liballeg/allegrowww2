@@ -66,23 +66,12 @@ Site                            Description
                                 that come with the pre-compiled Allegro
                                 dependencies for Windows.
 
-[www.allegro.cc/files]
-                                Matthew Leverton hosts Windows binary packages
-                                for many different compilers. The 5.0 binaries
-                                are produced by a different process from the
-                                standard build system. **Unofficial.**
-
-[devpaks.org]
-                                Michal Molhanec mantains a Devpak repository,
-                                where you can get a package of the precompiled
-                                library for MinGW and Dev-C++. **Unofficial.**
 -----------------------------------------------------------------------------------------------------------------------
 
 [Nuget]: https://www.nuget.org/packages/Allegro/
 [Allegro 5.2 binary packages]:  https://github.com/liballeg/allegro5/releases
 [Allegro 5 dependencies]:       https://github.com/liballeg/allegro_winpkg/releases
 [devpaks.org]:                  http://devpaks.org/
-[www.allegro.cc/files]:         http://www.allegro.cc/files/
 
 ## MacOS X binaries {#osx}
 
