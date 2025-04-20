@@ -1,0 +1,15 @@
+## 2025-04-20 - Allegro 4 moved to its own repository.
+
+We've moved Allegro 4 sources to its [own repository](https://github.com/liballeg/allegro4).
+
+Previously (and, in fact, currently) Allegro 4 was placed in a few separate
+branches in the main Allegro 5 repository. This made it hard to find and
+cumbersome to use. So, we've moved the relevant branches, tags and issues to a
+separate repository. We'll probably make a new release so that there is also a
+"latest" release with the relevant source archives (and also to nominally treat
+a bit of bitrot).
+
+Note that Allegro 4 should still be treated as mostly abandoned, and won't be
+receving regular updates. This change is for the convenience of the few
+remaining users of it, and to enable easier historical exploration of the
+repository using Github's tooling.
