@@ -1,0 +1,15 @@
+## 2025-12-24 - Allegro 5.2.11 released!
+
+This is a new stable release, containing bug fixes and new features.
+
+Some highlighted features include a new joystick (gamepad) system (based on the
+community SDL controller database) as well as initial support for OpenGL 3+ on
+MacOS.
+
+A summary of the changes can be found [here][changes 5.2].
+
+Thanks to everyone who tested and contributed!
+
+You can download the sources and MinGW binaries from
+[GitHub](https://github.com/liballeg/allegro5/releases/5.2.11.0/). Additional
+packages for other platforms are available on the [downloads] page.
