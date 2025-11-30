@@ -7,7 +7,7 @@ an online browseable version, too.
 -------------------------------------------------------------------------------------------
 File format           Allegro 5.2               Allegro GIT             Allegro 4.x        
 --------------------- ------------------------- ----------------------- -------------------
-Online HTML           [**5.2.11.0**][a5dir 52]  [5.2.x (GIT)][a5now ol] [4.4.0][st ol]
+Online HTML           [**5.2.11.1**][a5dir 52]  [5.2.x (GIT)][a5now ol] [4.4.0][st ol]
                                                             
                                                             
                       [older versions][a5dir ol]                                                
@@ -15,7 +15,7 @@ Online HTML           [**5.2.11.0**][a5dir 52]  [5.2.x (GIT)][a5now ol] [4.4.0][
 Compiled HTML                                                           [4.2.2][st chm]
 format (CHM)                                                            (913 KiB)
                                                             
-PDF format            [5.2.11.0][a5pdf 52]                              [4.2.1][st pdf]
+PDF format            [5.2.11.1][a5pdf 52]                              [4.2.1][st pdf]
                       (1.0 MiB)                                         (2769 KiB)         
                                                                        
                                                             
@@ -30,8 +30,8 @@ gzipped format                                                          (536 KiB
 
 [a5now ol]: https://liballeg.org/a5docs/trunk/index.html
 [a5dir ol]: https://liballeg.org/a5docs/
-[a5dir 52]: https://liballeg.org/a5docs/5.2.11.0/
-[a5pdf 52]: https://liballeg.org/a5docs/5.2.11.0/refman.pdf
+[a5dir 52]: https://liballeg.org/a5docs/5.2.11.1/
+[a5pdf 52]: https://liballeg.org/a5docs/5.2.11.1/refman.pdf
 
 Apart from Allegro's manual, there is also a
 [tutorial](docs.html) section with links to contributed documentation.

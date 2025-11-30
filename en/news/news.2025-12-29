@@ -1,0 +1,11 @@
+## 2025-12-29 - Allegro 5.2.11.1 released!
+
+This is a new stable release, fixing some regressions in 5.2.11.
+
+A summary of the changes can be found [here][changes 5.2].
+
+Thanks to the early adopters for helping to find the regressions!
+
+You can download the sources and MinGW binaries from
+[GitHub](https://github.com/liballeg/allegro5/releases/5.2.11.1/). Additional
+packages for other platforms are available on the [downloads] page.
